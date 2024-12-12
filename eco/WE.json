@@ -1,5 +1,5 @@
 {
- "catalogId": 7831,
+ "catalogId": 7847,
  "locale": {"currencyCode": "USD", "subsidiary": "WE", "taxRate": 0},
  "plans": [
   {
@@ -2628,6 +2628,49 @@
     { "capacities": ["renew"], "price": 90000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 180000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
    ]
+  },
+  {
+   "planCode": "25rises01",
+   "product": "25rises01",
+   "invoiceName": "RISE-S | AMD RYZEN 7 9700x",
+   "addonFamilies": [
+    {
+     "name": "application-license",
+     "addons": ["cpanel-license-100-accounts", "cpanel-license-1000-accounts", "cpanel-license-150-accounts", "cpanel-license-200-accounts", "cpanel-license-250-accounts", "cpanel-license-300-accounts", "cpanel-license-400-accounts", "cpanel-license-500-accounts", "cpanel-license-600-accounts", "cpanel-license-700-accounts", "cpanel-license-800-accounts", "cpanel-license-900-accounts", "plesk-12-webadmin", "plesk-12-webhost", "plesk-12-webpro", "sql-server-2017-license-standard-edition-8-cores", "sql-server-2017-license-web-edition-8-cores", "sql-server-2019-license-standard-edition-8-cores", "sql-server-2019-license-web-edition-8-cores", "sql-server-2022-license-standard-edition-8-cores", "sql-server-2022-license-web-edition-8-cores"],
+     "default": null,
+     "exclusive": false,
+     "mandatory": false
+    },
+    { "name": "bandwidth", "addons": ["bandwidth-1000-24rise"], "default": "bandwidth-1000-24rise", "exclusive": true, "mandatory": true },
+    { "name": "memory", "addons": ["ram-64g-rise-s"], "default": "ram-64g-rise-s", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["softraid-2x512nvme-24rise"], "default": "softraid-2x512nvme-24rise", "exclusive": true, "mandatory": true },
+    { "name": "vrack", "addons": ["vrack-bandwidth-1000-24rise"], "default": "vrack-bandwidth-1000-24rise", "exclusive": true, "mandatory": true }
+   ],
+   "blobs": {
+    "commercial": {
+     "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing"} ]
+    }
+   },
+   "configurations": [
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["rbx"] },
+    { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+   ],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 6100000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 5490000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 5795000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 6100000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 65880000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 124440000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
   }
  ],
  "products": [
@@ -2998,6 +3041,16 @@
     "technical": { "license": {"edition": "premier-metal", "nbOfAccount": 1000} }
    },
    "configurations": [ {"name": "ip", "isCustom": true, "isMandatory": false, "values": null} ]
+  },
+  {
+   "name": "25rises01",
+   "description": "AMD Ryzen 7 9700X",
+   "blobs": {
+    "technical": {
+     "server": { "cpu": {"boost": 5.5, "brand": "AMD", "cores": 8, "frequency": 3.8, "model": "Ryzen 7 9700X", "number": 1, "score": 37308, "threads": 16}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "0.5U"}, "range": "rise", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
+    }
+   },
+   "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
   },
   {
    "name": "29021",
@@ -3385,6 +3438,14 @@
    "configurations": []
   },
   {
+   "name": "ram-64g-on-die-ecc-5200",
+   "description": "64GB DDR5 On-Die ECC 5200MHz",
+   "blobs": {
+    "technical": { "memory": {"ecc": false, "frequency": 5200, "ramType": "DDR5", "size": 64} }
+   },
+   "configurations": []
+  },
+  {
    "name": "ram-96g-ecc-2400",
    "description": "96GB DDR4 ECC 2400MHz",
    "blobs": {
@@ -3529,7 +3590,7 @@
   },
   {
    "name": "softraid-2x512nvme",
-   "description": "2x SSD NVMe 512GB Datacenter Class Soft RAID",
+   "description": "2x SSD NVMe 512GB Enterprise Class Soft RAID",
    "blobs": {
     "technical": {
      "storage": {
@@ -7591,6 +7652,33 @@
     { "capacities": ["renew"], "price": 2670000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 5340000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 10680000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "ram-64g-rise-s",
+   "product": "ram-64g-on-die-ecc-5200",
+   "invoiceName": "64GB DDR5 On-Die ECC 5200MHz",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
    ]
   },
   {
