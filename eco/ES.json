@@ -1,5 +1,5 @@
 {
- "catalogId": 8243,
+ "catalogId": 8264,
  "locale": {"currencyCode": "EUR", "subsidiary": "ES", "taxRate": 21},
  "plans": [
   {
@@ -2687,15 +2687,15 @@
     {
      "name": "application-license",
      "addons": [
-      "cpanel-license-premier-metal-100-accounts"       , "cpanel-license-premier-metal-1000-accounts"      , "cpanel-license-premier-metal-150-accounts"       , "cpanel-license-premier-metal-200-accounts"       , "cpanel-license-premier-metal-250-accounts"       , "cpanel-license-premier-metal-300-accounts"       , "cpanel-license-premier-metal-400-accounts"       , "cpanel-license-premier-metal-500-accounts"       , "cpanel-license-premier-metal-600-accounts"       , "cpanel-license-premier-metal-700-accounts"       , "cpanel-license-premier-metal-800-accounts"       , "cpanel-license-premier-metal-900-accounts"       , "plesk-webpro"                                    , "sql-server-2017-license-standard-edition-6-cores",
-      "sql-server-2017-license-web-edition-6-cores"     , "sql-server-2019-license-standard-edition-6-cores", "sql-server-2019-license-web-edition-6-cores"     , "sql-server-2022-license-standard-edition-6-cores", "sql-server-2022-license-web-edition-6-cores"
+      "cpanel-license-premier-metal-100-accounts"       , "cpanel-license-premier-metal-1000-accounts"      , "cpanel-license-premier-metal-150-accounts"       , "cpanel-license-premier-metal-200-accounts"       , "cpanel-license-premier-metal-250-accounts"       , "cpanel-license-premier-metal-300-accounts"       , "cpanel-license-premier-metal-400-accounts"       , "cpanel-license-premier-metal-500-accounts"       , "cpanel-license-premier-metal-600-accounts"       , "cpanel-license-premier-metal-700-accounts"       , "cpanel-license-premier-metal-800-accounts"       , "cpanel-license-premier-metal-900-accounts"       , "plesk-webadmin"                                  , "plesk-webhost"                                   ,
+      "plesk-webpro"                                    , "sql-server-2017-license-standard-edition-6-cores", "sql-server-2017-license-web-edition-6-cores"     , "sql-server-2019-license-standard-edition-6-cores", "sql-server-2019-license-web-edition-6-cores"     , "sql-server-2022-license-standard-edition-6-cores", "sql-server-2022-license-web-edition-6-cores"
      ],
      "default": null,
      "exclusive": false,
      "mandatory": false
     },
-    { "name": "bandwidth", "addons": ["bandwidth-1000-24sysgame", "bandwidth-500-24sysgame"], "default": "bandwidth-500-24sysgame", "exclusive": true, "mandatory": true },
-    { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-8-cores", "windows-server-2019-license-standard-edition-8-cores", "windows-server-2022-license-datacenter-edition-8-cores", "windows-server-2022-license-standard-edition-8-cores"], "default": null, "exclusive": false, "mandatory": false },
+    { "name": "bandwidth", "addons": ["bandwidth-500-24sysgame"], "default": "bandwidth-500-24sysgame", "exclusive": true, "mandatory": true },
+    { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-8-cores", "windows-server-2019-license-standard-edition-8-cores", "windows-server-2022-license-datacenter-edition-8-cores", "windows-server-2022-license-standard-edition-8-cores", "windows-server-2025-license-datacenter-edition-8-cores", "windows-server-2025-license-standard-edition-8-cores"], "default": null, "exclusive": false, "mandatory": false },
     { "name": "memory", "addons": ["ram-32g-ecc-2666-24sysgame01", "ram-64g-ecc-2666-24sysgame01"], "default": "ram-32g-ecc-2666-24sysgame01", "exclusive": true, "mandatory": true },
     { "name": "storage", "addons": ["softraid-2x512nvme-24sysgame"], "default": "softraid-2x512nvme-24sysgame", "exclusive": true, "mandatory": true }
    ],
@@ -2744,8 +2744,8 @@
      "exclusive": false,
      "mandatory": false
     },
-    { "name": "bandwidth", "addons": ["bandwidth-1000-24sysgame", "bandwidth-500-24sysgame"], "default": "bandwidth-500-24sysgame", "exclusive": true, "mandatory": true },
-    { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-8-cores", "windows-server-2019-license-standard-edition-8-cores", "windows-server-2022-license-datacenter-edition-8-cores", "windows-server-2022-license-standard-edition-8-cores"], "default": null, "exclusive": false, "mandatory": false },
+    { "name": "bandwidth", "addons": ["bandwidth-500-24sysgame"], "default": "bandwidth-500-24sysgame", "exclusive": true, "mandatory": true },
+    { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-8-cores", "windows-server-2019-license-standard-edition-8-cores", "windows-server-2022-license-datacenter-edition-8-cores", "windows-server-2022-license-standard-edition-8-cores", "windows-server-2025-license-datacenter-edition-8-cores", "windows-server-2025-license-standard-edition-8-cores"], "default": null, "exclusive": false, "mandatory": false },
     { "name": "memory", "addons": ["ram-128g-ecc-2666-24sysgame02", "ram-64g-ecc-2666-24sysgame02"], "default": "ram-64g-ecc-2666-24sysgame02", "exclusive": true, "mandatory": true },
     { "name": "storage", "addons": ["softraid-2x960nvme-24sysgame"], "default": "softraid-2x960nvme-24sysgame", "exclusive": true, "mandatory": true }
    ],
@@ -5681,40 +5681,146 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 18000000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3780000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 36000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7560000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 72000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15120000000, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "bandwidth-1000-24sysgame",
-   "product": "bandwidth-1000",
-   "invoiceName": "1Gbps unmetered public bandwidth",
-   "addonFamilies": [],
-   "blobs": null,
-   "configurations": [],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "degressivity3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "degressivity6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6000000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1260000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 18000000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3780000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 36000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7560000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 72000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15120000000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 6000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "ECO_SYS_BP", "description": "Special offer : 80% off on 1 Gbps Public Bandwith option of all So you Start servers.", "context": "standard", "discount": {"tax": 1008000000, "value": 4800000000}, "duration": null, "endDate": "2025-04-30T14:00:00+02:00", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "startDate": "2025-04-07T00:00:00+02:00", "total": {"tax": 252000000, "value": 1200000000}, "type": "percentage", "value": 80 }
+     ],
+     "quantity": {"max": null, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1260000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 6000000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "ECO_SYS_BP", "description": "Special offer : 80% off on 1 Gbps Public Bandwith option of all So you Start servers.", "context": "standard", "discount": {"tax": 1008000000, "value": 4800000000}, "duration": null, "endDate": "2025-04-30T14:00:00+02:00", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "startDate": "2025-04-07T00:00:00+02:00", "total": {"tax": 252000000, "value": 1200000000}, "type": "percentage", "value": 80 }
+     ],
+     "quantity": {"max": null, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1260000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 6000000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "ECO_SYS_BP", "description": "Special offer : 80% off on 1 Gbps Public Bandwith option of all So you Start servers.", "context": "standard", "discount": {"tax": 1008000000, "value": 4800000000}, "duration": null, "endDate": "2025-04-30T14:00:00+02:00", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "startDate": "2025-04-07T00:00:00+02:00", "total": {"tax": 252000000, "value": 1200000000}, "type": "percentage", "value": 80 }
+     ],
+     "quantity": {"max": null, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1260000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 6000000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "ECO_SYS_BP", "description": "Special offer : 80% off on 1 Gbps Public Bandwith option of all So you Start servers.", "context": "standard", "discount": {"tax": 1008000000, "value": 4800000000}, "duration": null, "endDate": "2025-04-30T14:00:00+02:00", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "startDate": "2025-04-07T00:00:00+02:00", "total": {"tax": 252000000, "value": 1200000000}, "type": "percentage", "value": 80 }
+     ],
+     "quantity": {"max": null, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1260000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 18000000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "ECO_SYS_BP", "description": "Special offer : 80% off on 1 Gbps Public Bandwith option of all So you Start servers.", "context": "standard", "discount": {"tax": 3024000000, "value": 14400000000}, "duration": null, "endDate": "2025-04-30T14:00:00+02:00", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "startDate": "2025-04-07T00:00:00+02:00", "total": {"tax": 756000000, "value": 3600000000}, "type": "percentage", "value": 80 }
+     ],
+     "quantity": {"max": null, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 3780000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 36000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "ECO_SYS_BP", "description": "Special offer : 80% off on 1 Gbps Public Bandwith option of all So you Start servers.", "context": "standard", "discount": {"tax": 6048000000, "value": 28800000000}, "duration": null, "endDate": "2025-04-30T14:00:00+02:00", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "startDate": "2025-04-07T00:00:00+02:00", "total": {"tax": 1512000000, "value": 7200000000}, "type": "percentage", "value": 80 }
+     ],
+     "quantity": {"max": null, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 7560000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 72000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "ECO_SYS_BP", "description": "Special offer : 80% off on 1 Gbps Public Bandwith option of all So you Start servers.", "context": "standard", "discount": {"tax": 12096000000, "value": 57600000000}, "duration": null, "endDate": "2025-04-30T14:00:00+02:00", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "startDate": "2025-04-07T00:00:00+02:00", "total": {"tax": 3024000000, "value": 14400000000}, "type": "percentage", "value": 80 }
+     ],
+     "quantity": {"max": null, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 15120000000,
+     "type": "rental"
+    }
    ]
   },
   {
