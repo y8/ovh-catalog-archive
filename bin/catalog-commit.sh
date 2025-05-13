@@ -90,7 +90,9 @@ git -C "${BASE_DIR}" tag "${tag_name}"
 # Create GitHub release if running in GitHub Actions
 if [ "$GITHUB_ACTIONS" = "true" ]; then
     echo "Pushing changes..."
+
     git push --follow-tags
+    git push --tags
 
     echo "Creating GitHub release..."
 
