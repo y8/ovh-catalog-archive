@@ -31,6 +31,10 @@ curl --compressed -s --create-dirs "$url" \
  | node "$FRACTURE_JS" \
  > "$output_file"
 
-file_size=$(stat -f %z "$output_file")
+if [[ "$(uname)" == "Darwin" ]]; then
+    file_size=$(stat -f %z "$output_file")
+else
+    file_size=$(stat -c %s "$output_file")
+fi
 
 echo "Done: $catalog_name in $subsidiary ($region_name) ($file_size bytes)"
