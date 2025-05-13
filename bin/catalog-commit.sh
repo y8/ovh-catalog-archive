@@ -29,6 +29,11 @@ changed_files=$(git -C "${BASE_DIR}" diff --staged --name-only | sort -r)
 
 echo "Files changed: $(echo "$changed_files" | wc -l)"
 
+# Initialize changelog
+changelog_file=$(mktemp)
+
+echo -e "# Catalog Updates\n\n" > "$changelog_file"
+
 any_commits=false
 
 for file in $changed_files; do
@@ -39,7 +44,7 @@ for file in $changed_files; do
     catalog_id=$(jq -r '.catalogId' "${BASE_DIR}/$file")
 
     if [ -z "$catalog_id" ]; then
-        echo "Error: Could not extract catalogId from ${file}"
+        echo "Skipping $file - no catalogId found"
         continue
     fi
 
@@ -49,13 +54,15 @@ for file in $changed_files; do
     if [ $? -ne 0 ]; then
         echo "=== git commit failed ==="
         echo "${git_output}"
-        echo "========================"
-        exit 1
+        continue
     fi
 
     commit_hash=$(git -C "${BASE_DIR}" rev-parse --short HEAD)
 
     echo "OK: [${commit_hash}] ${commit_message} (${file})"
+
+    # Add entry to changelog
+    echo "- ${catalog_type}/${subsidiary}: ${catalog_id} (${commit_hash})" >> "$changelog_file"
 
     any_commits=true
 done
@@ -65,10 +72,39 @@ if [ "$any_commits" = false ]; then
     exit 0
 fi
 
+echo "Updating catalog status..."
+"${BASE_DIR}/bin/catalog-update-readme.sh"
+
+# Commit README changes
+echo "Committing README.md..."
+git -C "${BASE_DIR}" add "${BASE_DIR}/README.md"
+git -C "${BASE_DIR}" commit -m "docs: update catalog status"
+
+# Create tag with current date/time
 tag_name=$(date "+%Y-%m-%d/%H-%M")
 
-echo "Creating tag: ${tag_name}"
+echo "Creating tag ${tag_name}..."
 git -C "${BASE_DIR}" tag "${tag_name}"
+
+# Create GitHub release if running in GitHub Actions
+if [ "$GITHUB_ACTIONS" = "true" ]; then
+    echo "Pushing changes..."
+    git push --follow-tags
+
+    echo "Creating GitHub release..."
+
+    gh release create "${tag_name}" \
+        --title "Update ${tag_name}" \
+        --notes-file "$changelog_file"
+fi
+
+# Print changelog
+echo "Changelog:"
+echo ""
+cat "$changelog_file"
+echo ""
+
+rm -f "$changelog_file"
 
 echo "Done, tagged '${tag_name}'"
 exit 0
