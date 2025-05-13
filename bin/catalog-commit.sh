@@ -41,7 +41,8 @@ for file in $changed_files; do
     subsidiary=${filename%.json}
     catalog_type=$(dirname "$file" | xargs basename)
 
-    catalog_id=$(jq -r '.catalogId' "${BASE_DIR}/$file")
+    #catalog_id=$(jq -r '.catalogId' "${BASE_DIR}/$file")
+    catalog_id=$(grep -m 1 '"catalogId"' "${BASE_DIR}/$file" | sed 's/.*"catalogId": \([0-9]*\).*/\1/')
 
     if [ -z "$catalog_id" ]; then
         echo "Skipping $file - no catalogId found"
