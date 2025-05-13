@@ -1,6 +1,6 @@
 # Seems like fields with at least some meaning
 def root_priority: ["catalogId", "locale", "plans", "products", "addons", "planFamilies"];
-def sub_priority: ["planCode", "product", "invoiceName", "capacities", "price", "mode", "name", "description" ];
+def sub_priority: ["planCode", "product", "invoiceName", "capacities", "price", "mode", "name", "description", "startDate", "endDate", "total" ];
 
 # Sort keys with priority
 def sort_priority($order):
