@@ -7,7 +7,7 @@ BIN_DIR="$BASE_DIR/bin"
 CONFIG_FILE="$BIN_DIR/config.json"
 WORKER_SCRIPT="$BIN_DIR/catalog-worker.sh"
 
-MAX_PARALLEL=8
+MAX_PARALLEL=16
 
 echo "   Root: $BASE_DIR"
 echo " Config: $CONFIG_FILE"
