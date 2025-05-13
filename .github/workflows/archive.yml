@@ -13,6 +13,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - run: npm install
-      - run: ./bin/catalog-update.sh
-      - run: ./bin/catalog-commit.sh
+      - name: Install dependencies
+        run: npm install
+      - name: Update catalog
+        run: ./bin/catalog-update.sh
+      - name: Commit catalog
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: ./bin/catalog-commit.sh
