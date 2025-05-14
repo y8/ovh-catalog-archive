@@ -33,6 +33,8 @@ echo "Files changed: $(echo "$changed_files" | wc -l)"
 changelog_file=$(mktemp)
 
 echo -e "# Catalog Updates\n\n" > "$changelog_file"
+echo "| Catalog  | Subsidiary | Catalog ID | Commit Hash |" >> "$changelog_file"
+echo "| -------- | ---------- | ---------- | ----------- |" >> "$changelog_file"
 
 any_commits=false
 
@@ -63,7 +65,7 @@ for file in $changed_files; do
     echo "OK: [${commit_hash}] ${commit_message} (${file})"
 
     # Add entry to changelog
-    echo "- ${catalog_type}/${subsidiary}: ${catalog_id} (${commit_hash})" >> "$changelog_file"
+    echo "| ${catalog_type} | ${subsidiary} | ${catalog_id} | ${commit_hash} |" >> "$changelog_file"
 
     any_commits=true
 done
