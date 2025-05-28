@@ -1054,11 +1054,106 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 9000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8100000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8550000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 9000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 97200000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 183600000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 8100000000,
+     "mode": "degressivity24",
+     "description": "rental for 1 month",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 6237000000}, "context": "standard", "discount": {"tax": 0, "value": 1863000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 8550000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 6669000000}, "context": "standard", "discount": {"tax": 0, "value": 1881000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 9000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_1M", "description": "20% off for monthly commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 7200000000}, "context": "standard", "discount": {"tax": 0, "value": 1800000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 97200000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 75816000000}, "context": "standard", "discount": {"tax": 0, "value": 21384000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 183600000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 141372000000}, "context": "standard", "discount": {"tax": 0, "value": 42228000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1089,11 +1184,106 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 9000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8100000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8550000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 9000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 97200000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 183600000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 8100000000,
+     "mode": "degressivity24",
+     "description": "rental for 1 month",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 6237000000}, "context": "standard", "discount": {"tax": 0, "value": 1863000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 8550000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 6669000000}, "context": "standard", "discount": {"tax": 0, "value": 1881000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 9000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_1M", "description": "20% off for monthly commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 7200000000}, "context": "standard", "discount": {"tax": 0, "value": 1800000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 97200000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 75816000000}, "context": "standard", "discount": {"tax": 0, "value": 21384000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 183600000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 141372000000}, "context": "standard", "discount": {"tax": 0, "value": 42228000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1194,11 +1384,106 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 9000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8100000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8550000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 9000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 97200000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 183600000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 8100000000,
+     "mode": "degressivity24",
+     "description": "rental for 1 month",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 6237000000}, "context": "standard", "discount": {"tax": 0, "value": 1863000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 8550000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 6669000000}, "context": "standard", "discount": {"tax": 0, "value": 1881000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 9000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_1M", "description": "20% off for monthly commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 7200000000}, "context": "standard", "discount": {"tax": 0, "value": 1800000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 97200000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 75816000000}, "context": "standard", "discount": {"tax": 0, "value": 21384000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 183600000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 141372000000}, "context": "standard", "discount": {"tax": 0, "value": 42228000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1229,11 +1514,106 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 11000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 9900000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 10450000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 11000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 118800000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 224400000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 9900000000,
+     "mode": "degressivity24",
+     "description": "rental for 1 month",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 7623000000}, "context": "standard", "discount": {"tax": 0, "value": 2277000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 10450000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8151000000}, "context": "standard", "discount": {"tax": 0, "value": 2299000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 11000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_1M", "description": "20% off for monthly commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8800000000}, "context": "standard", "discount": {"tax": 0, "value": 2200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 118800000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 92664000000}, "context": "standard", "discount": {"tax": 0, "value": 26136000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 224400000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 172788000000}, "context": "standard", "discount": {"tax": 0, "value": 51612000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1264,11 +1644,106 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 11000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 9900000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 10450000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 11000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 118800000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 224400000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 9900000000,
+     "mode": "degressivity24",
+     "description": "rental for 1 month",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 7623000000}, "context": "standard", "discount": {"tax": 0, "value": 2277000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 10450000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8151000000}, "context": "standard", "discount": {"tax": 0, "value": 2299000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 11000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_1M", "description": "20% off for monthly commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8800000000}, "context": "standard", "discount": {"tax": 0, "value": 2200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 118800000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 92664000000}, "context": "standard", "discount": {"tax": 0, "value": 26136000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 224400000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 172788000000}, "context": "standard", "discount": {"tax": 0, "value": 51612000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1369,11 +1844,106 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 11000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 9900000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 10450000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 11000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 118800000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 224400000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 9900000000,
+     "mode": "degressivity24",
+     "description": "rental for 1 month",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 7623000000}, "context": "standard", "discount": {"tax": 0, "value": 2277000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 10450000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8151000000}, "context": "standard", "discount": {"tax": 0, "value": 2299000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 11000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_1M", "description": "20% off for monthly commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8800000000}, "context": "standard", "discount": {"tax": 0, "value": 2200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 118800000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_12M", "description": "25% off for 12 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 92664000000}, "context": "standard", "discount": {"tax": 0, "value": 26136000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 22 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 224400000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Risegame_24M", "description": "30% off for 24 month commitments on Rise-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 172788000000}, "context": "standard", "discount": {"tax": 0, "value": 51612000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 23 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -2602,13 +3172,146 @@
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 10500000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 21000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 42000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 10500000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8400000000}, "context": "standard", "discount": {"tax": 0, "value": 2100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 21000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 16800000000}, "context": "standard", "discount": {"tax": 0, "value": 4200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 42000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 33600000000}, "context": "standard", "discount": {"tax": 0, "value": 8400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -2637,13 +3340,146 @@
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 10500000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 21000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 42000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 10500000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8400000000}, "context": "standard", "discount": {"tax": 0, "value": 2100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 21000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 16800000000}, "context": "standard", "discount": {"tax": 0, "value": 4200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 42000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 33600000000}, "context": "standard", "discount": {"tax": 0, "value": 8400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -2742,13 +3578,146 @@
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 3500000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3500000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 10500000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 21000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 42000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 3500000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 2800000000}, "context": "standard", "discount": {"tax": 0, "value": 700000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 10500000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 8400000000}, "context": "standard", "discount": {"tax": 0, "value": 2100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 21000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 16800000000}, "context": "standard", "discount": {"tax": 0, "value": 4200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 42000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 33600000000}, "context": "standard", "discount": {"tax": 0, "value": 8400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3462,13 +4431,146 @@
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 16500000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 33000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 66000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 16500000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 13200000000}, "context": "standard", "discount": {"tax": 0, "value": 3300000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 33000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 26400000000}, "context": "standard", "discount": {"tax": 0, "value": 6600000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 66000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 52800000000}, "context": "standard", "discount": {"tax": 0, "value": 13200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3501,13 +4603,146 @@
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 16500000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 33000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 66000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 16500000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 13200000000}, "context": "standard", "discount": {"tax": 0, "value": 3300000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 33000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 26400000000}, "context": "standard", "discount": {"tax": 0, "value": 6600000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 66000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 52800000000}, "context": "standard", "discount": {"tax": 0, "value": 13200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3540,13 +4775,146 @@
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5500000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5500000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 16500000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 33000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 66000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 5500000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 4400000000}, "context": "standard", "discount": {"tax": 0, "value": 1100000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 16500000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 13200000000}, "context": "standard", "discount": {"tax": 0, "value": 3300000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 33000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 26400000000}, "context": "standard", "discount": {"tax": 0, "value": 6600000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 66000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 52800000000}, "context": "standard", "discount": {"tax": 0, "value": 13200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3579,13 +4947,146 @@
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 21000000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 42000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 84000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 21000000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 16800000000}, "context": "standard", "discount": {"tax": 0, "value": 4200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 42000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 33600000000}, "context": "standard", "discount": {"tax": 0, "value": 8400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 84000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 67200000000}, "context": "standard", "discount": {"tax": 0, "value": 16800000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3618,13 +5119,146 @@
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 21000000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 42000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 84000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 21000000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 16800000000}, "context": "standard", "discount": {"tax": 0, "value": 4200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 42000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 33600000000}, "context": "standard", "discount": {"tax": 0, "value": 8400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 84000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 67200000000}, "context": "standard", "discount": {"tax": 0, "value": 16800000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3657,13 +5291,146 @@
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront3", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 7000000000, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity3", "description": "rental for 1 month", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 7000000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 21000000000, "mode": "upfront3", "description": "rental for 3 months", "commitment": 3, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"}, "interval": 3, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 42000000000, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 84000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity12",
+     "description": "rental for 1 month",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity3",
+     "description": "rental for 1 month",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 7000000000,
+     "mode": "degressivity6",
+     "description": "rental for 1 month",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"},
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 5600000000}, "context": "standard", "discount": {"tax": 0, "value": 1400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 21000000000,
+     "mode": "upfront3",
+     "description": "rental for 3 months",
+     "commitment": 3,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P3M", "type": "upfront"},
+     "interval": 3,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 16800000000}, "context": "standard", "discount": {"tax": 0, "value": 4200000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 42000000000,
+     "mode": "upfront6",
+     "description": "rental for 6 months",
+     "commitment": 6,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"},
+     "interval": 6,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 33600000000}, "context": "standard", "discount": {"tax": 0, "value": 8400000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 84000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "May25_Special_Offers_Game_servers_all_comits", "description": "20% off all commitments on SYS-Game and KS-Game servers for May 25 Special Offers", "startDate": "2025-05-28T06:00:00-04:00", "endDate": "2025-06-11T15:00:00-04:00", "total": {"tax": 0, "value": 67200000000}, "context": "standard", "discount": {"tax": 0, "value": 16800000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 0,
+     "type": "rental"
+    }
    ]
   },
   {
