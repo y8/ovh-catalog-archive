@@ -1,5 +1,5 @@
 {
- "catalogId": 8487,
+ "catalogId": 8502,
  "locale": {"currencyCode": "XOF", "subsidiary": "SN", "taxRate": 18},
  "plans": [
   {
@@ -1346,7 +1346,6 @@
    },
    "configurations": [
     { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-1", "eu-west-par", "eu-west-test-3az"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["ynm"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -1388,7 +1387,6 @@
    },
    "configurations": [
     { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-1", "eu-west-par", "eu-west-test-3az"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["sgp"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -1430,7 +1428,6 @@
    },
    "configurations": [
     { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-1", "eu-west-par", "eu-west-test-3az"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["syd"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -1472,7 +1469,6 @@
    },
    "configurations": [
     { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-1", "eu-west-par", "eu-west-test-3az"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "ca-east-tor-a", "eu-west-par-a", "eu-west-par-b", "eu-west-par-c", "fra", "gra", "lon", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
@@ -1862,26 +1858,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 6493558000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1168840440000, "value": 6493558000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1168840440000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 6493558000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1168840440000, "type": "rental" },
     { "capacities": ["renew"], "price": 5844051000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1051929180000, "type": "rental" },
     { "capacities": ["renew"], "price": 6168721000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1110369780000, "type": "rental" },
     { "capacities": ["renew"], "price": 6493390000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1168810200000, "type": "rental" },
@@ -1932,26 +1909,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 6493558000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1168840440000, "value": 6493558000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1168840440000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 6493558000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1168840440000, "type": "rental" },
     { "capacities": ["renew"], "price": 5844051000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1051929180000, "type": "rental" },
     { "capacities": ["renew"], "price": 6168721000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1110369780000, "type": "rental" },
     { "capacities": ["renew"], "price": 6493390000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1168810200000, "type": "rental" },
@@ -2002,26 +1960,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 6493558000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1168840440000, "value": 6493558000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1168840440000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 6493558000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1168840440000, "type": "rental" },
     { "capacities": ["renew"], "price": 5844051000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1051929180000, "type": "rental" },
     { "capacities": ["renew"], "price": 6168721000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1110369780000, "type": "rental" },
     { "capacities": ["renew"], "price": 6493390000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1168810200000, "type": "rental" },
@@ -2072,26 +2011,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 5575169000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1003530420000, "value": 5575169000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1003530420000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 5575169000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1003530420000, "type": "rental" },
     { "capacities": ["renew"], "price": 5017577000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 903163860000, "type": "rental" },
     { "capacities": ["renew"], "price": 5296331000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 953339580000, "type": "rental" },
     { "capacities": ["renew"], "price": 5575085000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1003515300000, "type": "rental" },
@@ -2142,26 +2062,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 8527033000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1534865940000, "value": 8527033000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1534865940000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 8527033000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1534865940000, "type": "rental" },
     { "capacities": ["renew"], "price": 7674331000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1381379580000, "type": "rental" },
     { "capacities": ["renew"], "price": 8100682000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1458122760000, "type": "rental" },
     { "capacities": ["renew"], "price": 8527033000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1534865940000, "type": "rental" },
@@ -2212,26 +2113,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 8527033000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1534865940000, "value": 8527033000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1534865940000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 8527033000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1534865940000, "type": "rental" },
     { "capacities": ["renew"], "price": 7674331000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1381379580000, "type": "rental" },
     { "capacities": ["renew"], "price": 8100682000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1458122760000, "type": "rental" },
     { "capacities": ["renew"], "price": 8527033000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1534865940000, "type": "rental" },
@@ -2282,26 +2164,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 8527033000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1534865940000, "value": 8527033000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1534865940000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 8527033000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1534865940000, "type": "rental" },
     { "capacities": ["renew"], "price": 7674331000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1381379580000, "type": "rental" },
     { "capacities": ["renew"], "price": 8100682000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1458122760000, "type": "rental" },
     { "capacities": ["renew"], "price": 8527033000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1534865940000, "type": "rental" },
@@ -2352,26 +2215,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 7871016000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1416782880000, "value": 7871016000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1416782880000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 7871016000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1416782880000, "type": "rental" },
     { "capacities": ["renew"], "price": 7083915000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1275104700000, "type": "rental" },
     { "capacities": ["renew"], "price": 7477466000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1345943880000, "type": "rental" },
     { "capacities": ["renew"], "price": 7871016000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1416782880000, "type": "rental" },
@@ -2422,26 +2266,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 11282118000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2030781240000, "value": 11282118000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2030781240000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 11282118000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2030781240000, "type": "rental" },
     { "capacities": ["renew"], "price": 10153831000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1827689580000, "type": "rental" },
     { "capacities": ["renew"], "price": 10717932000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1929227760000, "type": "rental" },
     { "capacities": ["renew"], "price": 11282034000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2030766120000, "type": "rental" },
@@ -2492,26 +2317,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 11282118000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2030781240000, "value": 11282118000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2030781240000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 11282118000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2030781240000, "type": "rental" },
     { "capacities": ["renew"], "price": 10153831000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1827689580000, "type": "rental" },
     { "capacities": ["renew"], "price": 10717932000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1929227760000, "type": "rental" },
     { "capacities": ["renew"], "price": 11282034000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2030766120000, "type": "rental" },
@@ -2562,26 +2368,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 11282118000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2030781240000, "value": 11282118000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2030781240000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 11282118000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2030781240000, "type": "rental" },
     { "capacities": ["renew"], "price": 10153831000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1827689580000, "type": "rental" },
     { "capacities": ["renew"], "price": 10717932000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1929227760000, "type": "rental" },
     { "capacities": ["renew"], "price": 11282034000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2030766120000, "type": "rental" },
@@ -2632,26 +2419,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 9838982000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1771016760000, "value": 9838982000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 1771016760000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 9838982000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1771016760000, "type": "rental" },
     { "capacities": ["renew"], "price": 8855008000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1593901440000, "type": "rental" },
     { "capacities": ["renew"], "price": 9346953000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1682451540000, "type": "rental" },
     { "capacities": ["renew"], "price": 9838898000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1771001640000, "type": "rental" },
@@ -2702,26 +2470,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 14451779000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2601320220000, "value": 14451779000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2601320220000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 14451779000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2601320220000, "type": "rental" },
     { "capacities": ["renew"], "price": 13006526000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2341174680000, "type": "rental" },
     { "capacities": ["renew"], "price": 13729110000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2471239800000, "type": "rental" },
     { "capacities": ["renew"], "price": 14451695000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2601305100000, "type": "rental" },
@@ -2772,26 +2521,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 14451779000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2601320220000, "value": 14451779000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2601320220000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 14451779000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2601320220000, "type": "rental" },
     { "capacities": ["renew"], "price": 13006526000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2341174680000, "type": "rental" },
     { "capacities": ["renew"], "price": 13729110000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2471239800000, "type": "rental" },
     { "capacities": ["renew"], "price": 14451695000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2601305100000, "type": "rental" },
@@ -2842,26 +2572,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 14451779000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2601320220000, "value": 14451779000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2601320220000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 14451779000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2601320220000, "type": "rental" },
     { "capacities": ["renew"], "price": 13006526000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2341174680000, "type": "rental" },
     { "capacities": ["renew"], "price": 13729110000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2471239800000, "type": "rental" },
     { "capacities": ["renew"], "price": 14451695000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2601305100000, "type": "rental" },
@@ -2912,26 +2623,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 13118813000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2361386340000, "value": 13118813000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2361386340000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 13118813000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2361386340000, "type": "rental" },
     { "capacities": ["renew"], "price": 11806856000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2125234080000, "type": "rental" },
     { "capacities": ["renew"], "price": 12462793000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2243302740000, "type": "rental" },
     { "capacities": ["renew"], "price": 13118729000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2361371220000, "type": "rental" },
@@ -2971,26 +2663,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 17710677000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3187921860000, "value": 17710677000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 3187921860000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 17710677000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3187921860000, "type": "rental" },
     { "capacities": ["renew"], "price": 15939457000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2869102260000, "type": "rental" },
     { "capacities": ["renew"], "price": 16824983000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3028496940000, "type": "rental" },
     { "capacities": ["renew"], "price": 17710508000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3187891440000, "type": "rental" },
@@ -3030,26 +2703,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 17710677000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3187921860000, "value": 17710677000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 3187921860000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 17710677000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3187921860000, "type": "rental" },
     { "capacities": ["renew"], "price": 15939457000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2869102260000, "type": "rental" },
     { "capacities": ["renew"], "price": 16824983000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3028496940000, "type": "rental" },
     { "capacities": ["renew"], "price": 17710508000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3187891440000, "type": "rental" },
@@ -3089,26 +2743,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 17710677000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3187921860000, "value": 17710677000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 3187921860000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 17710677000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3187921860000, "type": "rental" },
     { "capacities": ["renew"], "price": 15939457000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2869102260000, "type": "rental" },
     { "capacities": ["renew"], "price": 16824983000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3028496940000, "type": "rental" },
     { "capacities": ["renew"], "price": 17710508000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3187891440000, "type": "rental" },
@@ -3159,26 +2794,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 16398643000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2951755740000, "value": 16398643000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2951755740000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 16398643000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2951755740000, "type": "rental" },
     { "capacities": ["renew"], "price": 14758703000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2656566540000, "type": "rental" },
     { "capacities": ["renew"], "price": 15578631000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2804153580000, "type": "rental" },
     { "capacities": ["renew"], "price": 16398559000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2951740620000, "type": "rental" },
@@ -3230,26 +2846,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 14168304000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2550294720000, "value": 14168304000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2550294720000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 14168304000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2550294720000, "type": "rental" },
     { "capacities": ["renew"], "price": 12751475000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2295265500000, "type": "rental" },
     { "capacities": ["renew"], "price": 13459890000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2422780200000, "type": "rental" },
     { "capacities": ["renew"], "price": 14168304000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2550294720000, "type": "rental" },
@@ -3301,26 +2898,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 14168304000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2550294720000, "value": 14168304000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2550294720000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 14168304000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2550294720000, "type": "rental" },
     { "capacities": ["renew"], "price": 12751475000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2295265500000, "type": "rental" },
     { "capacities": ["renew"], "price": 13459890000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2422780200000, "type": "rental" },
     { "capacities": ["renew"], "price": 14168304000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2550294720000, "type": "rental" },
@@ -3372,26 +2950,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 14168304000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2550294720000, "value": 14168304000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2550294720000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 14168304000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2550294720000, "type": "rental" },
     { "capacities": ["renew"], "price": 12751475000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2295265500000, "type": "rental" },
     { "capacities": ["renew"], "price": 13459890000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2422780200000, "type": "rental" },
     { "capacities": ["renew"], "price": 14168304000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2550294720000, "type": "rental" },
@@ -3443,26 +3002,7 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["installation"],
-     "price": 13118813000000,
-     "mode": "default",
-     "description": "rental (only applicable for 1 time)",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 0,
-     "intervalUnit": "none",
-     "mustBeCompleted": false,
-     "phase": 0,
-     "promotions": [
-      { "name": "SPECIALOFFER_ADV_SCALE_SETUP", "description": "Special offer : Free setup fees on all Advance and Scale servers.", "startDate": "2025-05-27T00:00:00+02:00", "endDate": "2025-07-02T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 2361386340000, "value": 13118813000000}, "duration": 1, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": 10, "min": 1},
-     "repeat": {"max": 1, "min": 1},
-     "strategy": "tiered",
-     "tax": 2361386340000,
-     "type": "rental"
-    },
+    { "capacities": ["installation"], "price": 13118813000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2361386340000, "type": "rental" },
     { "capacities": ["renew"], "price": 11806856000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2125234080000, "type": "rental" },
     { "capacities": ["renew"], "price": 12462793000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2243302740000, "type": "rental" },
     { "capacities": ["renew"], "price": 13118729000000, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2361371220000, "type": "rental" },
@@ -7785,6 +7325,14 @@
    "configurations": []
   },
   {
+   "name": "bandwidth-500",
+   "description": "500 Mbps unmetered public bandwidth",
+   "blobs": {
+    "technical": { "bandwidth": {"burst": 0, "guaranteed": false, "level": 500, "limit": 0} }
+   },
+   "configurations": []
+  },
+  {
    "name": "bandwidth-5000",
    "description": "5Gbps unmetered and guaranteed public bandwidth",
    "blobs": {
@@ -8275,6 +7823,14 @@
    "description": "RAM 1,1TB DDR5 ECC 4800MHz",
    "blobs": {
     "technical": { "memory": {"ecc": true, "frequency": 4800, "ramType": "DDR5", "size": 1152} }
+   },
+   "configurations": []
+  },
+  {
+   "name": "ram-128g-1600",
+   "description": "128GB DDR3 ECC 1600MHz",
+   "blobs": {
+    "technical": { "memory": {"ecc": true, "frequency": 1600, "ramType": "DDR3", "size": 128} }
    },
    "configurations": []
   },
@@ -11888,6 +11444,33 @@
    ]
   },
   {
+   "planCode": "bandwidth-500-included-rise-sys-6c89ad54e5c72f81c6c2bf58509a9b17",
+   "product": "bandwidth-500",
+   "invoiceName": "Unlimited traffic - 500Mbps bandwidth",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "bandwidth-5000-adv-gen3",
    "product": "bandwidth-5000",
    "invoiceName": "5Gbps unmetered and guaranteed public bandwidth",
@@ -14893,6 +14476,33 @@
    ]
   },
   {
+   "planCode": "ram-128g-ecc-rise-sys-10e83e2460b3af246f323ca2ee6b6d62",
+   "product": "ram-128g-1600",
+   "invoiceName": "128GB DDR3 ECC 1600MHz",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "ram-128g-game-gen3",
    "product": "ram-128g-noecc-3600",
    "invoiceName": "128GB DDR5 3600MHz",
@@ -17756,6 +17366,33 @@
     { "capacities": ["renew"], "price": 2669492000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 480508560000, "type": "rental" },
     { "capacities": ["renew"], "price": 28830514000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 5189492520000, "type": "rental" },
     { "capacities": ["renew"], "price": 54457637000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9802374660000, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-2x1920nvme-rise-sys-522953dbc3ae889996db6d0b9da2fa3c",
+   "product": "softraid-2x1920nvme",
+   "invoiceName": "2x NVMe 1920GB Datacenter Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "degressivity6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "degressivity6", "description": "rental for 1 month", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront6", "description": "rental for 6 months", "commitment": 6, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P6M", "type": "upfront"}, "interval": 6, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
    ]
   },
   {
