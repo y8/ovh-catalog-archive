@@ -1,5 +1,5 @@
 {
- "catalogId": 8512,
+ "catalogId": 8516,
  "locale": {"currencyCode": "GBP", "subsidiary": "GB", "taxRate": 20},
  "plans": [
   {
@@ -3191,7 +3191,7 @@
     },
     { "name": "bandwidth", "addons": ["bandwidth-500-25sk"], "default": "bandwidth-500-25sk", "exclusive": true, "mandatory": true },
     { "name": "distribution-license", "addons": ["windows-server-2016-license-datacenter-edition-2-cpu-12-cores", "windows-server-2016-license-standard-edition-2-cpu-12-cores", "windows-server-2019-license-datacenter-edition-24-cores", "windows-server-2019-license-standard-edition-24-cores", "windows-server-2022-license-datacenter-edition-24-cores", "windows-server-2022-license-standard-edition-24-cores", "windows-server-2025-license-datacenter-edition-24-cores", "windows-server-2025-license-standard-edition-24-cores"], "default": null, "exclusive": false, "mandatory": false },
-    { "name": "memory", "addons": ["ram-256g-ecc-2133-24sk60b", "ram-64g-ecc-2133-24sk60b"], "default": "ram-64g-ecc-2133-24sk60b", "exclusive": true, "mandatory": true },
+    { "name": "memory", "addons": ["ram-256g-ecc-2400-24sk60b", "ram-64g-ecc-2133-24sk60b"], "default": "ram-64g-ecc-2133-24sk60b", "exclusive": true, "mandatory": true },
     { "name": "storage", "addons": ["softraid-2x480ssd-24sk60b"], "default": "softraid-2x480ssd-24sk60b", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
@@ -3342,7 +3342,8 @@
     { "name": "bandwidth", "addons": ["bandwidth-1000-24sys", "bandwidth-2000-24sys"], "default": "bandwidth-1000-24sys", "exclusive": true, "mandatory": true },
     { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-28-cores", "windows-server-2019-license-standard-edition-28-cores", "windows-server-2022-license-datacenter-edition-28-cores", "windows-server-2022-license-standard-edition-28-cores", "windows-server-2025-license-datacenter-edition-28-cores", "windows-server-2025-license-standard-edition-28-cores"], "default": null, "exclusive": false, "mandatory": false },
     { "name": "memory", "addons": ["ram-96g-ecc-2666-25sys06"], "default": "ram-96g-ecc-2666-25sys06", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["softraid-2x960nvme-25sys06"], "default": "softraid-2x960nvme-25sys06", "exclusive": true, "mandatory": true }
+    { "name": "storage", "addons": ["softraid-2x960nvme-25sys06"], "default": "softraid-2x960nvme-25sys06", "exclusive": true, "mandatory": true },
+    { "name": "vrack", "addons": ["vrack-bandwidth-1000-24sys", "vrack-bandwidth-500-24sys"], "default": "vrack-bandwidth-500-24sys", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
     "commercial": {
@@ -4354,14 +4355,6 @@
    "description": "192GB DDR4 ECC 2400MHz",
    "blobs": {
     "technical": { "memory": {"ecc": true, "frequency": 2400, "ramType": "DDR4", "size": 192} }
-   },
-   "configurations": []
-  },
-  {
-   "name": "ram-256g-ecc-2133",
-   "description": "RAM 256GB EG-256",
-   "blobs": {
-    "technical": { "memory": {"ecc": true, "frequency": 2133, "ramType": "DDR4", "size": 256} }
    },
    "configurations": []
   },
@@ -9127,9 +9120,9 @@
    ]
   },
   {
-   "planCode": "ram-256g-ecc-2133-24sk60b",
-   "product": "ram-256g-ecc-2133",
-   "invoiceName": "256GB DDR4 ECC 2133MHz",
+   "planCode": "ram-256g-ecc-2400-24sk60",
+   "product": "ram-256g-ecc-2400",
+   "invoiceName": "256GB DDR4 ECC 2400MHz",
    "addonFamilies": [],
    "blobs": null,
    "configurations": [],
@@ -9154,7 +9147,7 @@
    ]
   },
   {
-   "planCode": "ram-256g-ecc-2400-24sk60",
+   "planCode": "ram-256g-ecc-2400-24sk60b",
    "product": "ram-256g-ecc-2400",
    "invoiceName": "256GB DDR4 ECC 2400MHz",
    "addonFamilies": [],
