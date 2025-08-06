@@ -1,5 +1,5 @@
 {
- "catalogId": 8592,
+ "catalogId": 8612,
  "locale": {"currencyCode": "USD", "subsidiary": "ASIA", "taxRate": 9},
  "plans": [
   {
@@ -6628,7 +6628,7 @@
     { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-16-cores", "windows-server-2019-license-standard-edition-16-cores", "windows-server-2022-license-datacenter-edition-16-cores", "windows-server-2022-license-standard-edition-16-cores", "windows-server-2025-license-datacenter-edition-16-cores", "windows-server-2025-license-standard-edition-16-cores"], "default": null, "exclusive": false, "mandatory": false },
     { "name": "memory", "addons": ["ram-128g-3600-rise"], "default": "ram-128g-3600-rise", "exclusive": true, "mandatory": true },
     { "name": "storage", "addons": ["softraid-2x960nvme-25rise"], "default": "softraid-2x960nvme-25rise", "exclusive": true, "mandatory": true },
-    { "name": "vrack", "addons": ["vrack-bandwidth-1000-25rise", "vrack-bandwidth-2000-25rise"], "default": "vrack-bandwidth-1000-25rise", "exclusive": true, "mandatory": true }
+    { "name": "vrack", "addons": ["vrack-bandwidth-1000-25rise"], "default": "vrack-bandwidth-1000-25rise", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
     "commercial": {
@@ -6675,7 +6675,7 @@
     { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-12-cores", "windows-server-2019-license-standard-edition-12-cores", "windows-server-2022-license-datacenter-edition-12-cores", "windows-server-2022-license-standard-edition-12-cores", "windows-server-2025-license-datacenter-edition-12-cores", "windows-server-2025-license-standard-edition-12-cores"], "default": null, "exclusive": false, "mandatory": false },
     { "name": "memory", "addons": ["ram-64g-5600-rise"], "default": "ram-64g-5600-rise", "exclusive": true, "mandatory": true },
     { "name": "storage", "addons": ["softraid-2x512nvme-25rise"], "default": "softraid-2x512nvme-25rise", "exclusive": true, "mandatory": true },
-    { "name": "vrack", "addons": ["vrack-bandwidth-1000-25rise", "vrack-bandwidth-2000-25rise"], "default": "vrack-bandwidth-1000-25rise", "exclusive": true, "mandatory": true }
+    { "name": "vrack", "addons": ["vrack-bandwidth-1000-25rise"], "default": "vrack-bandwidth-1000-25rise", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
     "commercial": {
@@ -10102,14 +10102,6 @@
    "description": "100Gbps guaranteed unmetered private bandwidth",
    "blobs": {
     "technical": { "vrack": {"burst": 0, "guaranteed": true, "level": 100000, "limit": 0} }
-   },
-   "configurations": []
-  },
-  {
-   "name": "vrack-bandwidth-2000",
-   "description": "2Gbps unmetered and guaranteed private bandwidth",
-   "blobs": {
-    "technical": { "vrack": {"burst": 0, "guaranteed": true, "level": 2000, "limit": 0} }
    },
    "configurations": []
   },
@@ -26423,34 +26415,6 @@
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront6", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "vrack-bandwidth-2000-25rise",
-   "product": "vrack-bandwidth-2000",
-   "invoiceName": "2Gbps unmetered and guaranteed private bandwidth",
-   "addonFamilies": [],
-   "blobs": null,
-   "configurations": [],
-   "consumptionConfiguration": null,
-   "family": "private-bandwidth",
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 1110000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 99900000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1110000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 99900000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1110000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 99900000, "type": "rental" },
-    { "capacities": ["renew"], "price": 13320000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1198800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 26640000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2397600000, "type": "rental" },
-    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["upgrade"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["upgrade"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
    ]
   },
   {
