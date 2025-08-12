@@ -10,18 +10,18 @@ every hour using [public OVH APIs](https://eu.api.ovh.com/console/?section=%2For
 <!-- Do not change part below, it will be automatically replaced by GHA -->
 
 <!-- Start status -->
-<!-- generated at Wed Aug  6 14:50:41 UTC 2025 -->
+<!-- generated at Tue Aug 12 06:51:03 UTC 2025 -->
 | Region | Subsidiary | Dedicated | Eco |
 |--------|------------ | --- | --- |
-| EUROPE | CZ | [`8592`](metal/CZ.json) (2025-08-04 08:51) | [`8491`](eco/CZ.json) (2025-08-04 08:51) |
+| EUROPE | CZ | [`8592`](metal/CZ.json) (2025-08-06 14:50) | [`8491`](eco/CZ.json) (2025-08-06 14:50) |
 | | DE | [`8612`](metal/DE.json) (2025-08-06 14:50) | [`8613`](eco/DE.json) (2025-08-06 14:50) |
 | | ES | [`8612`](metal/ES.json) (2025-08-06 14:50) | [`8613`](eco/ES.json) (2025-08-06 14:50) |
-| | FI | [`8592`](metal/FI.json) (2025-08-04 08:51) | [`8491`](eco/FI.json) (2025-08-04 08:51) |
+| | FI | [`8592`](metal/FI.json) (2025-08-06 14:50) | [`8491`](eco/FI.json) (2025-08-06 14:50) |
 | | FR | [`8612`](metal/FR.json) (2025-08-06 14:50) | [`8613`](eco/FR.json) (2025-08-06 14:50) |
 | | GB | [`8612`](metal/GB.json) (2025-08-06 14:50) | [`8613`](eco/GB.json) (2025-08-06 14:50) |
 | | IE | [`8612`](metal/IE.json) (2025-08-06 14:50) | [`8613`](eco/IE.json) (2025-08-06 14:50) |
 | | IT | [`8612`](metal/IT.json) (2025-08-06 14:50) | [`8613`](eco/IT.json) (2025-08-06 14:50) |
-| | LT | [`8592`](metal/LT.json) (2025-08-04 08:51) | [`8491`](eco/LT.json) (2025-08-04 08:51) |
+| | LT | [`8592`](metal/LT.json) (2025-08-06 14:50) | [`8491`](eco/LT.json) (2025-08-06 14:50) |
 | | MA | [`8612`](metal/MA.json) (2025-08-06 14:50) | [`8613`](eco/MA.json) (2025-08-06 14:50) |
 | | NL | [`8612`](metal/NL.json) (2025-08-06 14:50) | [`8613`](eco/NL.json) (2025-08-06 14:50) |
 | | PL | [`8612`](metal/PL.json) (2025-08-06 14:50) | [`8613`](eco/PL.json) (2025-08-06 14:50) |
@@ -36,7 +36,7 @@ every hour using [public OVH APIs](https://eu.api.ovh.com/console/?section=%2For
 | | SG | [`8612`](metal/SG.json) (2025-08-06 14:50) | [`8613`](eco/SG.json) (2025-08-06 14:50) |
 | | WE | [`8612`](metal/WE.json) (2025-08-06 14:50) | [`8613`](eco/WE.json) (2025-08-06 14:50) |
 | | WS | [`8612`](metal/WS.json) (2025-08-06 14:50) | [`8613`](eco/WS.json) (2025-08-06 14:50) |
-| USA | US | [`3248`](metal/US.json) (2025-08-04 08:51) | [`3296`](eco/US.json) (2025-08-04 08:51) |
+| USA | US | [`3302`](metal/US.json) (2025-08-12 06:51) | [`3301`](eco/US.json) (2025-08-12 06:51) |
 <!-- End status -->
 
 ## Regions
