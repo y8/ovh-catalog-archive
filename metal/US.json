@@ -1,5 +1,5 @@
 {
- "catalogId": 3372,
+ "catalogId": 3379,
  "locale": {"currencyCode": "USD", "subsidiary": "US", "taxRate": 0},
  "plans": [
   {
@@ -437,6 +437,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -472,6 +473,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-AI-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "artificial-intelligence"} ]
     }
    },
@@ -502,7 +504,7 @@
     { "name": "storage", "addons": ["softraid-2x1200nvme-bf1-us", "softraid-2x4000sa-bf1-us", "softraid-2x450nvme-bf1-us"], "default": "softraid-2x450nvme-bf1-us", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-3000-included-us"], "default": "vrack-bandwidth-3000-included-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "rise"} },
+   "blobs": { "commercial": {"name": "BF21-1"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -530,7 +532,7 @@
     { "name": "storage", "addons": ["softraid-2x1200nvme-bf2-us", "softraid-2x2000sa-bf2-us", "softraid-2x450nvme-bf2-us"], "default": "softraid-2x450nvme-bf2-us", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-1000-included-us"], "default": "vrack-bandwidth-1000-included-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "rise"} },
+   "blobs": { "commercial": {"name": "BF21-2"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -558,7 +560,7 @@
     { "name": "storage", "addons": ["softraid-2x1200nvme-bf1-us", "softraid-2x4000sa-bf1-us", "softraid-2x450nvme-bf1-us"], "default": "softraid-2x450nvme-bf1-us", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-3000-included-us"], "default": "vrack-bandwidth-3000-included-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "rise"} },
+   "blobs": { "commercial": {"name": "BF21-3"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -586,7 +588,7 @@
     { "name": "storage", "addons": ["softraid-6x8000sa-bf4-us"], "default": "softraid-6x8000sa-bf4-us", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-1000-included-us"], "default": "vrack-bandwidth-1000-included-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "rise"} },
+   "blobs": { "commercial": {"name": "BFSTOR21-1"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -614,7 +616,7 @@
     { "name": "storage", "addons": ["softraid-6x12000sa-bf5-us"], "default": "softraid-6x12000sa-bf5-us", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-1000-included-us"], "default": "vrack-bandwidth-1000-included-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "rise"} },
+   "blobs": { "commercial": {"name": "BFSTOR21-2"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -642,7 +644,7 @@
     { "name": "storage", "addons": ["softraid-12x4000sas-bf6-us"], "default": "softraid-12x4000sas-bf6-us", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-3000-included-us"], "default": "vrack-bandwidth-3000-included-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "rise"} },
+   "blobs": { "commercial": {"name": "BFSTOR21-3"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -669,7 +671,7 @@
     { "name": "memory", "addons": ["ram-64g-bfgame-us"], "default": "ram-64g-bfgame-us", "exclusive": true, "mandatory": true },
     { "name": "storage", "addons": ["softraid-2x450nvme-bfgame-us"], "default": "softraid-2x450nvme-bfgame-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "rise"} },
+   "blobs": { "commercial": {"name": "BFGAME-1"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -700,6 +702,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -733,6 +736,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -766,6 +770,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -799,6 +804,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -832,6 +838,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -865,6 +872,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -898,6 +906,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -931,6 +940,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -964,6 +974,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -997,6 +1008,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1030,6 +1042,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1063,6 +1076,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1096,6 +1110,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1129,6 +1144,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1162,6 +1178,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1195,6 +1212,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1228,6 +1246,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1261,6 +1280,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1294,6 +1314,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a4",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1327,6 +1348,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a4",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1360,6 +1382,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a4",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1393,6 +1416,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a4",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1426,6 +1450,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a4",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1459,6 +1484,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a4",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1492,6 +1518,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a5",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1525,6 +1552,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a5",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1558,6 +1586,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a5",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1591,6 +1620,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a5",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1624,6 +1654,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a5",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1657,6 +1688,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a5",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1690,6 +1722,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1723,6 +1756,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1756,6 +1790,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1789,6 +1824,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1822,6 +1858,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1855,6 +1892,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -1888,6 +1926,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a7",
      "features": [ {"name": "baremetal-server-usecases", "value": "grid-computing,hpc"} ]
     },
     "tags": ["website:orderable-on-demand"]
@@ -1922,6 +1961,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a7",
      "features": [ {"name": "baremetal-server-usecases", "value": "grid-computing,hpc"} ]
     },
     "tags": ["website:orderable-on-demand"]
@@ -1956,6 +1996,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a7",
      "features": [ {"name": "baremetal-server-usecases", "value": "grid-computing,hpc"} ]
     },
     "tags": ["website:orderable-on-demand"]
@@ -1990,6 +2031,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a8",
      "features": [ {"name": "baremetal-server-usecases", "value": "grid-computing,hpc"} ]
     },
     "tags": ["website:orderable-on-demand"]
@@ -2024,6 +2066,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a8",
      "features": [ {"name": "baremetal-server-usecases", "value": "grid-computing,hpc"} ]
     },
     "tags": ["website:orderable-on-demand"]
@@ -2058,6 +2101,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-a8",
      "features": [ {"name": "baremetal-server-usecases", "value": "grid-computing,hpc"} ]
     },
     "tags": ["website:orderable-on-demand"]
@@ -2093,6 +2137,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-GPU-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,artificial-intelligence"} ]
     }
    },
@@ -2127,6 +2172,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-GPU-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,artificial-intelligence"} ]
     }
    },
@@ -2161,6 +2207,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-GPU-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,artificial-intelligence"} ]
     }
    },
@@ -2195,6 +2242,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-GPU-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,artificial-intelligence"} ]
     }
    },
@@ -2229,6 +2277,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-GPU-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,artificial-intelligence"} ]
     }
    },
@@ -2263,6 +2312,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-GPU-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,artificial-intelligence"} ]
     }
    },
@@ -2296,6 +2346,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2329,6 +2380,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2362,6 +2414,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2395,6 +2448,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2428,6 +2482,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2461,6 +2516,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2494,6 +2550,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2527,6 +2584,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2560,6 +2618,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2593,6 +2652,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2626,6 +2686,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2659,6 +2720,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2692,6 +2754,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2725,6 +2788,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2758,6 +2822,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2791,6 +2856,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2824,6 +2890,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2857,6 +2924,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "Scale-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -2889,6 +2957,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -2921,6 +2990,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -2953,6 +3023,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -2985,6 +3056,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3017,6 +3089,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3049,6 +3122,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3081,6 +3155,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3113,6 +3188,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3145,6 +3221,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3177,6 +3254,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3209,6 +3287,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3241,6 +3320,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3273,6 +3353,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3305,6 +3386,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3337,6 +3419,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3369,6 +3452,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3401,6 +3485,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd"} ]
     }
    },
@@ -3433,6 +3518,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3465,6 +3551,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3497,6 +3584,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3529,6 +3617,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3561,6 +3650,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,vdi"} ]
     }
    },
@@ -3593,6 +3683,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,vdi"} ]
     }
    },
@@ -3625,6 +3716,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3657,6 +3749,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,bdd,vdi,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3689,6 +3782,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,bdd,vdi,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3721,6 +3815,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,bdd,vdi,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3753,6 +3848,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,vdi,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3785,6 +3881,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,vdi,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3817,6 +3914,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,bdd,vdi,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -3850,6 +3948,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,archive-backup-recovery"} ]
     }
    },
@@ -3883,6 +3982,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,archive-backup-recovery"} ]
     }
    },
@@ -3916,6 +4016,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,archive-backup-recovery"} ]
     }
    },
@@ -3949,6 +4050,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,archive-backup-recovery"} ]
     }
    },
@@ -3982,6 +4084,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,archive-backup-recovery"} ]
     }
    },
@@ -4015,6 +4118,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "ADVANCE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,archive-backup-recovery"} ]
     }
    },
@@ -4046,6 +4150,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -4077,6 +4182,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -4108,6 +4214,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -4139,6 +4246,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -4170,6 +4278,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -4201,6 +4310,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -4230,7 +4340,7 @@
     { "name": "memory", "addons": ["ram-128g-2666-advle-included-us"], "default": "ram-128g-2666-advle-included-us", "exclusive": true, "mandatory": true },
     { "name": "storage", "addons": ["softraid-2x960nvme-advle-included-us"], "default": "softraid-2x960nvme-advle-included-us", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "game"} },
+   "blobs": { "commercial": {"name": "GAME-LE-1"} },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["hil", "vin"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -4261,6 +4371,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4295,6 +4406,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4329,6 +4441,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4363,6 +4476,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4397,6 +4511,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4431,6 +4546,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a1",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4465,6 +4581,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4499,6 +4616,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4533,6 +4651,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4567,6 +4686,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4601,6 +4721,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4635,6 +4756,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-a2",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,hpc,hyperconverged-infrastructure,virtualisation-containerisation-orchestration"} ],
      "range": "hgr"
     }
@@ -4669,6 +4791,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4703,6 +4826,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4737,6 +4861,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4771,6 +4896,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4805,6 +4931,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4839,6 +4966,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i1",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4873,6 +5001,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4907,6 +5036,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4941,6 +5071,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -4975,6 +5106,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5009,6 +5141,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5043,6 +5176,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i2",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5077,6 +5211,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5111,6 +5246,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5145,6 +5281,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5179,6 +5316,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5213,6 +5351,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5247,6 +5386,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i3",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5281,6 +5421,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i4",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5315,6 +5456,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i4",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5349,6 +5491,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i4",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5383,6 +5526,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i4",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5417,6 +5561,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i4",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5451,6 +5596,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-HCI-i4",
      "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ],
      "range": "hgr"
     }
@@ -5486,6 +5632,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-AI-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "artificial-intelligence"} ]
     }
    },
@@ -5520,6 +5667,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-AI-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "artificial-intelligence"} ]
     }
    },
@@ -5554,6 +5702,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-AI-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "artificial-intelligence"} ]
     }
    },
@@ -5596,6 +5745,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-STOR-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -5638,6 +5788,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-STOR-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -5680,6 +5831,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-STOR-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -5722,6 +5874,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-STOR-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -5764,6 +5917,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-STOR-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -5806,6 +5960,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-STOR-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -5838,6 +5993,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -5870,6 +6026,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -5902,6 +6059,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -5934,6 +6092,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -5966,6 +6125,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -5998,6 +6158,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -6030,6 +6191,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -6062,6 +6224,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -6094,6 +6257,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -6126,6 +6290,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,confidential-computing,dev-env,email,bdd"} ]
     }
    },
@@ -6158,6 +6323,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6190,6 +6356,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6222,6 +6389,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6254,6 +6422,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6286,6 +6455,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-3",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6318,6 +6488,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6350,6 +6521,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6382,6 +6554,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6414,6 +6587,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6446,6 +6620,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-4",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6478,6 +6653,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6510,6 +6686,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6542,6 +6719,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6574,6 +6752,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6606,6 +6785,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-5",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6638,6 +6818,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6670,6 +6851,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6702,6 +6884,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6734,6 +6917,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-6",
      "features": [ {"name": "baremetal-server-usecases", "value": "confidential-computing,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6767,6 +6951,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-7",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6800,6 +6985,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-7",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6833,6 +7019,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-7",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6866,6 +7053,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-7",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6899,6 +7087,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-8",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6932,6 +7121,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-8",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6965,6 +7155,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-8",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -6998,6 +7189,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-9",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -7031,6 +7223,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-9",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -7064,6 +7257,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-9",
      "features": [ {"name": "baremetal-server-usecases", "value": "vdi,bdd,hpc,virtualisation-containerisation-orchestration"} ]
     }
    },
@@ -7095,6 +7289,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7126,6 +7321,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7157,6 +7353,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7188,6 +7385,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7219,6 +7417,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7250,6 +7449,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7281,6 +7481,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7312,6 +7513,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7343,6 +7545,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7374,6 +7577,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-GAME-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
     }
    },
@@ -7407,6 +7611,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -7440,6 +7645,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -7473,6 +7679,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -7506,6 +7713,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -7539,6 +7747,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "RISE-STOR",
      "features": [ {"name": "baremetal-server-usecases", "value": "archive-backup-recovery"} ]
     }
    },
@@ -7572,6 +7781,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7605,6 +7815,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7638,6 +7849,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7671,6 +7883,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7704,6 +7917,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7737,6 +7951,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-1",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7770,6 +7985,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7803,6 +8019,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7836,6 +8053,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7869,6 +8087,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7902,6 +8121,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -7935,6 +8155,7 @@
    ],
    "blobs": {
     "commercial": {
+     "name": "HGR-SDS-2",
      "features": [ {"name": "baremetal-server-usecases", "value": "big-data-analytics,confidential-computing,sds,bdd"} ]
     }
    },
@@ -9809,12 +10030,12 @@
   },
   {
    "name": "noraid-0",
-   "description": "No disk of storage",
+   "description": "No storage drive",
    "blobs": {
     "technical": {
      "storage": {
       "disks": [ {"capacity": 0, "interface": "NVMe", "number": 0, "specs": "M.2 80", "technology": "SSD", "usage": "data"} ],
-      "hotSwap": true,
+      "hotSwap": false,
       "raid": "none",
       "raidDetails": {"type": "none"}
      }
@@ -10026,7 +10247,7 @@
    "name": "ram-256g-ecc-4800",
    "description": "RAM 256GB DDR5 ECC 4800MHz",
    "blobs": {
-    "technical": { "memory": {"ecc": true, "frequency": 4800, "ramType": "DDR5", "size": 256} }
+    "technical": { "memory": {"ecc": true, "frequency": 2933, "ramType": "DDR4", "size": 256} }
    },
    "configurations": []
   },
@@ -11241,7 +11462,7 @@
    "name": "traffic-25tb-2000",
    "description": "2Gbps bandwidth - Limited traffic 25TB",
    "blobs": {
-    "technical": { "bandwidth": {"burst": 0, "guaranteed": false, "level": 2000, "limit": 25} }
+    "technical": { "bandwidth": {"burst": 0, "guaranteed": true, "level": 2000, "limit": 25} }
    },
    "configurations": []
   },
@@ -11295,9 +11516,9 @@
   },
   {
    "name": "traffic-unlimited-1000",
-   "description": "1Gbps unmetered public bandwidth",
+   "description": "1Gbps unmetered and guaranteed public bandwidth",
    "blobs": {
-    "technical": { "bandwidth": {"burst": 0, "guaranteed": false, "level": 1000, "limit": 0} }
+    "technical": { "bandwidth": {"burst": 0, "guaranteed": true, "level": 1000, "limit": 0} }
    },
    "configurations": []
   },
@@ -11311,9 +11532,9 @@
   },
   {
    "name": "traffic-unlimited-2000",
-   "description": "2Gbps unmetered public bandwidth",
+   "description": "2Gbps unmetered and guaranteed public bandwidth",
    "blobs": {
-    "technical": { "bandwidth": {"burst": 0, "guaranteed": false, "level": 2000, "limit": 0} }
+    "technical": { "bandwidth": {"burst": 0, "guaranteed": true, "level": 2000, "limit": 0} }
    },
    "configurations": []
   },
