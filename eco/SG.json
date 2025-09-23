@@ -1447,9 +1447,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5919000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 532710000, "type": "rental" },
-    { "capacities": ["renew"], "price": 67477000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6072930000, "type": "rental" },
-    { "capacities": ["renew"], "price": 134953000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12145770000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5919000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_20", "description": "Special offer : 20% off on KS-2 server hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 426168000, "value": 4735200000}, "context": "standard", "discount": {"tax": 106542000, "value": 1183800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 532710000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 67477000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_20", "description": "Special offer : 20% off on KS-2 server hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 4858344000, "value": 53981600000}, "context": "standard", "discount": {"tax": 1214586000, "value": 13495400000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6072930000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 134953000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_20", "description": "Special offer : 20% off on KS-2 server hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 9716616000, "value": 107962400000}, "context": "standard", "discount": {"tax": 2429154000, "value": 26990600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12145770000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1490,9 +1547,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5919000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 532710000, "type": "rental" },
-    { "capacities": ["renew"], "price": 67477000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6072930000, "type": "rental" },
-    { "capacities": ["renew"], "price": 134953000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12145770000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5919000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_20", "description": "Special offer : 20% off on KS-2 server hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 426168000, "value": 4735200000}, "context": "standard", "discount": {"tax": 106542000, "value": 1183800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 532710000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 67477000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_20", "description": "Special offer : 20% off on KS-2 server hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 4858344000, "value": 53981600000}, "context": "standard", "discount": {"tax": 1214586000, "value": 13495400000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6072930000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 134953000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_20", "description": "Special offer : 20% off on KS-2 server hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 9716616000, "value": 107962400000}, "context": "standard", "discount": {"tax": 2429154000, "value": 26990600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12145770000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1576,9 +1690,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5919000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 532710000, "type": "rental" },
-    { "capacities": ["renew"], "price": 67477000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6072930000, "type": "rental" },
-    { "capacities": ["renew"], "price": 134953000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12145770000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5919000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 319626000, "value": 3551400000}, "context": "standard", "discount": {"tax": 213084000, "value": 2367600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 532710000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 67477000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 3643758000, "value": 40486200000}, "context": "standard", "discount": {"tax": 2429172000, "value": 26990800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6072930000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 134953000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 7287462000, "value": 80971800000}, "context": "standard", "discount": {"tax": 4858308000, "value": 53981200000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12145770000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1619,9 +1790,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5179000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 466110000, "type": "rental" },
-    { "capacities": ["renew"], "price": 59041000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 5313690000, "type": "rental" },
-    { "capacities": ["renew"], "price": 118081000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 10627290000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5179000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 279666000, "value": 3107400000}, "context": "standard", "discount": {"tax": 186444000, "value": 2071600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 466110000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 59041000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 3188214000, "value": 35424600000}, "context": "standard", "discount": {"tax": 2125476000, "value": 23616400000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 5313690000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 118081000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 6376374000, "value": 70848600000}, "context": "standard", "discount": {"tax": 4250916000, "value": 47232400000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 10627290000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1705,9 +1933,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5919000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 532710000, "type": "rental" },
-    { "capacities": ["renew"], "price": 67477000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6072930000, "type": "rental" },
-    { "capacities": ["renew"], "price": 134953000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12145770000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5919000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 372897000, "value": 4143300000}, "context": "standard", "discount": {"tax": 159813000, "value": 1775700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 532710000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 67477000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 4251051000, "value": 47233900000}, "context": "standard", "discount": {"tax": 1821879000, "value": 20243100000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6072930000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 134953000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 8502039000, "value": 94467100000}, "context": "standard", "discount": {"tax": 3643731000, "value": 40485900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12145770000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1748,9 +2033,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5919000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 532710000, "type": "rental" },
-    { "capacities": ["renew"], "price": 67477000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6072930000, "type": "rental" },
-    { "capacities": ["renew"], "price": 134953000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12145770000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5919000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 372897000, "value": 4143300000}, "context": "standard", "discount": {"tax": 159813000, "value": 1775700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 532710000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 67477000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 4251051000, "value": 47233900000}, "context": "standard", "discount": {"tax": 1821879000, "value": 20243100000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6072930000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 134953000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 8502039000, "value": 94467100000}, "context": "standard", "discount": {"tax": 3643731000, "value": 40485900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12145770000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1834,9 +2176,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8149000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 733410000, "type": "rental" },
-    { "capacities": ["renew"], "price": 92899000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8360910000, "type": "rental" },
-    { "capacities": ["renew"], "price": 185797000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 16721730000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 8149000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 440046000, "value": 4889400000}, "context": "standard", "discount": {"tax": 293364000, "value": 3259600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 733410000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 92899000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 5016546000, "value": 55739400000}, "context": "standard", "discount": {"tax": 3344364000, "value": 37159600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 8360910000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 185797000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 10033038000, "value": 111478200000}, "context": "standard", "discount": {"tax": 6688692000, "value": 74318800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 16721730000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -1877,9 +2276,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5039000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 453510000, "type": "rental" },
-    { "capacities": ["renew"], "price": 57445000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 5170050000, "type": "rental" },
-    { "capacities": ["renew"], "price": 114889000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 10340010000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5039000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 272106000, "value": 3023400000}, "context": "standard", "discount": {"tax": 181404000, "value": 2015600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 453510000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 57445000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 3102030000, "value": 34467000000}, "context": "standard", "discount": {"tax": 2068020000, "value": 22978000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 5170050000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 114889000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_40", "description": "Special offer : 40% off on KS-3 and KS-5 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 6204006000, "value": 68933400000}, "context": "standard", "discount": {"tax": 4136004000, "value": 45955600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 40 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 10340010000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -2092,9 +2548,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5919000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 532710000, "type": "rental" },
-    { "capacities": ["renew"], "price": 67477000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6072930000, "type": "rental" },
-    { "capacities": ["renew"], "price": 134953000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12145770000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5919000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 372897000, "value": 4143300000}, "context": "standard", "discount": {"tax": 159813000, "value": 1775700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 532710000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 67477000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 4251051000, "value": 47233900000}, "context": "standard", "discount": {"tax": 1821879000, "value": 20243100000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6072930000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 134953000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 8502039000, "value": 94467100000}, "context": "standard", "discount": {"tax": 3643731000, "value": 40485900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12145770000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -2135,9 +2648,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 5919000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 532710000, "type": "rental" },
-    { "capacities": ["renew"], "price": 67477000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6072930000, "type": "rental" },
-    { "capacities": ["renew"], "price": 134953000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12145770000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 5919000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 372897000, "value": 4143300000}, "context": "standard", "discount": {"tax": 159813000, "value": 1775700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 532710000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 67477000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 4251051000, "value": 47233900000}, "context": "standard", "discount": {"tax": 1821879000, "value": 20243100000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6072930000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 134953000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 8502039000, "value": 94467100000}, "context": "standard", "discount": {"tax": 3643731000, "value": 40485900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12145770000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -2267,9 +2837,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8149000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 733410000, "type": "rental" },
-    { "capacities": ["renew"], "price": 92899000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8360910000, "type": "rental" },
-    { "capacities": ["renew"], "price": 185797000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 16721730000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 8149000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 513387000, "value": 5704300000}, "context": "standard", "discount": {"tax": 220023000, "value": 2444700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 733410000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 92899000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 5852637000, "value": 65029300000}, "context": "standard", "discount": {"tax": 2508273000, "value": 27869700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 8360910000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 185797000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 11705211000, "value": 130057900000}, "context": "standard", "discount": {"tax": 5016519000, "value": 55739100000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 16721730000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -2311,9 +2938,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8149000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 733410000, "type": "rental" },
-    { "capacities": ["renew"], "price": 92899000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8360910000, "type": "rental" },
-    { "capacities": ["renew"], "price": 185797000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 16721730000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 8149000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 513387000, "value": 5704300000}, "context": "standard", "discount": {"tax": 220023000, "value": 2444700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 733410000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 92899000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 5852637000, "value": 65029300000}, "context": "standard", "discount": {"tax": 2508273000, "value": 27869700000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 8360910000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 185797000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SPECIALOFFER_0925_APAC_ECO_30", "description": "Special offer : 30% off on KS-4, KS-GAME and SYS-1 servers hosted in Singapore or Sydney. Offer valid until service cancellation.", "startDate": "2025-09-22T00:00:00+02:00", "endDate": "2025-10-07T14:00:00+02:00", "total": {"tax": 11705211000, "value": 130057900000}, "context": "standard", "discount": {"tax": 5016519000, "value": 55739100000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 30 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 16721730000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -8107,7 +8791,7 @@
      "mustBeCompleted": false,
      "phase": 1,
      "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-24T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 266310000, "value": 2959000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
+      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-30T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 266310000, "value": 2959000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": null, "min": 1},
      "repeat": {"max": null, "min": 1},
@@ -8127,7 +8811,7 @@
      "mustBeCompleted": false,
      "phase": 1,
      "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-24T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3035970000, "value": 33733000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
+      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-30T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3035970000, "value": 33733000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": null, "min": 1},
      "repeat": {"max": null, "min": 1},
@@ -8147,7 +8831,7 @@
      "mustBeCompleted": false,
      "phase": 1,
      "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-24T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 6071850000, "value": 67465000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
+      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-30T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 6071850000, "value": 67465000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": null, "min": 1},
      "repeat": {"max": null, "min": 1},
@@ -9152,7 +9836,7 @@
      "mustBeCompleted": false,
      "phase": 1,
      "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-24T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 133110000, "value": 1479000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
+      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-30T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 133110000, "value": 1479000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": null, "min": 1},
      "repeat": {"max": null, "min": 1},
@@ -9172,7 +9856,7 @@
      "mustBeCompleted": false,
      "phase": 1,
      "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-24T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1517490000, "value": 16861000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
+      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-30T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1517490000, "value": 16861000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": null, "min": 1},
      "repeat": {"max": null, "min": 1},
@@ -9192,7 +9876,7 @@
      "mustBeCompleted": false,
      "phase": 1,
      "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-24T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3034890000, "value": 33721000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
+      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-09-30T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3034890000, "value": 33721000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": null, "min": 1},
      "repeat": {"max": null, "min": 1},
