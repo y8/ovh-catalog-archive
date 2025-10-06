@@ -1,5 +1,5 @@
 {
- "catalogId": 8755,
+ "catalogId": 8764,
  "locale": {"currencyCode": "GBP", "subsidiary": "GB", "taxRate": 20},
  "plans": [
   {
@@ -2997,70 +2997,6 @@
    ]
   },
   {
-   "planCode": "24game012",
-   "product": "24game01",
-   "invoiceName": "GAME-1 | AMD EPYC 4344P",
-   "addonFamilies": [
-    { "name": "bandwidth", "addons": ["bandwidth-1000-game-gen3"], "default": "bandwidth-1000-game-gen3", "exclusive": true, "mandatory": true },
-    { "name": "memory", "addons": ["ram-128g-game-gen3", "ram-192g-game-gen3", "ram-64g-game-gen3"], "default": "ram-64g-game-gen3", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["softraid-2x960nvme-game-gen3"], "default": "softraid-2x960nvme-game-gen3", "exclusive": true, "mandatory": true }
-   ],
-   "blobs": {
-    "commercial": {
-     "name": "GAME-1",
-     "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
-    }
-   },
-   "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "gra", "waw"] },
-    { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
-   ],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 13349000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2669800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 152179000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 30435800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 304357000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 60871400000, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "24game022",
-   "product": "24game02",
-   "invoiceName": "GAME-2 | AMD EPYC 4584PX",
-   "addonFamilies": [
-    { "name": "bandwidth", "addons": ["bandwidth-1000-game-gen3"], "default": "bandwidth-1000-game-gen3", "exclusive": true, "mandatory": true },
-    { "name": "memory", "addons": ["ram-128g-game-gen3", "ram-192g-game-gen3", "ram-64g-game-gen3"], "default": "ram-64g-game-gen3", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["softraid-2x960nvme-game-gen3"], "default": "softraid-2x960nvme-game-gen3", "exclusive": true, "mandatory": true }
-   ],
-   "blobs": {
-    "commercial": {
-     "name": "GAME-2",
-     "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
-    }
-   },
-   "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "gra", "waw"] },
-    { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
-   ],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 19599000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3919800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 223429000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 44685800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 446857000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 89371400000, "type": "rental" }
-   ]
-  },
-  {
    "planCode": "24hci-a12",
    "product": "24hci-a1",
    "invoiceName": "HGR-HCI-a1",
@@ -3377,8 +3313,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "ca-east-tor-a", "eu-west-par-a", "eu-west-par-b", "eu-west-par-c", "fra", "gra", "lon", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
@@ -3416,8 +3350,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["ynm"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3455,8 +3387,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["sgp"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3494,8 +3424,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["syd"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3533,8 +3461,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "ca-east-tor-a", "eu-west-par-a", "eu-west-par-b", "eu-west-par-c", "fra", "gra", "lon", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
@@ -3572,8 +3498,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["ynm"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3611,8 +3535,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["sgp"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3650,8 +3572,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["syd"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3689,8 +3609,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "ca-east-tor-a", "eu-west-par-a", "eu-west-par-b", "eu-west-par-c", "fra", "gra", "lon", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
@@ -3728,8 +3646,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["ynm"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3767,8 +3683,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["sgp"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3806,8 +3720,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["syd"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3845,8 +3757,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "ca-east-tor-a", "eu-west-par-a", "eu-west-par-b", "eu-west-par-c", "fra", "gra", "lon", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
@@ -3884,8 +3794,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["ynm"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3923,8 +3831,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["sgp"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -3962,8 +3868,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["syd"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -5526,8 +5430,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "ca-east-tor-a", "eu-west-par-a", "eu-west-par-b", "eu-west-par-c", "fra", "gra", "lon", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
@@ -5564,8 +5466,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["ynm"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -5602,8 +5502,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["sgp"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -5640,8 +5538,6 @@
     }
    },
    "configurations": [
-    { "name": "baremetal_country", "isCustom": false, "isMandatory": false, "values": ["france"] },
-    { "name": "baremetal_region", "isCustom": false, "isMandatory": false, "values": ["eu-west-par"] },
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["syd"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
     { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada"] }
@@ -6683,6 +6579,92 @@
     { "capacities": ["renew"], "price": 215734000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 43146800000, "type": "rental" },
     { "capacities": ["renew"], "price": 431467000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 86293400000, "type": "rental" }
    ]
+  },
+  {
+   "planCode": "26game01-v1",
+   "product": "26game01",
+   "invoiceName": "GAME-1 | AMD RYZEN 7 9800X3D",
+   "addonFamilies": [
+    {
+     "name": "application-license",
+     "addons": [
+      "cpanel-license-premier-metal-100-accounts"       , "cpanel-license-premier-metal-1000-accounts"      , "cpanel-license-premier-metal-150-accounts"       , "cpanel-license-premier-metal-200-accounts"       , "cpanel-license-premier-metal-250-accounts"       , "cpanel-license-premier-metal-300-accounts"       , "cpanel-license-premier-metal-400-accounts"       , "cpanel-license-premier-metal-500-accounts"       , "cpanel-license-premier-metal-600-accounts"       , "cpanel-license-premier-metal-700-accounts"       , "cpanel-license-premier-metal-800-accounts"       , "cpanel-license-premier-metal-900-accounts"       , "plesk-webadmin"                                  , "plesk-webhost"                                   ,
+      "plesk-webpro"                                    , "sql-server-2017-license-standard-edition-8-cores", "sql-server-2017-license-web-edition-8-cores"     , "sql-server-2019-license-standard-edition-8-cores", "sql-server-2019-license-web-edition-8-cores"     , "sql-server-2022-license-standard-edition-8-cores", "sql-server-2022-license-web-edition-8-cores"
+     ],
+     "default": null,
+     "exclusive": false,
+     "mandatory": false
+    },
+    { "name": "bandwidth", "addons": ["bandwidth-1000-game-gen4"], "default": "bandwidth-1000-game-gen4", "exclusive": true, "mandatory": true },
+    { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-8-cores", "windows-server-2019-license-standard-edition-8-cores", "windows-server-2022-license-datacenter-edition-8-cores", "windows-server-2022-license-standard-edition-8-cores", "windows-server-2025-license-datacenter-edition-8-cores", "windows-server-2025-license-standard-edition-8-cores"], "default": null, "exclusive": false, "mandatory": false },
+    { "name": "memory", "addons": ["ram-128g-on-die-ecc-5600-26game01-v1", "ram-256g-on-die-ecc-3600-26game01-v1", "ram-64g-on-die-ecc-5600-26game01-v1"], "default": "ram-64g-on-die-ecc-5600-26game01-v1", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["softraid-2x960nvme-26game01-v1"], "default": "softraid-2x960nvme-26game01-v1", "exclusive": true, "mandatory": true }
+   ],
+   "blobs": {
+    "commercial": {
+     "name": "GAME-1",
+     "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
+    }
+   },
+   "configurations": [
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "gra", "waw"] },
+    { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
+   ],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 11199000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2239800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 11199000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2239800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 127669000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 25533800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 255337000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 51067400000, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "26game02-v1",
+   "product": "26game02",
+   "invoiceName": "GAME-2 | AMD RYZEN 9 9950X3D",
+   "addonFamilies": [
+    {
+     "name": "application-license",
+     "addons": [
+      "cpanel-license-premier-metal-100-accounts"        , "cpanel-license-premier-metal-1000-accounts"       , "cpanel-license-premier-metal-150-accounts"        , "cpanel-license-premier-metal-200-accounts"        , "cpanel-license-premier-metal-250-accounts"        , "cpanel-license-premier-metal-300-accounts"        , "cpanel-license-premier-metal-400-accounts"        , "cpanel-license-premier-metal-500-accounts"        , "cpanel-license-premier-metal-600-accounts"        , "cpanel-license-premier-metal-700-accounts"        , "cpanel-license-premier-metal-800-accounts"        , "cpanel-license-premier-metal-900-accounts"        , "plesk-webadmin"                                   , "plesk-webhost"                                    ,
+      "plesk-webpro"                                     , "sql-server-2017-license-standard-edition-16-cores", "sql-server-2017-license-web-edition-16-cores"     , "sql-server-2019-license-standard-edition-16-cores", "sql-server-2019-license-web-edition-16-cores"     , "sql-server-2022-license-standard-edition-16-cores", "sql-server-2022-license-web-edition-16-cores"
+     ],
+     "default": null,
+     "exclusive": false,
+     "mandatory": false
+    },
+    { "name": "bandwidth", "addons": ["bandwidth-1000-game-gen4"], "default": "bandwidth-1000-game-gen4", "exclusive": true, "mandatory": true },
+    { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-16-cores", "windows-server-2019-license-standard-edition-16-cores", "windows-server-2022-license-datacenter-edition-16-cores", "windows-server-2022-license-standard-edition-16-cores", "windows-server-2025-license-datacenter-edition-16-cores", "windows-server-2025-license-standard-edition-16-cores"], "default": null, "exclusive": false, "mandatory": false },
+    { "name": "memory", "addons": ["ram-128g-on-die-ecc-5600-26game02-v1", "ram-256g-on-die-ecc-3600-26game02-v1", "ram-64g-on-die-ecc-5600-26game02-v1"], "default": "ram-64g-on-die-ecc-5600-26game02-v1", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["softraid-2x960nvme-26game02-v1"], "default": "softraid-2x960nvme-26game02-v1", "exclusive": true, "mandatory": true }
+   ],
+   "blobs": {
+    "commercial": {
+     "name": "GAME-2",
+     "features": [ {"name": "baremetal-server-usecases", "value": "gaming"} ]
+    }
+   },
+   "configurations": [
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "gra", "waw"] },
+    { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
+   ],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 14624000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2924800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 14624000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2924800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 166714000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 33342800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 333427000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 66685400000, "type": "rental" }
+   ]
   }
  ],
  "products": [
@@ -7076,40 +7058,6 @@
       ]
      },
      "server": { "cpu": {"boost": 5.3, "brand": "AMD", "cores": 8, "frequency": 3.8, "model": "EPYC 4344P", "number": 1, "score": 35529, "threads": 16}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "1U"}, "range": "advance", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
-    }
-   },
-   "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
-  },
-  {
-   "name": "24game01",
-   "description": "AMD EPYC 4344P",
-   "blobs": {
-    "technical": {
-     "os": {
-      "features": [
-       {"name": "alma8-cpanel-latest_64"   }, {"name": "alma8-plesk18_64"         }, {"name": "alma8_64"                 }, {"name": "alma9-cpanel-latest_64"   }, {"name": "alma9-plesk18_64"         }, {"name": "alma9_64"                 }, {"name": "byoi_64"                  }, {"name": "byolinux_64"              }, {"name": "debian11-backports_64"    }, {"name": "debian12-plesk18_64"      }, {"name": "debian12_64"              }, {"name": "debian13_64"              }, {"name": "fedora41_64"              }, {"name": "fedora42_64"              }, {"name": "proxmox-bs2_64"           }, {"name": "proxmox-bs3_64"           }, {"name": "proxmox7_64"              }, {"name": "proxmox8_64"              }, {"name": "proxmox9_64"              },
-       {"name": "rocky8_64"                }, {"name": "rocky9_64"                }, {"name": "ubuntu2204-server_64"     }, {"name": "ubuntu2404-server_64"     }, {"name": "ubuntu2504-server_64"     }, {"name": "win2019-dc_64"            }, {"name": "win2019-hyperv_64"        }, {"name": "win2019-std-sql2016std_64"}, {"name": "win2019-std-sql2016web_64"}, {"name": "win2019-std-sql2017std_64"}, {"name": "win2019-std-sql2017web_64"}, {"name": "win2019-std-sql2019ent_64"}, {"name": "win2019-std-sql2019std_64"}, {"name": "win2019-std-sql2019web_64"}, {"name": "win2019-std-sql2022ent_64"}, {"name": "win2019-std-sql2022std_64"}, {"name": "win2019-std-sql2022web_64"}, {"name": "win2019-std_64"           }, {"name": "win2019core-dc_64"        },
-       {"name": "win2019core-std_64"       }, {"name": "win2022-dc_64"            }, {"name": "win2022-std-sql2019ent_64"}, {"name": "win2022-std-sql2019std_64"}, {"name": "win2022-std-sql2019web_64"}, {"name": "win2022-std-sql2022ent_64"}, {"name": "win2022-std-sql2022std_64"}, {"name": "win2022-std-sql2022web_64"}, {"name": "win2022-std_64"           }, {"name": "win2022core-dc_64"        }, {"name": "win2022core-std_64"       }, {"name": "win2025-dc_64"            }, {"name": "win2025-std-sql2022ent_64"}, {"name": "win2025-std-sql2022std_64"}, {"name": "win2025-std-sql2022web_64"}, {"name": "win2025-std_64"           }, {"name": "win2025core-dc_64"        }, {"name": "win2025core-std_64"       }
-      ]
-     },
-     "server": { "cpu": {"boost": 5.3, "brand": "AMD", "cores": 8, "frequency": 3.8, "model": "EPYC 4344P", "number": 1, "score": 35529, "threads": 16}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "0.5U"}, "range": "game", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
-    }
-   },
-   "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
-  },
-  {
-   "name": "24game02",
-   "description": "AMD EPYC 4584PX",
-   "blobs": {
-    "technical": {
-     "os": {
-      "features": [
-       {"name": "alma8-cpanel-latest_64"   }, {"name": "alma8-plesk18_64"         }, {"name": "alma8_64"                 }, {"name": "alma9-cpanel-latest_64"   }, {"name": "alma9-plesk18_64"         }, {"name": "alma9_64"                 }, {"name": "byoi_64"                  }, {"name": "byolinux_64"              }, {"name": "debian11-backports_64"    }, {"name": "debian12-plesk18_64"      }, {"name": "debian12_64"              }, {"name": "debian13_64"              }, {"name": "fedora41_64"              }, {"name": "fedora42_64"              }, {"name": "proxmox-bs2_64"           }, {"name": "proxmox-bs3_64"           }, {"name": "proxmox7_64"              }, {"name": "proxmox8_64"              }, {"name": "proxmox9_64"              },
-       {"name": "rocky8_64"                }, {"name": "rocky9_64"                }, {"name": "ubuntu2204-server_64"     }, {"name": "ubuntu2404-server_64"     }, {"name": "ubuntu2504-server_64"     }, {"name": "win2019-dc_64"            }, {"name": "win2019-hyperv_64"        }, {"name": "win2019-std-sql2016std_64"}, {"name": "win2019-std-sql2016web_64"}, {"name": "win2019-std-sql2017std_64"}, {"name": "win2019-std-sql2017web_64"}, {"name": "win2019-std-sql2019ent_64"}, {"name": "win2019-std-sql2019std_64"}, {"name": "win2019-std-sql2019web_64"}, {"name": "win2019-std-sql2022ent_64"}, {"name": "win2019-std-sql2022std_64"}, {"name": "win2019-std-sql2022web_64"}, {"name": "win2019-std_64"           }, {"name": "win2019core-dc_64"        },
-       {"name": "win2019core-std_64"       }, {"name": "win2022-dc_64"            }, {"name": "win2022-std-sql2019ent_64"}, {"name": "win2022-std-sql2019std_64"}, {"name": "win2022-std-sql2019web_64"}, {"name": "win2022-std-sql2022ent_64"}, {"name": "win2022-std-sql2022std_64"}, {"name": "win2022-std-sql2022web_64"}, {"name": "win2022-std_64"           }, {"name": "win2022core-dc_64"        }, {"name": "win2022core-std_64"       }, {"name": "win2025-dc_64"            }, {"name": "win2025-std-sql2022ent_64"}, {"name": "win2025-std-sql2022std_64"}, {"name": "win2025-std-sql2022web_64"}, {"name": "win2025-std_64"           }, {"name": "win2025core-dc_64"        }, {"name": "win2025core-std_64"       }
-      ]
-     },
-     "server": { "cpu": {"boost": 5.7, "brand": "AMD", "cores": 16, "frequency": 4.2, "model": "EPYC 4584PX", "number": 1, "score": 62877, "threads": 32}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "0.5U"}, "range": "game", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
     }
    },
    "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
@@ -7712,6 +7660,26 @@
    "blobs": {
     "technical": {
      "server": { "cpu": {"boost": 5.5, "brand": "AMD", "cores": 8, "frequency": 3.8, "model": "EPYC 4345P", "number": 1, "score": 37671, "threads": 16}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "0.5U"}, "range": "advance", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
+    }
+   },
+   "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
+  },
+  {
+   "name": "26game01",
+   "description": "AMD RYZEN 7 9800X3D",
+   "blobs": {
+    "technical": {
+     "server": { "cpu": {"boost": 5.2, "brand": "AMD", "cores": 8, "frequency": 4.7, "model": "RYZEN 7 9800X3D", "number": 1, "score": 39988, "threads": 16}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "0.5U"}, "range": "game", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
+    }
+   },
+   "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
+  },
+  {
+   "name": "26game02",
+   "description": "AMD RYZEN 9 9950X3D",
+   "blobs": {
+    "technical": {
+     "server": { "cpu": {"boost": 5.7, "brand": "AMD", "cores": 16, "frequency": 4.3, "model": "RYZEN 9 9950X3D", "number": 1, "score": 70194, "threads": 32}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "0.5U"}, "range": "game", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
     }
    },
    "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
@@ -8460,14 +8428,6 @@
    "configurations": []
   },
   {
-   "name": "ram-128g-noecc-3600",
-   "description": "128GB DDR5 3600MHz",
-   "blobs": {
-    "technical": { "memory": {"ecc": false, "frequency": 3600, "ramType": "DDR5", "size": 128} }
-   },
-   "configurations": []
-  },
-  {
    "name": "ram-128g-on-die-ecc-3600",
    "description": "128GB DDR5 On-Die ECC 3600MHz",
    "blobs": {
@@ -8520,14 +8480,6 @@
    "description": "RAM 192GB DDR5 ECC 4800MHz",
    "blobs": {
     "technical": { "memory": {"ecc": true, "frequency": 4800, "ramType": "DDR5", "size": 192} }
-   },
-   "configurations": []
-  },
-  {
-   "name": "ram-192g-noecc-3600",
-   "description": "192GB DDR5 3600MHz",
-   "blobs": {
-    "technical": { "memory": {"ecc": false, "frequency": 3600, "ramType": "DDR5", "size": 192} }
    },
    "configurations": []
   },
@@ -8688,14 +8640,6 @@
    "description": "64GB DDR4 ECC 3200MHz",
    "blobs": {
     "technical": { "memory": {"ecc": true, "frequency": 3200, "ramType": "DDR4", "size": 64} }
-   },
-   "configurations": []
-  },
-  {
-   "name": "ram-64g-noecc-5200",
-   "description": "64GB DDR5 5200MHz",
-   "blobs": {
-    "technical": { "memory": {"ecc": false, "frequency": 5200, "ramType": "DDR5", "size": 64} }
    },
    "configurations": []
   },
@@ -11449,7 +11393,7 @@
    ]
   },
   {
-   "planCode": "bandwidth-1000-game-gen3",
+   "planCode": "bandwidth-1000-game-gen4",
    "product": "bandwidth-1000",
    "invoiceName": "1Gbps unmetered public bandwidth",
    "addonFamilies": [],
@@ -15028,25 +14972,6 @@
    ]
   },
   {
-   "planCode": "ram-128g-game-gen3",
-   "product": "ram-128g-noecc-3600",
-   "invoiceName": "128GB DDR5 3600MHz",
-   "addonFamilies": [],
-   "blobs": null,
-   "configurations": [],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 2100000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 420000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 24350000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4870000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 48701000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9740200000, "type": "rental" }
-   ]
-  },
-  {
    "planCode": "ram-128g-hgr-stor",
    "product": "ram-128g-ecc-4800",
    "invoiceName": "128GB DDR5 ECC 4800MHz",
@@ -15063,6 +14988,50 @@
     { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "ram-128g-on-die-ecc-5600-26game01-v1",
+   "product": "ram-128g-on-die-ecc-5600",
+   "invoiceName": "128GB DDR5 On-Die ECC 5600MHz",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "memory",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 1899000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 379800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 21649000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4329800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 43297000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8659400000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "ram-128g-on-die-ecc-5600-26game02-v1",
+   "product": "ram-128g-on-die-ecc-5600",
+   "invoiceName": "128GB DDR5 On-Die ECC 5600MHz",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "memory",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 1899000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 379800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 21649000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4329800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 43297000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8659400000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -15342,25 +15311,6 @@
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "ram-192g-game-gen3",
-   "product": "ram-192g-noecc-3600",
-   "invoiceName": "192GB DDR5 3600MHz",
-   "addonFamilies": [],
-   "blobs": null,
-   "configurations": [],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 4300000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 860000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 48701000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9740200000, "type": "rental" },
-    { "capacities": ["renew"], "price": 97402000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 19480400000, "type": "rental" }
    ]
   },
   {
@@ -15751,6 +15701,50 @@
     { "capacities": ["renew"], "price": 5700000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1140000000, "type": "rental" },
     { "capacities": ["renew"], "price": 64934000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12986800000, "type": "rental" },
     { "capacities": ["renew"], "price": 129869000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 25973800000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "ram-256g-on-die-ecc-3600-26game01-v1",
+   "product": "ram-256g-on-die-ecc-3600",
+   "invoiceName": "256GB DDR5 On-Die ECC 3600MHz",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "memory",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 5424000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1084800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 61834000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12366800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 123667000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 24733400000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "ram-256g-on-die-ecc-3600-26game02-v1",
+   "product": "ram-256g-on-die-ecc-3600",
+   "invoiceName": "256GB DDR5 On-Die ECC 3600MHz",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "memory",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 5424000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1084800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 61834000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12366800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 123667000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 24733400000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -16685,14 +16679,14 @@
    ]
   },
   {
-   "planCode": "ram-64g-game-gen3",
-   "product": "ram-64g-noecc-5200",
-   "invoiceName": "64GB DDR5 5200MHz",
+   "planCode": "ram-64g-on-die-ecc-5600-26game01-v1",
+   "product": "ram-64g-on-die-ecc-5600",
+   "invoiceName": "64GB DDR5 On-Die ECC 5600MHz",
    "addonFamilies": [],
    "blobs": null,
    "configurations": [],
    "consumptionConfiguration": null,
-   "family": null,
+   "family": "memory",
    "pricingType": "rental",
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
@@ -16700,7 +16694,32 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "ram-64g-on-die-ecc-5600-26game02-v1",
+   "product": "ram-64g-on-die-ecc-5600",
+   "invoiceName": "64GB DDR5 On-Die ECC 5600MHz",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "memory",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
    ]
   },
   {
@@ -17843,14 +17862,14 @@
    ]
   },
   {
-   "planCode": "softraid-2x960nvme-game-gen3",
+   "planCode": "softraid-2x960nvme-26game01-v1",
    "product": "softraid-2x960nvme",
-   "invoiceName": "2x SSD NVMe 960GB Datacenter Class Soft RAID",
+   "invoiceName": "2x SSD NVMe 960GB Enterprise Class Soft RAID",
    "addonFamilies": [],
    "blobs": null,
    "configurations": [],
    "consumptionConfiguration": null,
-   "family": null,
+   "family": "storage",
    "pricingType": "rental",
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
@@ -17858,7 +17877,32 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-2x960nvme-26game02-v1",
+   "product": "softraid-2x960nvme",
+   "invoiceName": "2x SSD NVMe 960GB Enterprise Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
    ]
   },
   {
