@@ -22,9 +22,15 @@ else
     exit 1
 fi
 
-echo "Get: $catalog_name in $subsidiary ($region_name)"
+subsidiary_title=$(printf '%-4s' "$subsidiary")
+catalog_title=$(printf '%6s' "$catalog_name")
+banner="$catalog_title | ${region_name} | ${subsidiary_title}"
+
+echo "$banner - start"
 
 output_file="${BASE_DIR}/${catalog_name}/${subsidiary}.json"
+
+start=$(date +%s)
 
 curl --compressed -s --create-dirs "$url" \
  | jq --indent 1 -f "$BIN_DIR/sort-filter.jq" \
@@ -37,4 +43,6 @@ else
     file_size=$(stat -c %s "$output_file")
 fi
 
-echo "Done: $catalog_name in $subsidiary ($region_name) ($file_size bytes)"
+duration=$(($(date +%s) - start))
+
+echo "$banner - done in $duration ($file_size bytes)"
