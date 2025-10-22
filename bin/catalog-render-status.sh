@@ -19,7 +19,8 @@ get_catalog_id() {
 get_last_commit_date() {
     local file="$1"
     if [ -f "$file" ]; then
-        git log -1 --format="%ad" --date=format:"%Y-%m-%d %H:%M" -- "$file" 2>/dev/null || echo "n/a"
+        # Include timezone in the output to make it clear what timezone is being used
+        TZ=UTC git log -1 --format="%ad" --date=format:"%Y-%m-%d %H:%M" -- "$file" 2>/dev/null || echo "n/a"
     else
         echo "n/a"
     fi
