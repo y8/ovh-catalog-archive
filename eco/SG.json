@@ -2574,66 +2574,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["renew"],
-     "price": 7399000000,
-     "mode": "default",
-     "description": "rental for 1 month",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 1,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_20OFF", "description": "Special offer : 20% off on SYS-GAME-1 and SYS-GAME-2 servers. Offer valid until service cancellation.", "startDate": "2025-09-16T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 532728000, "value": 5919200000}, "context": "standard", "discount": {"tax": 133182000, "value": 1479800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
-     ],
-     "quantity": {"max": 5, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 665910000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 84349000000,
-     "mode": "upfront12",
-     "description": "rental for 12 months",
-     "commitment": 12,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
-     "interval": 12,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_20OFF", "description": "Special offer : 20% off on SYS-GAME-1 and SYS-GAME-2 servers. Offer valid until service cancellation.", "startDate": "2025-09-16T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 6073128000, "value": 67479200000}, "context": "standard", "discount": {"tax": 1518282000, "value": 16869800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
-     ],
-     "quantity": {"max": 5, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 7591410000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 168697000000,
-     "mode": "upfront24",
-     "description": "rental for 24 months",
-     "commitment": 24,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
-     "interval": 24,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_20OFF", "description": "Special offer : 20% off on SYS-GAME-1 and SYS-GAME-2 servers. Offer valid until service cancellation.", "startDate": "2025-09-16T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 12146184000, "value": 134957600000}, "context": "standard", "discount": {"tax": 3036546000, "value": 33739400000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
-     ],
-     "quantity": {"max": 5, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 15182730000,
-     "type": "rental"
-    }
+    { "capacities": ["renew"], "price": 7399000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 665910000, "type": "rental" },
+    { "capacities": ["renew"], "price": 84349000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7591410000, "type": "rental" },
+    { "capacities": ["renew"], "price": 168697000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15182730000, "type": "rental" }
    ]
   },
   {
@@ -2674,66 +2617,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["renew"],
-     "price": 9624000000,
-     "mode": "default",
-     "description": "rental for 1 month",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 1,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_20OFF", "description": "Special offer : 20% off on SYS-GAME-1 and SYS-GAME-2 servers. Offer valid until service cancellation.", "startDate": "2025-09-16T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 692928000, "value": 7699200000}, "context": "standard", "discount": {"tax": 173232000, "value": 1924800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
-     ],
-     "quantity": {"max": 5, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 866160000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 109714000000,
-     "mode": "upfront12",
-     "description": "rental for 12 months",
-     "commitment": 12,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
-     "interval": 12,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_20OFF", "description": "Special offer : 20% off on SYS-GAME-1 and SYS-GAME-2 servers. Offer valid until service cancellation.", "startDate": "2025-09-16T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 7899408000, "value": 87771200000}, "context": "standard", "discount": {"tax": 1974852000, "value": 21942800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
-     ],
-     "quantity": {"max": 5, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 9874260000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 219427000000,
-     "mode": "upfront24",
-     "description": "rental for 24 months",
-     "commitment": 24,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
-     "interval": 24,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_20OFF", "description": "Special offer : 20% off on SYS-GAME-1 and SYS-GAME-2 servers. Offer valid until service cancellation.", "startDate": "2025-09-16T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 15798744000, "value": 175541600000}, "context": "standard", "discount": {"tax": 3949686000, "value": 43885400000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 20 }
-     ],
-     "quantity": {"max": 5, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 19748430000,
-     "type": "rental"
-    }
+    { "capacities": ["renew"], "price": 9624000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 866160000, "type": "rental" },
+    { "capacities": ["renew"], "price": 109714000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9874260000, "type": "rental" },
+    { "capacities": ["renew"], "price": 219427000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 19748430000, "type": "rental" }
    ]
   },
   {
@@ -8302,66 +8188,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["renew"],
-     "price": 2959000000,
-     "mode": "default",
-     "description": "rental for 1 month",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 1,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 266310000, "value": 2959000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": null, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 266310000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 33733000000,
-     "mode": "upfront12",
-     "description": "rental for 12 months",
-     "commitment": 12,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
-     "interval": 12,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3035970000, "value": 33733000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": null, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 3035970000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 67465000000,
-     "mode": "upfront24",
-     "description": "rental for 24 months",
-     "commitment": 24,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
-     "interval": 24,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 6071850000, "value": 67465000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": null, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 6071850000,
-     "type": "rental"
-    }
+    { "capacities": ["renew"], "price": 2959000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 266310000, "type": "rental" },
+    { "capacities": ["renew"], "price": 33733000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3035970000, "type": "rental" },
+    { "capacities": ["renew"], "price": 67465000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6071850000, "type": "rental" }
    ]
   },
   {
@@ -9347,66 +9176,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    {
-     "capacities": ["renew"],
-     "price": 1479000000,
-     "mode": "default",
-     "description": "rental for 1 month",
-     "commitment": 0,
-     "engagementConfiguration": null,
-     "interval": 1,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 133110000, "value": 1479000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": null, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 133110000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 16861000000,
-     "mode": "upfront12",
-     "description": "rental for 12 months",
-     "commitment": 12,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
-     "interval": 12,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 1517490000, "value": 16861000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": null, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 1517490000,
-     "type": "rental"
-    },
-    {
-     "capacities": ["renew"],
-     "price": 33721000000,
-     "mode": "upfront24",
-     "description": "rental for 24 months",
-     "commitment": 24,
-     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
-     "interval": 24,
-     "intervalUnit": "month",
-     "mustBeCompleted": false,
-     "phase": 1,
-     "promotions": [
-      { "name": "SYSGAMEOFFER_0910_RAM", "description": "Special offer : Memory (RAM) options offered on SYS-GAME-1 and SYS-GAME-2  servers.  Offer valid until service cancellation.", "startDate": "2025-09-09T00:00:00+02:00", "endDate": "2025-10-22T14:00:00+02:00", "total": {"tax": 0, "value": 0}, "context": "standard", "discount": {"tax": 3034890000, "value": 33721000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 100 }
-     ],
-     "quantity": {"max": null, "min": 1},
-     "repeat": {"max": null, "min": 1},
-     "strategy": "tiered",
-     "tax": 3034890000,
-     "type": "rental"
-    }
+    { "capacities": ["renew"], "price": 1479000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 133110000, "type": "rental" },
+    { "capacities": ["renew"], "price": 16861000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1517490000, "type": "rental" },
+    { "capacities": ["renew"], "price": 33721000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3034890000, "type": "rental" }
    ]
   },
   {
