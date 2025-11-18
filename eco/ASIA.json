@@ -1,5 +1,5 @@
 {
- "catalogId": 8897,
+ "catalogId": 8899,
  "locale": {"currencyCode": "USD", "subsidiary": "ASIA", "taxRate": 9},
  "plans": [
   {
@@ -4165,7 +4165,7 @@
    "addonFamilies": [
     { "name": "bandwidth", "addons": ["bandwidth-1000"], "default": "bandwidth-1000", "exclusive": true, "mandatory": true },
     { "name": "memory", "addons": ["ram-256g-ecc-2933-26risele04-v1"], "default": "ram-256g-ecc-2933-26risele04-v1", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["softraid-2x14000sas-26risele04-v1", "softraid-2x1920nvme-26risele04-v1"], "default": "softraid-2x14000sas-26risele04-v1", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["softraid-2x14000sa-26risele04-v1", "softraid-2x1920nvme-26risele04-v1"], "default": "softraid-2x1920nvme-26risele04-v1", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-1000-26risele04-v1"], "default": "vrack-bandwidth-1000-26risele04-v1", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
@@ -4198,7 +4198,7 @@
    "addonFamilies": [
     { "name": "bandwidth", "addons": ["bandwidth-1000"], "default": "bandwidth-1000", "exclusive": true, "mandatory": true },
     { "name": "memory", "addons": ["ram-192g-ecc-2933-26risele05-v1", "ram-384g-ecc-2933-26risele05-v1"], "default": "ram-192g-ecc-2933-26risele05-v1", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["hybridsoftraid-2x480sa-6x3840nvme-26risele05-v1", "hybridsoftraid-2x480sa-6x3840sas-26risele05-v1"], "default": "hybridsoftraid-2x480sa-6x3840sas-26risele05-v1", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["hybridsoftraid-2x480ssd-6x3840nvme-26risele05-v1", "hybridsoftraid-2x480ssd-6x3840sas-26risele05-v1"], "default": "hybridsoftraid-2x480ssd-6x3840sas-26risele05-v1", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-1000-26risele05-v1"], "default": "vrack-bandwidth-1000-26risele05-v1", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
@@ -4620,7 +4620,7 @@
    "addonFamilies": [
     { "name": "bandwidth", "addons": ["bandwidth-1000"], "default": "bandwidth-1000", "exclusive": true, "mandatory": true },
     { "name": "memory", "addons": ["ram-32g-ecc-2666-26sysstorle01-v1"], "default": "ram-32g-ecc-2666-26sysstorle01-v1", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["hybridsoftraid-2x480ssd-2x8000sas-26sysstorle01-v1"], "default": "hybridsoftraid-2x480ssd-2x8000sas-26sysstorle01-v1", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["hybridsoftraid-2x480ssd-2x8000sa-26sysstorle01-v1"], "default": "hybridsoftraid-2x480ssd-2x8000sa-26sysstorle01-v1", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-1000-26sysstorle01-v1"], "default": "vrack-bandwidth-1000-26sysstorle01-v1", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
@@ -4653,7 +4653,7 @@
    "addonFamilies": [
     { "name": "bandwidth", "addons": ["bandwidth-1000"], "default": "bandwidth-1000", "exclusive": true, "mandatory": true },
     { "name": "memory", "addons": ["ram-32g-ecc-2666-26sysstorle02-v1"], "default": "ram-32g-ecc-2666-26sysstorle02-v1", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["hybridsoftraid-1x512nvme-4x12000sas-26sysstorle02-v1"], "default": "hybridsoftraid-1x512nvme-4x12000sas-26sysstorle02-v1", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["hybridsoftraid-1x512nvme-4x12000sa-26sysstorle02-v1"], "default": "hybridsoftraid-1x512nvme-4x12000sa-26sysstorle02-v1", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-1000-26sysstorle02-v1"], "default": "vrack-bandwidth-1000-26sysstorle02-v1", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
@@ -5511,14 +5511,15 @@
   {"name": "ft-plesk-power-pack-1m", "description": "Power pack", "blobs": null, "configurations": []},
   {"name": "ft-plesk-unlimited-language-packs-1m", "description": "Unlimited extra languages", "blobs": null, "configurations": []},
   {
-   "name": "hybridsoftraid-1x512nvme-4x12000sas",
-   "description": "SSD 512GB Datacenter Class + 4x HDD SAS 12TB Datacenter Class Soft RAID",
+   "name": "hybridsoftraid-1x512nvme-4x12000sa",
+   "description": "1x SSD NVMe 512GB Enterprise Class + 4x HDD SATA 12TB Enterprise Class Soft RAID",
    "blobs": {
     "technical": {
      "storage": {
-      "disks": [ {"capacity": 512, "interface": "NVMe", "number": 1, "specs": "2.5in 7mm", "technology": "SSD", "usage": "data"}, {"capacity": 12000, "interface": "SAS", "number": 4, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
+      "disks": [ {"capacity": 512, "interface": "NVMe", "number": 1, "specs": "M.2 80", "technology": "SSD", "usage": "data"}, {"capacity": 12000, "interface": "SATA", "number": 4, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
       "hotSwap": false,
-      "raid": "none"
+      "raid": "Soft RAID",
+      "raidDetails": {"type": "Soft RAID"}
      }
     }
    },
@@ -5570,21 +5571,6 @@
    "configurations": []
   },
   {
-   "name": "hybridsoftraid-2x480sa-6x3840sas",
-   "description": "2x SSD SATA 480GB Datacenter Class + 6x HDD SAS 3.84TB Datacenter Class Soft RAID",
-   "blobs": {
-    "technical": {
-     "storage": {
-      "disks": [ {"capacity": 480, "interface": "SATA", "number": 2, "specs": "2.5in 7mm", "technology": "SSD", "usage": "data"}, {"capacity": 3840, "interface": "SAS", "number": 6, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
-      "hotSwap": false,
-      "raid": "Soft RAID",
-      "raidDetails": {"type": "Soft RAID"}
-     }
-    }
-   },
-   "configurations": []
-  },
-  {
    "name": "hybridsoftraid-2x480ssd-2x1920nvme",
    "description": "2x SSD SATA 480GB + 2x SSD NVMe 1.92TB",
    "blobs": {
@@ -5599,12 +5585,41 @@
    "configurations": []
   },
   {
-   "name": "hybridsoftraid-2x480ssd-2x8000sas",
-   "description": "2x SSD 480GB Datacenter Class + 2x HDD SAS 8TB Datacenter Class Soft RAID",
+   "name": "hybridsoftraid-2x480ssd-2x8000sa",
+   "description": "2x SSD 480GB Datacenter Class + 2x 8TB SATA Datacenter Class Soft RAID",
    "blobs": {
     "technical": {
      "storage": {
-      "disks": [ {"capacity": 480, "interface": "SATA", "number": 2, "specs": "2.5in 7mm", "technology": "SSD", "usage": "data"}, {"capacity": 8000, "interface": "SAS", "number": 2, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
+      "disks": [ {"capacity": 480, "interface": "SATA", "number": 2, "specs": "2.5in 7mm", "technology": "SSD", "usage": "data"}, {"capacity": 8000, "interface": "SATA", "number": 2, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
+      "hotSwap": false,
+      "raid": "Soft RAID",
+      "raidDetails": {"type": "Soft RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name": "hybridsoftraid-2x480ssd-6x3840nvme",
+   "description": "2x SSD SATA 480GB + 6x SSD NVMe 3.84TB",
+   "blobs": {
+    "technical": {
+     "storage": {
+      "disks": [ {"capacity": 480, "interface": "SATA", "number": 2, "specs": "2.5in 7mm", "technology": "SSD"}, {"capacity": 3840, "interface": "NVMe", "number": 6, "specs": "2.5in 7mm", "technology": "SSD"} ],
+      "hotSwap": false,
+      "raid": "Soft RAID"
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name": "hybridsoftraid-2x480ssd-6x3840sas",
+   "description": "2x SSD 480GB Datacenter Class + 2x SSD SAS 3.84TB Datacenter Class Soft RAID",
+   "blobs": {
+    "technical": {
+     "storage": {
+      "disks": [ {"capacity": 480, "interface": "SATA", "number": 2, "specs": "2.5in 7mm", "technology": "SSD", "usage": "data"}, {"capacity": 3840, "interface": "SAS", "number": 6, "specs": "3.5in", "technology": "SSD", "usage": "data"} ],
       "hotSwap": false,
       "raid": "Soft RAID",
       "raidDetails": {"type": "Soft RAID"}
@@ -6086,12 +6101,12 @@
    "configurations": []
   },
   {
-   "name": "softraid-2x14000sas",
-   "description": "2x HDD SAS 14TB Enterprise Class Soft RAID",
+   "name": "softraid-2x14000sa",
+   "description": "2x 14TB HDD SATA Soft RAID",
    "blobs": {
     "technical": {
      "storage": {
-      "disks": [ {"capacity": 14000, "interface": "SAS", "number": 2, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
+      "disks": [ {"capacity": 14000, "interface": "SATA", "number": 2, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
       "hotSwap": false,
       "raid": "Soft RAID",
       "raidDetails": {"type": "Soft RAID"}
@@ -9355,9 +9370,9 @@
    ]
   },
   {
-   "planCode": "hybridsoftraid-1x512nvme-4x12000sas-26sysstorle02-v1",
-   "product": "hybridsoftraid-1x512nvme-4x12000sas",
-   "invoiceName": "SSD 512GB Datacenter Class + 4x HDD SAS 12TB Datacenter Class Soft RAID",
+   "planCode": "hybridsoftraid-1x512nvme-4x12000sa-26sysstorle02-v1",
+   "product": "hybridsoftraid-1x512nvme-4x12000sa",
+   "invoiceName": "1x SSD NVMe 512GB Enterprise Class + 4x HDD SATA 12TB Enterprise Class Soft RAID",
    "addonFamilies": [],
    "blobs": null,
    "configurations": [],
@@ -9469,47 +9484,9 @@
    ]
   },
   {
-   "planCode": "hybridsoftraid-2x480sa-6x3840nvme-26risele05-v1",
-   "product": "hybridsoftraid-2x480sa-6x3840nvme",
-   "invoiceName": "2x SDD SATA 480GB Datacenter Class + 6x SSD 3.84TB NVMe Datacenter Class Soft RAID",
-   "addonFamilies": [],
-   "blobs": null,
-   "configurations": [],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
-   ]
-  },
-  {
    "planCode": "hybridsoftraid-2x480sa-6x3840nvme-26risele06-v1",
    "product": "hybridsoftraid-2x480sa-6x3840nvme",
-   "invoiceName": "2x SDD SATA 480GB Datacenter Class + 6x SSD 3.84TB NVMe Datacenter Class Soft RAID",
-   "addonFamilies": [],
-   "blobs": null,
-   "configurations": [],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "hybridsoftraid-2x480sa-6x3840sas-26risele05-v1",
-   "product": "hybridsoftraid-2x480sa-6x3840sas",
-   "invoiceName": "2x SDD SATA 480GB Datacenter Class + 6x HDD SAS 3.84TB Datacenter Class Soft RAID",
+   "invoiceName": "2x SSD SATA 480GB Datacenter Class + 6x SSD 3.84TB NVMe Datacenter Class Soft RAID",
    "addonFamilies": [],
    "blobs": null,
    "configurations": [],
@@ -9564,9 +9541,47 @@
    ]
   },
   {
-   "planCode": "hybridsoftraid-2x480ssd-2x8000sas-26sysstorle01-v1",
-   "product": "hybridsoftraid-2x480ssd-2x8000sas",
-   "invoiceName": "2x SSD 480GB Datacenter Class + 2x HDD SAS 8TB Datacenter Class Soft RAID",
+   "planCode": "hybridsoftraid-2x480ssd-2x8000sa-26sysstorle01-v1",
+   "product": "hybridsoftraid-2x480ssd-2x8000sa",
+   "invoiceName": "2x SSD 480GB Datacenter Class + 2x 8TB SATA Datacenter Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "hybridsoftraid-2x480ssd-6x3840nvme-26risele05-v1",
+   "product": "hybridsoftraid-2x480ssd-6x3840nvme",
+   "invoiceName": "2x SSD SATA 480GB + 6x SSD NVMe 3.84TB",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "hybridsoftraid-2x480ssd-6x3840sas-26risele05-v1",
+   "product": "hybridsoftraid-2x480ssd-6x3840sas",
+   "invoiceName": "2x SSD 480GB Datacenter Class + 2x SSD SAS 3.84TB Datacenter Class Soft RAID",
    "addonFamilies": [],
    "blobs": null,
    "configurations": [],
@@ -12732,9 +12747,9 @@
    ]
   },
   {
-   "planCode": "softraid-2x14000sas-26risele04-v1",
-   "product": "softraid-2x14000sas",
-   "invoiceName": "2x HDD SAS 14TB Enterprise Class Soft RAID",
+   "planCode": "softraid-2x14000sa-26risele04-v1",
+   "product": "softraid-2x14000sa",
+   "invoiceName": "2x 14TB HDD SATA Soft RAID",
    "addonFamilies": [],
    "blobs": null,
    "configurations": [],
