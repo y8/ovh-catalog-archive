@@ -3254,9 +3254,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 39099000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8992770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 445683000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 102507090000, "type": "rental" },
-    { "capacities": ["renew"], "price": 891366000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 205014180000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 39099000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 8093493000, "value": 35189100000}, "context": "standard", "discount": {"tax": 899277000, "value": 3909900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 8992770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 445683000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 92256381000, "value": 401114700000}, "context": "standard", "discount": {"tax": 10250709000, "value": 44568300000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 102507090000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 891366000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 184512762000, "value": 802229400000}, "context": "standard", "discount": {"tax": 20501418000, "value": 89136600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 205014180000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3298,9 +3355,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 36800000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8464000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 419520000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 96489600000, "type": "rental" },
-    { "capacities": ["renew"], "price": 839040000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 192979200000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 36800000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 7617600000, "value": 33120000000}, "context": "standard", "discount": {"tax": 846400000, "value": 3680000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 8464000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 419520000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 86840640000, "value": 377568000000}, "context": "standard", "discount": {"tax": 9648960000, "value": 41952000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 96489600000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 839040000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 173681280000, "value": 755136000000}, "context": "standard", "discount": {"tax": 19297920000, "value": 83904000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 192979200000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3342,9 +3456,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 45599000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 10487770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 519099000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 119392770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1038198000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 238785540000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 45599000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 9438993000, "value": 41039100000}, "context": "standard", "discount": {"tax": 1048777000, "value": 4559900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 10487770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 519099000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 107453493000, "value": 467189100000}, "context": "standard", "discount": {"tax": 11939277000, "value": 51909900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 119392770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1038198000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 214906986000, "value": 934378200000}, "context": "standard", "discount": {"tax": 23878554000, "value": 103819800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 238785540000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3386,9 +3557,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 45599000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 10487770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 519099000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 119392770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1038198000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 238785540000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 45599000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 9438993000, "value": 41039100000}, "context": "standard", "discount": {"tax": 1048777000, "value": 4559900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 10487770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 519099000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 107453493000, "value": 467189100000}, "context": "standard", "discount": {"tax": 11939277000, "value": 51909900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 119392770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1038198000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 214906986000, "value": 934378200000}, "context": "standard", "discount": {"tax": 23878554000, "value": 103819800000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 238785540000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3430,9 +3658,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 55199000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 12695770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 629223000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 144721290000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1258446000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 289442580000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 55199000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 11426193000, "value": 49679100000}, "context": "standard", "discount": {"tax": 1269577000, "value": 5519900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 12695770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 629223000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 130249161000, "value": 566300700000}, "context": "standard", "discount": {"tax": 14472129000, "value": 62922300000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 144721290000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1258446000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 260498322000, "value": 1132601400000}, "context": "standard", "discount": {"tax": 28944258000, "value": 125844600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 289442580000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3474,9 +3759,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 50600000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11638000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 576840000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 132673200000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1153680000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 265346400000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 50600000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 10474200000, "value": 45540000000}, "context": "standard", "discount": {"tax": 1163800000, "value": 5060000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 11638000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 576840000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 119405880000, "value": 519156000000}, "context": "standard", "discount": {"tax": 13267320000, "value": 57684000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 132673200000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1153680000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 238811760000, "value": 1038312000000}, "context": "standard", "discount": {"tax": 26534640000, "value": 115368000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 265346400000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3518,9 +3860,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 59799000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 13753770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 681663000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 156782490000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1363326000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 313564980000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 59799000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 12378393000, "value": 53819100000}, "context": "standard", "discount": {"tax": 1375377000, "value": 5979900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 13753770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 681663000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 141104241000, "value": 613496700000}, "context": "standard", "discount": {"tax": 15678249000, "value": 68166300000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 156782490000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1363326000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 282208482000, "value": 1226993400000}, "context": "standard", "discount": {"tax": 31356498000, "value": 136332600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 313564980000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -3562,9 +3961,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 59799000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 13753770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 681663000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 156782490000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1363326000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 313564980000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 59799000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 12378393000, "value": 53819100000}, "context": "standard", "discount": {"tax": 1375377000, "value": 5979900000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 13753770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 681663000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 141104241000, "value": 613496700000}, "context": "standard", "discount": {"tax": 15678249000, "value": 68166300000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 156782490000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1363326000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 282208482000, "value": 1226993400000}, "context": "standard", "discount": {"tax": 31356498000, "value": 136332600000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 313564980000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -6334,9 +6790,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 29400000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6762000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 335160000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 77086800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 670320000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 154173600000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 29400000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 6085800000, "value": 26460000000}, "context": "standard", "discount": {"tax": 676200000, "value": 2940000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6762000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 335160000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 69378120000, "value": 301644000000}, "context": "standard", "discount": {"tax": 7708680000, "value": 33516000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 77086800000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 670320000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 138756240000, "value": 603288000000}, "context": "standard", "discount": {"tax": 15417360000, "value": 67032000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 154173600000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -6377,9 +6890,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 29400000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6762000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 335160000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 77086800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 670320000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 154173600000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 29400000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 6085800000, "value": 26460000000}, "context": "standard", "discount": {"tax": 676200000, "value": 2940000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6762000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 335160000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 69378120000, "value": 301644000000}, "context": "standard", "discount": {"tax": 7708680000, "value": 33516000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 77086800000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 670320000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 138756240000, "value": 603288000000}, "context": "standard", "discount": {"tax": 15417360000, "value": 67032000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 154173600000,
+     "type": "rental"
+    }
    ]
   },
   {
@@ -6420,9 +6990,66 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 29400000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6762000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 335160000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 77086800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 670320000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 154173600000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 29400000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 6085800000, "value": 26460000000}, "context": "standard", "discount": {"tax": 676200000, "value": 2940000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6762000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 335160000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 69378120000, "value": 301644000000}, "context": "standard", "discount": {"tax": 7708680000, "value": 33516000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 77086800000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 670320000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "BF25_ADVSCALERISEGAME_10OFF", "description": "Black friday : 10% off on 2024 generation of Advance-1, Advance-2, Scale i2, Scale i3, Scale a3, Scale a4, Scale a5, Scale a6 servers, and Rise-GAME-1 server. Offer valid until service cancellation.", "startDate": "2025-11-18T09:00:00+01:00", "endDate": "2025-12-02T14:00:00+01:00", "total": {"tax": 138756240000, "value": 603288000000}, "context": "standard", "discount": {"tax": 15417360000, "value": 67032000000}, "duration": null, "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 154173600000,
+     "type": "rental"
+    }
    ]
   },
   {
