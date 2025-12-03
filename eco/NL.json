@@ -1,5 +1,5 @@
 {
- "catalogId": 8904,
+ "catalogId": 8921,
  "locale": {"currencyCode": "EUR", "subsidiary": "NL", "taxRate": 21},
  "plans": [
   {
@@ -3586,9 +3586,9 @@
     }
    },
    "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "fra", "gra", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
    ],
    "consumptionConfiguration": null,
    "family": null,
@@ -3630,9 +3630,9 @@
     }
    },
    "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "fra", "gra", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
    ],
    "consumptionConfiguration": null,
    "family": null,
@@ -3649,7 +3649,7 @@
   {
    "planCode": "25rises0112",
    "product": "25rises011",
-   "invoiceName": "RISE-S-1 | AMD RYZEN 7 9700x",
+   "invoiceName": "RISE-S | AMD RYZEN 7 9700x",
    "addonFamilies": [
     {
      "name": "application-license",
@@ -3668,14 +3668,14 @@
    ],
    "blobs": {
     "commercial": {
-     "name": "RISE-S-1",
+     "name": "RISE-S",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,dev-env,email,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
    "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "fra", "gra", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
    ],
    "consumptionConfiguration": null,
    "family": null,
@@ -3687,50 +3687,6 @@
     { "capacities": ["renew"], "price": 5499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1154790000, "type": "rental" },
     { "capacities": ["renew"], "price": 62689000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 13164690000, "type": "rental" },
     { "capacities": ["renew"], "price": 125377000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 26329170000, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "25rises0122",
-   "product": "25rises012",
-   "invoiceName": "RISE-S-2 | AMD RYZEN 7 9700x",
-   "addonFamilies": [
-    {
-     "name": "application-license",
-     "addons": [
-      "cpanel-license-premier-metal-100-accounts"       , "cpanel-license-premier-metal-1000-accounts"      , "cpanel-license-premier-metal-150-accounts"       , "cpanel-license-premier-metal-200-accounts"       , "cpanel-license-premier-metal-250-accounts"       , "cpanel-license-premier-metal-300-accounts"       , "cpanel-license-premier-metal-400-accounts"       , "cpanel-license-premier-metal-500-accounts"       , "cpanel-license-premier-metal-600-accounts"       , "cpanel-license-premier-metal-700-accounts"       , "cpanel-license-premier-metal-800-accounts"       , "cpanel-license-premier-metal-900-accounts"       , "plesk-webadmin"                                  , "plesk-webhost"                                   ,
-      "plesk-webpro"                                    , "sql-server-2017-license-standard-edition-8-cores", "sql-server-2017-license-web-edition-8-cores"     , "sql-server-2019-license-standard-edition-8-cores", "sql-server-2019-license-web-edition-8-cores"     , "sql-server-2022-license-standard-edition-8-cores", "sql-server-2022-license-web-edition-8-cores"
-     ],
-     "default": null,
-     "exclusive": false,
-     "mandatory": false
-    },
-    { "name": "bandwidth", "addons": ["bandwidth-1000-24rise"], "default": "bandwidth-1000-24rise", "exclusive": true, "mandatory": true },
-    { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-8-cores", "windows-server-2019-license-standard-edition-8-cores", "windows-server-2022-license-datacenter-edition-8-cores", "windows-server-2022-license-standard-edition-8-cores", "windows-server-2025-license-datacenter-edition-8-cores", "windows-server-2025-license-standard-edition-8-cores"], "default": null, "exclusive": false, "mandatory": false },
-    { "name": "memory", "addons": ["ram-64g-rise-s"], "default": "ram-64g-rise-s", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["softraid-2x512nvme-24rise"], "default": "softraid-2x512nvme-24rise", "exclusive": true, "mandatory": true },
-    { "name": "vrack", "addons": ["vrack-bandwidth-1000-24rise"], "default": "vrack-bandwidth-1000-24rise", "exclusive": true, "mandatory": true }
-   ],
-   "blobs": {
-    "commercial": {
-     "name": "RISE-S-2",
-     "features": [ {"name": "baremetal-server-usecases", "value": "hosting,dev-env,email,bdd,virtualisation-containerisation-orchestration"} ]
-    }
-   },
-   "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
-    { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
-   ],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 6499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1364790000, "type": "rental" },
-    { "capacities": ["renew"], "price": 74089000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15558690000, "type": "rental" },
-    { "capacities": ["renew"], "price": 148177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31117170000, "type": "rental" }
    ]
   },
   {
@@ -3761,9 +3717,9 @@
     }
    },
    "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "fra", "gra", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
    ],
    "consumptionConfiguration": null,
    "family": null,
@@ -5111,16 +5067,6 @@
   },
   {
    "name": "25rises011",
-   "description": "AMD Ryzen 7 9700X",
-   "blobs": {
-    "technical": {
-     "server": { "cpu": {"boost": 5.5, "brand": "AMD", "cores": 8, "frequency": 3.8, "model": "Ryzen 7 9700X", "number": 1, "score": 37308, "threads": 16}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "0.5U"}, "range": "rise", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.95} }
-    }
-   },
-   "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
-  },
-  {
-   "name": "25rises012",
    "description": "AMD Ryzen 7 9700X",
    "blobs": {
     "technical": {
