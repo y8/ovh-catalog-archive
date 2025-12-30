@@ -1,5 +1,5 @@
 {
- "catalogId": 8983,
+ "catalogId": 8993,
  "locale": {"currencyCode": "TND", "subsidiary": "TN", "taxRate": 18},
  "plans": [
   {
@@ -3993,12 +3993,12 @@
    "family": null,
    "pricingType": "rental",
    "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 46200000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 8316000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 46200000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8316000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 526680000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 94802400000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1053360000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 189604800000, "type": "rental" }
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 46200000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 8316000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 46200000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8316000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 526680000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 94802400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 1053360000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 189604800000, "type": "rental" }
    ]
   },
   {
@@ -4029,9 +4029,9 @@
     }
    },
    "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "fra", "gra", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
    ],
    "consumptionConfiguration": null,
    "family": null,
@@ -4067,7 +4067,7 @@
   {
    "planCode": "25rises0112",
    "product": "25rises011",
-   "invoiceName": "RISE-S-1 | AMD RYZEN 7 9700x",
+   "invoiceName": "RISE-S | AMD RYZEN 7 9700x",
    "addonFamilies": [
     {
      "name": "application-license",
@@ -4086,14 +4086,14 @@
    ],
    "blobs": {
     "commercial": {
-     "name": "RISE-S-1",
+     "name": "RISE-S",
      "features": [ {"name": "baremetal-server-usecases", "value": "hosting,dev-env,email,bdd,virtualisation-containerisation-orchestration"} ]
     }
    },
    "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "fra", "gra", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
    ],
    "consumptionConfiguration": null,
    "family": null,
@@ -4154,9 +4154,9 @@
     }
    },
    "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["fra", "gra", "rbx", "waw"] },
+    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": true, "values": ["bhs", "fra", "gra", "rbx", "sbg", "waw"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["europe"] }
+    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
    ],
    "consumptionConfiguration": null,
    "family": null,
