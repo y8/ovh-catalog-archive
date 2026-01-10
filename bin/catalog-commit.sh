@@ -51,6 +51,17 @@ for file in $changed_files; do
         continue
     fi
 
+    # ignore if catalogId is in ignore.json for this catalog type
+    ignore_file="${BASE_DIR}/bin/ignore.json"
+    if [ -f "$ignore_file" ]; then
+        # Check if catalogId is in the ignore list for this catalog type
+        ignored=$(jq -r --arg type "$catalog_type" --arg id "$catalog_id" '.[$type] // [] | map(tostring) | contains([$id])' "$ignore_file")
+        if [ "$ignored" = "true" ]; then
+            echo "Skipping $file - catalogId $catalog_id is in ignore list for $catalog_type"
+            continue
+        fi
+    fi
+
     commit_message="${catalog_id}: ${subsidiary}/${catalog_type} update"
     git_output=$(git -C "${BASE_DIR}" commit -m "${commit_message}" "${file}")
 
