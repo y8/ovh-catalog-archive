@@ -5,6 +5,7 @@
 set -e
 
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CATALOG_ID_RE='s/.*"catalogId"[[:space:]]*:[[:space:]]*([0-9]+).*/\1/'
 
 # check if we are running in github actions
 if [ -n "${GITHUB_ACTIONS}" ]; then
@@ -44,7 +45,7 @@ for file in $changed_files; do
     catalog_type=$(dirname "$file" | xargs basename)
 
     #catalog_id=$(jq -r '.catalogId' "${BASE_DIR}/$file")
-    catalog_id=$(grep -m 1 '"catalogId"' "${BASE_DIR}/$file" | sed 's/.*"catalogId": \([0-9]*\).*/\1/')
+    catalog_id=$(grep -m 1 '"catalogId"' "${BASE_DIR}/$file" | sed -E "$CATALOG_ID_RE")
 
     if [ -z "$catalog_id" ]; then
         echo "Skipping $file - no catalogId found"
