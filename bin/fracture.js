@@ -1,6 +1,27 @@
 const { Formatter, FracturedJsonOptions } = require("fracturedjsonjs");
 const fs = require("fs");
 
+// Some currency symbols contain non-ASCII characters that the OVH API occasionally
+// returns with broken encoding. jq replaces each invalid byte with U+FFFD.
+// We fix these using the locale.currencyCode present in the catalog JSON.
+const CURRENCY_FIXES = {
+  EUR: [/\uFFFD+/g, "€"],
+  GBP: [/\uFFFD+/g, "£"],
+  PLN: [/\uFFFD+/g, "ł"], // "z" prefix is ASCII and preserved
+  CZK: [/\uFFFD+/g, "č"], // "K" prefix is ASCII and preserved
+};
+
+function fixEncodingInStrings(obj, fix) {
+  const [pattern, replacement] = fix;
+  if (typeof obj === "string") return obj.replace(pattern, replacement);
+  if (Array.isArray(obj)) return obj.map((v) => fixEncodingInStrings(v, fix));
+  if (obj && typeof obj === "object")
+    return Object.fromEntries(
+      Object.entries(obj).map(([k, v]) => [k, fixEncodingInStrings(v, fix)]),
+    );
+  return obj;
+}
+
 async function getJSON() {
   const filePath = process.argv[2];
 
@@ -50,7 +71,10 @@ options.OmitTrailingWhitespace = true;
 
 async function main() {
   try {
-    const catalog = await getJSON();
+    let catalog = await getJSON();
+
+    const fix = CURRENCY_FIXES[catalog.locale?.currencyCode];
+    if (fix) catalog = fixEncodingInStrings(catalog, fix);
 
     const formatter = new Formatter();
     formatter.Options = options;
