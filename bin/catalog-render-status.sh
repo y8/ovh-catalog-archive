@@ -5,12 +5,13 @@ set -e
 
 REPO_ROOT="$(dirname "$(dirname "$0")")"
 CONFIG_FILE="${REPO_ROOT}/bin/config.json"
+CATALOG_ID_RE='s/.*"catalogId"[[:space:]]*:[[:space:]]*([0-9]+).*/\1/'
 
 get_catalog_id() {
     local file="$1"
     if [ -f "$file" ]; then
         # Faster than parsing megabytes with jq
-        grep -m 1 '"catalogId"' "$file" | sed 's/.*"catalogId": \([0-9]*\).*/\1/'
+        grep -m1 '"catalogId"' ./eco/DE.json | sed -E "$CATALOG_ID_RE"
     else
         echo "n/a"
     fi
