@@ -10,33 +10,33 @@ every hour using [public OVH APIs](https://eu.api.ovh.com/console/?section=%2For
 <!-- Do not change part below, it will be automatically replaced by GHA -->
 
 <!-- Start status -->
-<!-- generated at Thu Mar  5 11:22:24 UTC 2026 -->
+<!-- generated at Thu Mar  5 12:03:29 UTC 2026 -->
 | Region | Subsidiary | Dedicated | Eco |
 |--------|------------ | --- | --- |
-| EUROPE | CZ | [`8769`](metal/CZ.json) (2026-03-05 10:25) | [`8950`](eco/CZ.json) (2026-03-05 10:25) |
-| | DE | [`9175`](metal/DE.json) (2026-03-05 11:22) | [`9179`](eco/DE.json) (2026-03-05 10:25) |
-| | ES | [`9175`](metal/ES.json) (2026-03-05 10:25) | [`9179`](eco/ES.json) (2026-03-05 11:22) |
-| | FI | [`8769`](metal/FI.json) (2026-03-05 10:25) | [`8950`](eco/FI.json) (2026-03-05 10:25) |
-| | FR | [`9175`](metal/FR.json) (2026-03-05 11:22) | [`9179`](eco/FR.json) (2026-03-05 11:22) |
-| | GB | [`9175`](metal/GB.json) (2026-03-05 10:25) | [`9179`](eco/GB.json) (2026-03-05 11:22) |
-| | IE | [`9175`](metal/IE.json) (2026-03-05 11:22) | [`9179`](eco/IE.json) (2026-03-05 11:22) |
-| | IT | [`9175`](metal/IT.json) (2026-03-05 11:22) | [`9179`](eco/IT.json) (2026-03-05 11:22) |
-| | LT | [`8592`](metal/LT.json) (2026-03-05 10:25) | [`8950`](eco/LT.json) (2026-03-05 10:25) |
-| | MA | [`9175`](metal/MA.json) (2026-03-05 10:25) | [`9179`](eco/MA.json) (2026-03-05 10:25) |
-| | NL | [`9175`](metal/NL.json) (2026-03-05 11:22) | [`9179`](eco/NL.json) (2026-03-05 11:22) |
-| | PL | [`9175`](metal/PL.json) (2026-03-05 11:22) | [`9179`](eco/PL.json) (2026-03-05 10:25) |
-| | PT | [`9175`](metal/PT.json) (2026-03-05 11:22) | [`9179`](eco/PT.json) (2026-03-05 11:22) |
-| | SN | [`9175`](metal/SN.json) (2026-03-05 10:25) | [`9179`](eco/SN.json) (2026-03-05 10:25) |
-| | TN | [`9175`](metal/TN.json) (2026-03-05 10:25) | [`9179`](eco/TN.json) (2026-03-05 10:25) |
-| NORTH AMERICA | ASIA | [`9175`](metal/ASIA.json) (2026-03-05 10:25) | [`9179`](eco/ASIA.json) (2026-03-05 10:25) |
-| | AU | [`9175`](metal/AU.json) (2026-03-05 10:25) | [`9179`](eco/AU.json) (2026-03-05 10:25) |
-| | CA | [`9175`](metal/CA.json) (2026-03-05 10:25) | [`9179`](eco/CA.json) (2026-03-05 10:25) |
-| | IN | [`9175`](metal/IN.json) (2026-03-05 11:22) | [`9179`](eco/IN.json) (2026-03-05 10:25) |
-| | QC | [`9175`](metal/QC.json) (2026-03-05 10:25) | [`9179`](eco/QC.json) (2026-03-05 10:25) |
-| | SG | [`9175`](metal/SG.json) (2026-03-05 10:25) | [`9179`](eco/SG.json) (2026-03-05 10:25) |
-| | WE | [`9175`](metal/WE.json) (2026-03-05 10:25) | [`9179`](eco/WE.json) (2026-03-05 10:25) |
-| | WS | [`9175`](metal/WS.json) (2026-03-05 10:25) | [`9179`](eco/WS.json) (2026-03-05 10:25) |
-| USA | US | [`3556`](metal/US.json) (2026-03-05 10:25) | [`3558`](eco/US.json) (2026-03-05 10:25) |
+| EUROPE | CZ | [` "catalogId"   : 8769,`](metal/CZ.json) (2026-03-05 12:03) | [` "catalogId"   : 8950,`](eco/CZ.json) (2026-03-05 12:03) |
+| | DE | [` "catalogId"   : 9175,`](metal/DE.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/DE.json) (2026-03-05 12:03) |
+| | ES | [` "catalogId"   : 9175,`](metal/ES.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/ES.json) (2026-03-05 12:03) |
+| | FI | [` "catalogId"   : 8769,`](metal/FI.json) (2026-03-05 12:03) | [` "catalogId"   : 8950,`](eco/FI.json) (2026-03-05 12:03) |
+| | FR | [` "catalogId"   : 9175,`](metal/FR.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/FR.json) (2026-03-05 12:03) |
+| | GB | [` "catalogId"   : 9175,`](metal/GB.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/GB.json) (2026-03-05 12:03) |
+| | IE | [` "catalogId"   : 9175,`](metal/IE.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/IE.json) (2026-03-05 12:03) |
+| | IT | [` "catalogId"   : 9175,`](metal/IT.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/IT.json) (2026-03-05 12:03) |
+| | LT | [` "catalogId"   : 8592,`](metal/LT.json) (2026-03-05 12:03) | [` "catalogId"   : 8950,`](eco/LT.json) (2026-03-05 12:03) |
+| | MA | [` "catalogId"   : 9175,`](metal/MA.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/MA.json) (2026-03-05 12:03) |
+| | NL | [` "catalogId"   : 9175,`](metal/NL.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/NL.json) (2026-03-05 12:03) |
+| | PL | [` "catalogId"   : 9175,`](metal/PL.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/PL.json) (2026-03-05 12:03) |
+| | PT | [` "catalogId"   : 9175,`](metal/PT.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/PT.json) (2026-03-05 12:03) |
+| | SN | [` "catalogId"   : 9175,`](metal/SN.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/SN.json) (2026-03-05 12:03) |
+| | TN | [` "catalogId"   : 9175,`](metal/TN.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/TN.json) (2026-03-05 12:03) |
+| NORTH AMERICA | ASIA | [` "catalogId"   : 9175,`](metal/ASIA.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/ASIA.json) (2026-03-05 12:03) |
+| | AU | [` "catalogId"   : 9175,`](metal/AU.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/AU.json) (2026-03-05 12:03) |
+| | CA | [` "catalogId"   : 9175,`](metal/CA.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/CA.json) (2026-03-05 12:03) |
+| | IN | [` "catalogId"   : 9175,`](metal/IN.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/IN.json) (2026-03-05 12:03) |
+| | QC | [` "catalogId"   : 9175,`](metal/QC.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/QC.json) (2026-03-05 12:03) |
+| | SG | [` "catalogId"   : 9175,`](metal/SG.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/SG.json) (2026-03-05 12:03) |
+| | WE | [` "catalogId"   : 9175,`](metal/WE.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/WE.json) (2026-03-05 12:03) |
+| | WS | [` "catalogId"   : 9175,`](metal/WS.json) (2026-03-05 12:03) | [` "catalogId"   : 9179,`](eco/WS.json) (2026-03-05 12:03) |
+| USA | US | [` "catalogId"   : 3556,`](metal/US.json) (2026-03-05 12:03) | [` "catalogId"   : 3558,`](eco/US.json) (2026-03-05 12:03) |
 <!-- End status -->
 
 ## Regions
