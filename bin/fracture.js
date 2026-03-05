@@ -9,6 +9,7 @@ const CURRENCY_FIXES = {
   GBP: [/\uFFFD+/g, "£"],
   PLN: [/\uFFFD+/g, "ł"], // "z" prefix is ASCII and preserved
   CZK: [/\uFFFD+/g, "č"], // "K" prefix is ASCII and preserved
+  INR: [/\uFFFD+/g, "₹"],
 };
 
 function fixEncodingInStrings(obj, fix) {
