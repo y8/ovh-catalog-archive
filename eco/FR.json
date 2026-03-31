@@ -1,5 +1,5 @@
 {
- "catalogId"   : 9260,
+ "catalogId"   : 9262,
  "locale"      : {"currencyCode": "EUR", "subsidiary": "FR", "taxRate": 20},
  "plans"       : [
   {
@@ -5490,7 +5490,7 @@
    "addonFamilies": [
     { "name": "bandwidth", "addons": ["bandwidth-1000-ks-gen0"], "default": "bandwidth-1000-ks-gen0", "exclusive": true, "mandatory": true },
     { "name": "memory", "addons": ["ram-64g-ecc-2133-26skle03-v2"], "default": "ram-64g-ecc-2133-26skle03-v2", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["softraid-2x480ssd-26skle03-v2", "softraid-4x4000sa-26skle03-v2"], "default": "softraid-2x480ssd-26skle03-v2", "exclusive": true, "mandatory": true }
+    { "name": "storage", "addons": ["softraid-2x480ssd-26skle03-v2", "softraid-4x2000sa-26skle03-v2"], "default": "softraid-2x480ssd-26skle03-v2", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
     "commercial": {
@@ -7296,21 +7296,6 @@
      "storage": {
       "disks"      : [ {"capacity": 3840, "interface": "NVMe", "number": 4, "physicalInterface": "pcie-gen4", "specs": "M.2 80", "technology": "SSD", "usage": "data"} ],
       "hotSwap"    : true,
-      "raid"       : "Soft RAID",
-      "raidDetails": {"type": "Soft RAID"}
-     }
-    }
-   },
-   "configurations": []
-  },
-  {
-   "name"          : "softraid-4x4000sa",
-   "description"   : "4x 4TB HDD Soft RAID Enterprise Class",
-   "blobs"         : {
-    "technical": {
-     "storage": {
-      "disks"      : [ {"capacity": 4000, "interface": "SATA", "number": 4, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
-      "hotSwap"    : false,
       "raid"       : "Soft RAID",
       "raidDetails": {"type": "Soft RAID"}
      }
@@ -14865,6 +14850,25 @@
    ]
   },
   {
+   "planCode": "softraid-4x2000sa-26skle03-v2",
+   "product": "softraid-4x2000sa",
+   "invoiceName": "4x 2TB HDD Soft RAID Enterprise Class",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": null,
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "0.00 €", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 0, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "0.00 €", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "softraid-4x22000sas-24advstor01-v2",
    "product": "softraid-4x22000sas",
    "invoiceName": "4x HDD SAS 22TB Enterprise Class Soft RAID",
@@ -15013,25 +15017,6 @@
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "softraid-4x4000sa-26skle03-v2",
-   "product": "softraid-4x4000sa",
-   "invoiceName": "4x 4TB HDD Soft RAID Enterprise Class",
-   "addonFamilies": [],
-   "blobs": null,
-   "configurations": [],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 €", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 200000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "2.00 €", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 40000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 2280000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "22.80 €", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 456000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 4560000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "45.60 €", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 912000000, "type": "rental" }
    ]
   },
   {
