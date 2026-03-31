@@ -1,5 +1,5 @@
 {
- "catalogId"   : 9261,
+ "catalogId"   : 9264,
  "locale"      : {"currencyCode": "AUD", "subsidiary": "AU", "taxRate": 10},
  "plans"       : [
   {
@@ -13,7 +13,12 @@
     { "name": "system-storage", "addons": ["softraid-2x480ssd-sata-system-21hcisap01-v1"], "default": "softraid-2x480ssd-sata-system-21hcisap01-v1", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-50000-upto-100000-hgr"], "default": "vrack-bandwidth-50000-upto-100000-hgr", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "hgr"} },
+   "blobs": {
+    "commercial": {
+     "name"    : "HGR-SAP-1",
+     "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ]
+    }
+   },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "fra", "lon", "rbx", "sbg"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -63,7 +68,12 @@
     { "name": "system-storage", "addons": ["softraid-2x480ssd-sata-system-21hcisap02-v1"], "default": "softraid-2x480ssd-sata-system-21hcisap02-v1", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-50000-upto-100000-hgr"], "default": "vrack-bandwidth-50000-upto-100000-hgr", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "hgr"} },
+   "blobs": {
+    "commercial": {
+     "name"    : "HGR-SAP-2",
+     "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ]
+    }
+   },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "fra", "lon", "rbx", "sbg"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
@@ -113,7 +123,12 @@
     { "name": "system-storage", "addons": ["softraid-2x480ssd-sata-system-21hcisap03-v1"], "default": "softraid-2x480ssd-sata-system-21hcisap03-v1", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-50000-upto-100000-hgr"], "default": "vrack-bandwidth-50000-upto-100000-hgr", "exclusive": true, "mandatory": true }
    ],
-   "blobs": { "commercial": {"range": "hgr"} },
+   "blobs": {
+    "commercial": {
+     "name"    : "HGR-SAP-3",
+     "features": [ {"name": "baremetal-server-usecases", "value": "virtualisation-containerisation-orchestration,hyperconverged-infrastructure,confidential-computing,hpc"} ]
+    }
+   },
    "configurations": [
     { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "fra", "lon", "rbx", "sbg"] },
     { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
