@@ -1162,8 +1162,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5699000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 56.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1310770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 5699000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 56.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1310770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 64969000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 649.69", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 14942870000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 5699000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 56.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 48.44", "tax": 1114154500, "value": 4844150000}, "context": "standard", "discount": {"formattedValue": "€ 8.55", "tax": 196615500, "value": 854850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1310770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 64969000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 649.69",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 552.24", "tax": 12701439500, "value": 55223650000}, "context": "standard", "discount": {"formattedValue": "€ 97.45", "tax": 2241430500, "value": 9745350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 14942870000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 129937000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1299.37", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 29885510000, "type": "rental" }
    ]
   },
@@ -1207,8 +1247,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 5999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 59.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1379770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 5999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 59.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1379770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 68389000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 683.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15729470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 5999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 59.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 50.99", "tax": 1172804500, "value": 5099150000}, "context": "standard", "discount": {"formattedValue": "€ 9.00", "tax": 206965500, "value": 899850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1379770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 68389000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 683.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 581.31", "tax": 13370049500, "value": 58130650000}, "context": "standard", "discount": {"formattedValue": "€ 102.58", "tax": 2359420500, "value": 10258350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 15729470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 136777000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1367.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31458710000, "type": "rental" }
    ]
   },
@@ -1252,8 +1332,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 7999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 79.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1839770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 7999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 79.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1839770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 91189000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 911.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 20973470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 7999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 79.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 67.99", "tax": 1563804500, "value": 6799150000}, "context": "standard", "discount": {"formattedValue": "€ 12.00", "tax": 275965500, "value": 1199850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1839770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 91189000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 911.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 775.11", "tax": 17827449500, "value": 77510650000}, "context": "standard", "discount": {"formattedValue": "€ 136.78", "tax": 3146020500, "value": 13678350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 20973470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 182377000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1823.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 41946710000, "type": "rental" }
    ]
   },
@@ -1297,8 +1417,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 6499000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 74089000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 740.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 17040470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 6499000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 64.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 55.24", "tax": 1270554500, "value": 5524150000}, "context": "standard", "discount": {"formattedValue": "€ 9.75", "tax": 224215500, "value": 974850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1494770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 74089000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 740.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 629.76", "tax": 14484399500, "value": 62975650000}, "context": "standard", "discount": {"formattedValue": "€ 111.13", "tax": 2556070500, "value": 11113350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 17040470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 148177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1481.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 34080710000, "type": "rental" }
    ]
   },
@@ -1342,8 +1502,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 11299000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 112.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2598770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 11299000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 112.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2598770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 128809000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1288.09", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 29626070000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 11299000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 112.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 96.04", "tax": 2208954500, "value": 9604150000}, "context": "standard", "discount": {"formattedValue": "€ 16.95", "tax": 389815500, "value": 1694850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2598770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 128809000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1288.09",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 1094.88", "tax": 25182159500, "value": 109487650000}, "context": "standard", "discount": {"formattedValue": "€ 193.21", "tax": 4443910500, "value": 19321350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 29626070000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 257617000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2576.17", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 59251910000, "type": "rental" }
    ]
   },
@@ -1387,8 +1587,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 11299000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 112.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2598770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 11299000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 112.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2598770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 128809000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1288.09", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 29626070000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 11299000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 112.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 96.04", "tax": 2208954500, "value": 9604150000}, "context": "standard", "discount": {"formattedValue": "€ 16.95", "tax": 389815500, "value": 1694850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2598770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 128809000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1288.09",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 1094.88", "tax": 25182159500, "value": 109487650000}, "context": "standard", "discount": {"formattedValue": "€ 193.21", "tax": 4443910500, "value": 19321350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 29626070000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 257617000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2576.17", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 59251910000, "type": "rental" }
    ]
   },
@@ -1432,8 +1672,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 9199000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 91.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2115770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 9199000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 91.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2115770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 104869000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1048.69", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 24119870000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 9199000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 91.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 73.59", "tax": 1692616000, "value": 7359200000}, "context": "standard", "discount": {"formattedValue": "€ 18.40", "tax": 423154000, "value": 1839800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2115770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 104869000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1048.69",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 838.95", "tax": 19295896000, "value": 83895200000}, "context": "standard", "discount": {"formattedValue": "€ 209.74", "tax": 4823974000, "value": 20973800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 24119870000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 209737000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2097.37", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 48239510000, "type": "rental" }
    ]
   },
@@ -1477,8 +1757,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 11000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 110.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2530000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 11000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 110.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2530000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 125400000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1254.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 28842000000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 11000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 110.00",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 88.00", "tax": 2024000000, "value": 8800000000}, "context": "standard", "discount": {"formattedValue": "€ 22.00", "tax": 506000000, "value": 2200000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2530000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 125400000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1254.00",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 1003.20", "tax": 23073600000, "value": 100320000000}, "context": "standard", "discount": {"formattedValue": "€ 250.80", "tax": 5768400000, "value": 25080000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 28842000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 250800000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2508.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 57684000000, "type": "rental" }
    ]
   },
@@ -1522,8 +1842,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 11000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 110.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2530000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 11000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 110.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2530000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 125400000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1254.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 28842000000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 11000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 110.00",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 88.00", "tax": 2024000000, "value": 8800000000}, "context": "standard", "discount": {"formattedValue": "€ 22.00", "tax": 506000000, "value": 2200000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2530000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 125400000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1254.00",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 1003.20", "tax": 23073600000, "value": 100320000000}, "context": "standard", "discount": {"formattedValue": "€ 250.80", "tax": 5768400000, "value": 25080000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 28842000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 250800000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2508.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 57684000000, "type": "rental" }
    ]
   },
@@ -1567,8 +1927,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 15999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 159.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3679770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 15999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 159.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3679770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 182389000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1823.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 41949470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 15999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 159.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 127.99", "tax": 2943816000, "value": 12799200000}, "context": "standard", "discount": {"formattedValue": "€ 32.00", "tax": 735954000, "value": 3199800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 3679770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 182389000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1823.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 1459.11", "tax": 33559576000, "value": 145911200000}, "context": "standard", "discount": {"formattedValue": "€ 364.78", "tax": 8389894000, "value": 36477800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 41949470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 364777000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 3647.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 83898710000, "type": "rental" }
    ]
   },
@@ -1612,8 +2012,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 15999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 159.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3679770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 15999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 159.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3679770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 182389000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1823.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 41949470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 15999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 159.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 127.99", "tax": 2943816000, "value": 12799200000}, "context": "standard", "discount": {"formattedValue": "€ 32.00", "tax": 735954000, "value": 3199800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 3679770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 182389000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1823.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 1459.11", "tax": 33559576000, "value": 145911200000}, "context": "standard", "discount": {"formattedValue": "€ 364.78", "tax": 8389894000, "value": 36477800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 41949470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 364777000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 3647.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 83898710000, "type": "rental" }
    ]
   },
@@ -1657,8 +2097,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 15999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 159.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3679770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 15999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 159.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3679770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 182389000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1823.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 41949470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 15999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 159.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 127.99", "tax": 2943816000, "value": 12799200000}, "context": "standard", "discount": {"formattedValue": "€ 32.00", "tax": 735954000, "value": 3199800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 3679770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 182389000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1823.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 1459.11", "tax": 33559576000, "value": 145911200000}, "context": "standard", "discount": {"formattedValue": "€ 364.78", "tax": 8389894000, "value": 36477800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 41949470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 364777000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 3647.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 83898710000, "type": "rental" }
    ]
   },
@@ -2110,8 +2590,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 6499000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 74089000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 740.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 17040470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 6499000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 64.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 51.99", "tax": 1195816000, "value": 5199200000}, "context": "standard", "discount": {"formattedValue": "€ 13.00", "tax": 298954000, "value": 1299800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1494770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 74089000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 740.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 592.71", "tax": 13632376000, "value": 59271200000}, "context": "standard", "discount": {"formattedValue": "€ 148.18", "tax": 3408094000, "value": 14817800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 17040470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 148177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1481.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 34080710000, "type": "rental" }
    ]
   },
@@ -2154,8 +2674,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 6499000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 74089000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 740.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 17040470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 6499000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 64.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 51.99", "tax": 1195816000, "value": 5199200000}, "context": "standard", "discount": {"formattedValue": "€ 13.00", "tax": 298954000, "value": 1299800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1494770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 74089000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 740.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 592.71", "tax": 13632376000, "value": 59271200000}, "context": "standard", "discount": {"formattedValue": "€ 148.18", "tax": 3408094000, "value": 14817800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 17040470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 148177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1481.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 34080710000, "type": "rental" }
    ]
   },
@@ -2198,8 +2758,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 6499000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 74089000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 740.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 17040470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 6499000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 64.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 51.99", "tax": 1195816000, "value": 5199200000}, "context": "standard", "discount": {"formattedValue": "€ 13.00", "tax": 298954000, "value": 1299800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1494770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 74089000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 740.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 592.71", "tax": 13632376000, "value": 59271200000}, "context": "standard", "discount": {"formattedValue": "€ 148.18", "tax": 3408094000, "value": 14817800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 17040470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 148177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1481.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 34080710000, "type": "rental" }
    ]
   },
@@ -2242,8 +2842,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 8999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 89.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2069770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 8999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 89.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2069770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 102589000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1025.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 23595470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 8999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 89.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 71.99", "tax": 1655816000, "value": 7199200000}, "context": "standard", "discount": {"formattedValue": "€ 18.00", "tax": 413954000, "value": 1799800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2069770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 102589000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1025.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 820.71", "tax": 18876376000, "value": 82071200000}, "context": "standard", "discount": {"formattedValue": "€ 205.18", "tax": 4719094000, "value": 20517800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 23595470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 205177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2051.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 47190710000, "type": "rental" }
    ]
   },
@@ -2286,8 +2926,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 8999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 89.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2069770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 8999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 89.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2069770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 102589000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1025.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 23595470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 8999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 89.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 71.99", "tax": 1655816000, "value": 7199200000}, "context": "standard", "discount": {"formattedValue": "€ 18.00", "tax": 413954000, "value": 1799800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2069770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 102589000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1025.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 820.71", "tax": 18876376000, "value": 82071200000}, "context": "standard", "discount": {"formattedValue": "€ 205.18", "tax": 4719094000, "value": 20517800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 23595470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 205177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2051.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 47190710000, "type": "rental" }
    ]
   },
@@ -2330,8 +3010,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 8999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 89.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 2069770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 8999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 89.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2069770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 102589000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 1025.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 23595470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 8999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 89.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 71.99", "tax": 1655816000, "value": 7199200000}, "context": "standard", "discount": {"formattedValue": "€ 18.00", "tax": 413954000, "value": 1799800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2069770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 102589000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 1025.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 820.71", "tax": 18876376000, "value": 82071200000}, "context": "standard", "discount": {"formattedValue": "€ 205.18", "tax": 4719094000, "value": 20517800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 23595470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 205177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 2051.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 47190710000, "type": "rental" }
    ]
   },
@@ -3260,8 +3980,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 2899000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 28.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 666770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 2899000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 28.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 666770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 33049000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 330.49", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7601270000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 2899000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 28.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 23.19", "tax": 533416000, "value": 2319200000}, "context": "standard", "discount": {"formattedValue": "€ 5.80", "tax": 133354000, "value": 579800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 666770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 33049000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 330.49",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 264.39", "tax": 6081016000, "value": 26439200000}, "context": "standard", "discount": {"formattedValue": "€ 66.10", "tax": 1520254000, "value": 6609800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 7601270000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 66097000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 660.97", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15202310000, "type": "rental" }
    ]
   },
@@ -3304,8 +4064,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 2899000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 28.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 666770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 2899000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 28.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 666770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 33049000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 330.49", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7601270000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 2899000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 28.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 23.19", "tax": 533416000, "value": 2319200000}, "context": "standard", "discount": {"formattedValue": "€ 5.80", "tax": 133354000, "value": 579800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 666770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 33049000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 330.49",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 264.39", "tax": 6081016000, "value": 26439200000}, "context": "standard", "discount": {"formattedValue": "€ 66.10", "tax": 1520254000, "value": 6609800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 2, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 7601270000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 66097000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 660.97", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 2, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15202310000, "type": "rental" }
    ]
   },
@@ -3439,8 +4239,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 2999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 29.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 689770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 2999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 29.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 689770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 34189000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 341.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7863470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 2999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 29.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 25.49", "tax": 586304500, "value": 2549150000}, "context": "standard", "discount": {"formattedValue": "€ 4.50", "tax": 103465500, "value": 449850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 689770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 34189000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 341.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 290.61", "tax": 6683949500, "value": 29060650000}, "context": "standard", "discount": {"formattedValue": "€ 51.28", "tax": 1179520500, "value": 5128350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 7863470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 68377000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 683.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15726710000, "type": "rental" }
    ]
   },
@@ -3484,8 +4324,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 2999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 29.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 689770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 2999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 29.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 689770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 34189000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 341.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7863470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 2999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 29.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 25.49", "tax": 586304500, "value": 2549150000}, "context": "standard", "discount": {"formattedValue": "€ 4.50", "tax": 103465500, "value": 449850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 689770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 34189000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 341.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 290.61", "tax": 6683949500, "value": 29060650000}, "context": "standard", "discount": {"formattedValue": "€ 51.28", "tax": 1179520500, "value": 5128350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 7863470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 68377000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 683.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15726710000, "type": "rental" }
    ]
   },
@@ -3529,8 +4409,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 3799000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 37.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 873770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 3799000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 37.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 873770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 43309000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 433.09", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9961070000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 3799000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 37.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 30.39", "tax": 699016000, "value": 3039200000}, "context": "standard", "discount": {"formattedValue": "€ 7.60", "tax": 174754000, "value": 759800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 873770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 43309000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 433.09",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 346.47", "tax": 7968856000, "value": 34647200000}, "context": "standard", "discount": {"formattedValue": "€ 86.62", "tax": 1992214000, "value": 8661800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 9961070000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 86617000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 866.17", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 19921910000, "type": "rental" }
    ]
   },
@@ -3574,8 +4494,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 4199000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 41.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 965770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 4199000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 41.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 965770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 47869000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 478.69", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11009870000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 4199000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 41.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 35.69", "tax": 820904500, "value": 3569150000}, "context": "standard", "discount": {"formattedValue": "€ 6.30", "tax": 144865500, "value": 629850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 965770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 47869000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 478.69",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale", "description": "Special offers : 15% off on Rise-1, Rise-2, SYS-1 (in Singapore and Sydney datacenters only) and SYS-3 servers. Offer valid the first 12 months..", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 406.89", "tax": 9358389500, "value": 40688650000}, "context": "standard", "discount": {"formattedValue": "€ 71.80", "tax": 1651480500, "value": 7180350000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 11009870000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 95737000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 957.37", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 22019510000, "type": "rental" }
    ]
   },
@@ -3753,8 +4713,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 4999000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 49.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1149770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 4999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 49.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1149770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 56989000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 569.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 13107470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 4999000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 49.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 39.99", "tax": 919816000, "value": 3999200000}, "context": "standard", "discount": {"formattedValue": "€ 10.00", "tax": 229954000, "value": 999800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1149770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 56989000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 569.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 455.91", "tax": 10485976000, "value": 45591200000}, "context": "standard", "discount": {"formattedValue": "€ 113.98", "tax": 2621494000, "value": 11397800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 13107470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 113977000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1139.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 26214710000, "type": "rental" }
    ]
   },
@@ -3797,8 +4797,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 6499000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "€ 64.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1494770000, "type": "rental" },
-    { "capacities": ["renew"], "price": 74089000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "€ 740.89", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 17040470000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 6499000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "€ 64.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 51.99", "tax": 1195816000, "value": 5199200000}, "context": "standard", "discount": {"formattedValue": "€ 13.00", "tax": 298954000, "value": 1299800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1494770000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 74089000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "€ 740.89",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "MARCH26_T1T2_flashsale_20OFF", "description": "Special offers : 20% off on Rise-3, Rise-4, Rise-GAME-1, Rise-GAME-2, SYS-2, SYS-GAME-1, SYS-GAME-2 and KS-GAME (in Singapore and Sydney datacenters only). Offer valid the first 12 months.", "startDate": "2026-03-31T07:00:00+02:00", "endDate": "2026-04-14T02:00:00+02:00", "total": {"formattedValue": "€ 592.71", "tax": 13632376000, "value": 59271200000}, "context": "standard", "discount": {"formattedValue": "€ 148.18", "tax": 3408094000, "value": 14817800000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 17040470000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 148177000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "€ 1481.77", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 34080710000, "type": "rental" }
    ]
   },
