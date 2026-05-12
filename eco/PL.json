@@ -898,8 +898,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 25800000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "258.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 5934000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 25800000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "258.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 5934000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 294120000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "2941.20 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 67647600000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 25800000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "258.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "219.30 zł", "tax": 5043900000, "value": 21930000000}, "context": "standard", "discount": {"formattedValue": "38.70 zł", "tax": 890100000, "value": 3870000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 5934000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 294120000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "2941.20 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "2500.02 zł", "tax": 57500460000, "value": 250002000000}, "context": "standard", "discount": {"formattedValue": "441.18 zł", "tax": 10147140000, "value": 44118000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 67647600000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 588240000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "5882.40 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 135295200000, "type": "rental" }
    ]
   },
@@ -943,8 +983,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 27200000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "272.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 6256000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 27200000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "272.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6256000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 310080000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "3100.80 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 71318400000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 27200000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "272.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "231.20 zł", "tax": 5317600000, "value": 23120000000}, "context": "standard", "discount": {"formattedValue": "40.80 zł", "tax": 938400000, "value": 4080000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6256000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 310080000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "3100.80 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "2635.68 zł", "tax": 60620640000, "value": 263568000000}, "context": "standard", "discount": {"formattedValue": "465.12 zł", "tax": 10697760000, "value": 46512000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 71318400000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 620160000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "6201.60 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 142636800000, "type": "rental" }
    ]
   },
@@ -988,8 +1068,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 36200000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "362.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 8326000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 36200000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "362.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8326000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 412680000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "4126.80 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 94916400000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 36200000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "362.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "307.70 zł", "tax": 7077100000, "value": 30770000000}, "context": "standard", "discount": {"formattedValue": "54.30 zł", "tax": 1248900000, "value": 5430000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 8326000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 412680000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "4126.80 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "3507.78 zł", "tax": 80678940000, "value": 350778000000}, "context": "standard", "discount": {"formattedValue": "619.02 zł", "tax": 14237460000, "value": 61902000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 94916400000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 825360000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "8253.60 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 189832800000, "type": "rental" }
    ]
   },
@@ -1033,8 +1153,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 29400000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "294.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 6762000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 29400000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "294.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6762000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 335160000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "3351.60 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 77086800000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 29400000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "294.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "249.90 zł", "tax": 5747700000, "value": 24990000000}, "context": "standard", "discount": {"formattedValue": "44.10 zł", "tax": 1014300000, "value": 4410000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 6762000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 335160000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "3351.60 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "2848.86 zł", "tax": 65523780000, "value": 284886000000}, "context": "standard", "discount": {"formattedValue": "502.74 zł", "tax": 11563020000, "value": 50274000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 77086800000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 670320000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "6703.20 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 154173600000, "type": "rental" }
    ]
   },
@@ -1078,8 +1238,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 51100000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "511.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 11753000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 51100000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "511.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11753000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 582540000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "5825.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 133984200000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 51100000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "511.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "434.35 zł", "tax": 9990050000, "value": 43435000000}, "context": "standard", "discount": {"formattedValue": "76.65 zł", "tax": 1762950000, "value": 7665000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 11753000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 582540000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "5825.40 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "4951.59 zł", "tax": 113886570000, "value": 495159000000}, "context": "standard", "discount": {"formattedValue": "873.81 zł", "tax": 20097630000, "value": 87381000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 133984200000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 1165080000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "11650.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 267968400000, "type": "rental" }
    ]
   },
@@ -1123,8 +1323,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 51100000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "511.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 11753000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 51100000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "511.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11753000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 582540000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "5825.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 133984200000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 51100000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "511.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "434.35 zł", "tax": 9990050000, "value": 43435000000}, "context": "standard", "discount": {"formattedValue": "76.65 zł", "tax": 1762950000, "value": 7665000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 11753000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 582540000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "5825.40 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "4951.59 zł", "tax": 113886570000, "value": 495159000000}, "context": "standard", "discount": {"formattedValue": "873.81 zł", "tax": 20097630000, "value": 87381000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 133984200000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 1165080000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "11650.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 267968400000, "type": "rental" }
    ]
   },
@@ -1168,8 +1408,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 41600000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "416.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 9568000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 41600000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "416.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9568000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 474240000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "4742.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 109075200000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 41600000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "416.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_3", "description": "Special offer : 20% off on Rise-3 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "332.80 zł", "tax": 7654400000, "value": 33280000000}, "context": "standard", "discount": {"formattedValue": "83.20 zł", "tax": 1913600000, "value": 8320000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 9568000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 474240000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "4742.40 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_3", "description": "Special offer : 20% off on Rise-3 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "3793.92 zł", "tax": 87260160000, "value": 379392000000}, "context": "standard", "discount": {"formattedValue": "948.48 zł", "tax": 21815040000, "value": 94848000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 109075200000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 948480000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "9484.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 218150400000, "type": "rental" }
    ]
   },
@@ -1213,8 +1493,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 49800000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "498.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 11454000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 49800000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "498.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11454000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 567720000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "5677.20 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 130575600000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 49800000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "498.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_3", "description": "Special offer : 20% off on Rise-3 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "398.40 zł", "tax": 9163200000, "value": 39840000000}, "context": "standard", "discount": {"formattedValue": "99.60 zł", "tax": 2290800000, "value": 9960000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 11454000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 567720000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "5677.20 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_3", "description": "Special offer : 20% off on Rise-3 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "4541.76 zł", "tax": 104460480000, "value": 454176000000}, "context": "standard", "discount": {"formattedValue": "1135.44 zł", "tax": 26115120000, "value": 113544000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 130575600000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 1135440000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "11354.40 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 261151200000, "type": "rental" }
    ]
   },
@@ -1258,8 +1578,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 49800000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "498.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 11454000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 49800000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "498.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11454000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 567720000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "5677.20 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 130575600000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 49800000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "498.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_3", "description": "Special offer : 20% off on Rise-3 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "398.40 zł", "tax": 9163200000, "value": 39840000000}, "context": "standard", "discount": {"formattedValue": "99.60 zł", "tax": 2290800000, "value": 9960000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 11454000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 567720000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "5677.20 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_3", "description": "Special offer : 20% off on Rise-3 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "4541.76 zł", "tax": 104460480000, "value": 454176000000}, "context": "standard", "discount": {"formattedValue": "1135.44 zł", "tax": 26115120000, "value": 113544000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 20 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 130575600000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 1135440000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "11354.40 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 261151200000, "type": "rental" }
    ]
   },
@@ -1438,8 +1798,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 81400000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "814.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 18722000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 81400000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "814.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 18722000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 927960000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "9279.60 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 213430800000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 81400000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "814.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_5", "description": "Special offer : 10% off on Rise-5 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "732.60 zł", "tax": 16849800000, "value": 73260000000}, "context": "standard", "discount": {"formattedValue": "81.40 zł", "tax": 1872200000, "value": 8140000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 18722000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 927960000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "9279.60 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_5", "description": "Special offer : 10% off on Rise-5 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "8351.64 zł", "tax": 192087720000, "value": 835164000000}, "context": "standard", "discount": {"formattedValue": "927.96 zł", "tax": 21343080000, "value": 92796000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 213430800000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 1855920000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "18559.20 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 426861600000, "type": "rental" }
    ]
   },
@@ -1483,8 +1883,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 126600000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "1266.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 29118000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 126600000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "1266.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 29118000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1443240000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "14432.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 331945200000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 126600000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "1266.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_5", "description": "Special offer : 10% off on Rise-5 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "1139.40 zł", "tax": 26206200000, "value": 113940000000}, "context": "standard", "discount": {"formattedValue": "126.60 zł", "tax": 2911800000, "value": 12660000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 29118000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1443240000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "14432.40 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_5", "description": "Special offer : 10% off on Rise-5 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "12989.16 zł", "tax": 298750680000, "value": 1298916000000}, "context": "standard", "discount": {"formattedValue": "1443.24 zł", "tax": 33194520000, "value": 144324000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 331945200000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 2886480000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "28864.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 663890400000, "type": "rental" }
    ]
   },
@@ -1528,8 +1968,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 126600000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "1266.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 29118000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 126600000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "1266.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 29118000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1443240000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "14432.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 331945200000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 126600000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "1266.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_5", "description": "Special offer : 10% off on Rise-5 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "1139.40 zł", "tax": 26206200000, "value": 113940000000}, "context": "standard", "discount": {"formattedValue": "126.60 zł", "tax": 2911800000, "value": 12660000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 29118000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1443240000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "14432.40 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_5", "description": "Special offer : 10% off on Rise-5 server. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "12989.16 zł", "tax": 298750680000, "value": 1298916000000}, "context": "standard", "discount": {"formattedValue": "1443.24 zł", "tax": 33194520000, "value": 144324000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 331945200000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 2886480000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "28864.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 663890400000, "type": "rental" }
    ]
   },
@@ -1573,8 +2053,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 95000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "950.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 21850000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 95000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "950.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 21850000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1083000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "10830.00 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 249090000000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 95000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "950.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "807.50 zł", "tax": 18572500000, "value": 80750000000}, "context": "standard", "discount": {"formattedValue": "142.50 zł", "tax": 3277500000, "value": 14250000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 21850000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1083000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "10830.00 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "9205.50 zł", "tax": 211726500000, "value": 920550000000}, "context": "standard", "discount": {"formattedValue": "1624.50 zł", "tax": 37363500000, "value": 162450000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 249090000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 2166000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "21660.00 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 498180000000, "type": "rental" }
    ]
   },
@@ -1618,8 +2138,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 137000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "1370.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 31510000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 137000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "1370.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31510000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1561800000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "15618.00 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 359214000000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 137000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "1370.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "1164.50 zł", "tax": 26783500000, "value": 116450000000}, "context": "standard", "discount": {"formattedValue": "205.50 zł", "tax": 4726500000, "value": 20550000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 31510000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 1561800000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "15618.00 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "13275.30 zł", "tax": 305331900000, "value": 1327530000000}, "context": "standard", "discount": {"formattedValue": "2342.70 zł", "tax": 53882100000, "value": 234270000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 359214000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 3123600000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "31236.00 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 718428000000, "type": "rental" }
    ]
   },
@@ -3129,7 +3689,27 @@
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 13600000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "136.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3128000000, "type": "rental" },
+    {
+     "capacities": ["installation"],
+     "price": 13600000000,
+     "mode": "default",
+     "description": "rental (only applicable for 1 time)",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "136.00 zł",
+     "interval": 0,
+     "intervalUnit": "none",
+     "mustBeCompleted": false,
+     "phase": 0,
+     "promotions": [
+      { "name": "FLASHSALE_WW_SYS_FREESETUP", "description": "Special offer : Free setup fees on SYS-1, SYS-2 and SYS-3", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "0.00 zł", "tax": 0, "value": 0}, "context": "standard", "discount": {"formattedValue": "136.00 zł", "tax": 3128000000, "value": 13600000000}, "duration": 1, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": 1, "min": 1},
+     "strategy": "tiered",
+     "tax": 3128000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 13600000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "136.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3128000000, "type": "rental" },
     { "capacities": ["renew"], "price": 155040000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "1550.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 35659200000, "type": "rental" },
     { "capacities": ["renew"], "price": 310080000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "3100.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 71318400000, "type": "rental" }
@@ -3174,7 +3754,27 @@
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 13600000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "136.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3128000000, "type": "rental" },
+    {
+     "capacities": ["installation"],
+     "price": 13600000000,
+     "mode": "default",
+     "description": "rental (only applicable for 1 time)",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "136.00 zł",
+     "interval": 0,
+     "intervalUnit": "none",
+     "mustBeCompleted": false,
+     "phase": 0,
+     "promotions": [
+      { "name": "FLASHSALE_WW_SYS_FREESETUP", "description": "Special offer : Free setup fees on SYS-1, SYS-2 and SYS-3", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "0.00 zł", "tax": 0, "value": 0}, "context": "standard", "discount": {"formattedValue": "136.00 zł", "tax": 3128000000, "value": 13600000000}, "duration": 1, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": 1, "min": 1},
+     "strategy": "tiered",
+     "tax": 3128000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 13600000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "136.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3128000000, "type": "rental" },
     { "capacities": ["renew"], "price": 155040000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "1550.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 35659200000, "type": "rental" },
     { "capacities": ["renew"], "price": 310080000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "3100.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 71318400000, "type": "rental" }
@@ -3219,7 +3819,27 @@
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 13600000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "136.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3128000000, "type": "rental" },
+    {
+     "capacities": ["installation"],
+     "price": 13600000000,
+     "mode": "default",
+     "description": "rental (only applicable for 1 time)",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "136.00 zł",
+     "interval": 0,
+     "intervalUnit": "none",
+     "mustBeCompleted": false,
+     "phase": 0,
+     "promotions": [
+      { "name": "FLASHSALE_WW_SYS_FREESETUP", "description": "Special offer : Free setup fees on SYS-1, SYS-2 and SYS-3", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "0.00 zł", "tax": 0, "value": 0}, "context": "standard", "discount": {"formattedValue": "136.00 zł", "tax": 3128000000, "value": 13600000000}, "duration": 1, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": 1, "min": 1},
+     "strategy": "tiered",
+     "tax": 3128000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 13600000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "136.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3128000000, "type": "rental" },
     { "capacities": ["renew"], "price": 155040000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "1550.40 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 35659200000, "type": "rental" },
     { "capacities": ["renew"], "price": 310080000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "3100.80 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 71318400000, "type": "rental" }
@@ -3264,7 +3884,27 @@
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 17200000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "172.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 3956000000, "type": "rental" },
+    {
+     "capacities": ["installation"],
+     "price": 17200000000,
+     "mode": "default",
+     "description": "rental (only applicable for 1 time)",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "172.00 zł",
+     "interval": 0,
+     "intervalUnit": "none",
+     "mustBeCompleted": false,
+     "phase": 0,
+     "promotions": [
+      { "name": "FLASHSALE_WW_SYS_FREESETUP", "description": "Special offer : Free setup fees on SYS-1, SYS-2 and SYS-3", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "0.00 zł", "tax": 0, "value": 0}, "context": "standard", "discount": {"formattedValue": "172.00 zł", "tax": 3956000000, "value": 17200000000}, "duration": 1, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": 1, "min": 1},
+     "strategy": "tiered",
+     "tax": 3956000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 17200000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "172.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3956000000, "type": "rental" },
     { "capacities": ["renew"], "price": 196080000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "1960.80 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 45098400000, "type": "rental" },
     { "capacities": ["renew"], "price": 392160000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "3921.60 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 90196800000, "type": "rental" }
@@ -3309,7 +3949,27 @@
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 19000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "190.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 4370000000, "type": "rental" },
+    {
+     "capacities": ["installation"],
+     "price": 19000000000,
+     "mode": "default",
+     "description": "rental (only applicable for 1 time)",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "190.00 zł",
+     "interval": 0,
+     "intervalUnit": "none",
+     "mustBeCompleted": false,
+     "phase": 0,
+     "promotions": [
+      { "name": "FLASHSALE_WW_SYS_FREESETUP", "description": "Special offer : Free setup fees on SYS-1, SYS-2 and SYS-3", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "0.00 zł", "tax": 0, "value": 0}, "context": "standard", "discount": {"formattedValue": "190.00 zł", "tax": 4370000000, "value": 19000000000}, "duration": 1, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": 1, "min": 1},
+     "strategy": "tiered",
+     "tax": 4370000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 19000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "190.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4370000000, "type": "rental" },
     { "capacities": ["renew"], "price": 216600000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "2166.00 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 49818000000, "type": "rental" },
     { "capacities": ["renew"], "price": 433200000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "4332.00 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 99636000000, "type": "rental" }
@@ -3355,8 +4015,48 @@
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "0.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 41400000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "414.00 zł", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 9522000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 41400000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "414.00 zł", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9522000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 471960000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "4719.60 zł", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 108550800000, "type": "rental" },
+    {
+     "capacities": ["renew"],
+     "price": 41400000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "414.00 zł",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "351.90 zł", "tax": 8093700000, "value": 35190000000}, "context": "standard", "discount": {"formattedValue": "62.10 zł", "tax": 1428300000, "value": 6210000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 9522000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 471960000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "4719.60 zł",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "FLASHSALE_WW_RISE_1_2_6_AND_SYS_4", "description": "Special offer : 15% off on Rise-1, Rise-2, Rise-6 and SYS-4 servers. Offer valid for the first 12 months", "startDate": "2026-05-12T11:00:00+02:00", "endDate": "2026-05-19T14:00:00+02:00", "total": {"formattedValue": "4011.66 zł", "tax": 92268180000, "value": 401166000000}, "context": "standard", "discount": {"formattedValue": "707.94 zł", "tax": 16282620000, "value": 70794000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 15 }
+     ],
+     "quantity": {"max": 5, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 108550800000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 943920000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "9439.20 zł", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 5, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 217101600000, "type": "rental" }
    ]
   },
