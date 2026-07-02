@@ -1,5 +1,5 @@
 {
- "catalogId"   : 9443,
+ "catalogId"   : 9454,
  "locale"      : {"currencyCode": "GBP", "subsidiary": "GB", "taxRate": 20},
  "plans"       : [
   {
@@ -6755,7 +6755,7 @@
    ]
   },
   {
-   "planCode": "26scaleamd09-v2",
+   "planCode": "26scaleamd09-v3",
    "product": "26scaleamd09",
    "invoiceName": "SCALE-a9 | Dual AMD EPYC 9965",
    "addonFamilies": [
@@ -6771,9 +6771,9 @@
     },
     { "name": "bandwidth", "addons": ["bandwidth-10000-scale-gen3", "bandwidth-15000-scale-gen3", "bandwidth-20000-scale-gen3", "bandwidth-25000-scale-gen3", "bandwidth-5000-scale-gen3"], "default": "bandwidth-5000-scale-gen3", "exclusive": true, "mandatory": true },
     { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-384-cores", "windows-server-2019-license-standard-edition-384-cores", "windows-server-2022-license-datacenter-edition-384-cores", "windows-server-2022-license-standard-edition-384-cores", "windows-server-2025-license-datacenter-edition-384-cores", "windows-server-2025-license-standard-edition-384-cores"], "default": null, "exclusive": false, "mandatory": false },
-    { "name": "memory", "addons": ["ram-1024g-ecc-5600-26scaleamd09-v2", "ram-128g-ecc-5600-26scaleamd09-v2", "ram-1536g-ecc-5600-26scaleamd09-v2", "ram-192g-ecc-5600-26scaleamd09-v2", "ram-256g-ecc-5600-26scaleamd09-v2", "ram-3072g-ecc-5600-26scaleamd09-v2", "ram-384g-ecc-5600-26scaleamd09-v2", "ram-512g-ecc-5600-26scaleamd09-v2", "ram-768g-ecc-5600-26scaleamd09-v2"], "default": "ram-128g-ecc-5600-26scaleamd09-v2", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["noraid-0-26scaleamd09-v2", "softraid-2x1920nvme-pcie-gen5-26scaleamd09-v2", "softraid-2x3840nvme-pcie-gen5-26scaleamd09-v2", "softraid-2x7680nvme-pcie-gen5-26scaleamd09-v2"], "default": "noraid-0-26scaleamd09-v2", "exclusive": true, "mandatory": true },
-    { "name": "system-storage", "addons": ["softraid-2x1920nvme-pcie-gen5-system-26scaleamd09-v2"], "default": "softraid-2x1920nvme-pcie-gen5-system-26scaleamd09-v2", "exclusive": true, "mandatory": true },
+    { "name": "memory", "addons": ["ram-1024g-ecc-5600-26scaleamd09-v3", "ram-128g-ecc-5600-26scaleamd09-v3", "ram-1536g-ecc-5600-26scaleamd09-v3", "ram-192g-ecc-5600-26scaleamd09-v3", "ram-256g-ecc-5600-26scaleamd09-v3", "ram-3072g-ecc-5600-26scaleamd09-v3", "ram-384g-ecc-5600-26scaleamd09-v3", "ram-512g-ecc-5600-26scaleamd09-v3", "ram-768g-ecc-5600-26scaleamd09-v3"], "default": "ram-128g-ecc-5600-26scaleamd09-v3", "exclusive": true, "mandatory": true },
+    { "name": "storage", "addons": ["noraid-0-26scaleamd09-v3", "softraid-2x1920nvme-pcie-gen5-26scaleamd09-v3", "softraid-2x3840nvme-pcie-gen5-26scaleamd09-v3", "softraid-2x7680nvme-pcie-gen5-26scaleamd09-v3", "softraid-4x1920nvme-pcie-gen5-26scaleamd09-v3", "softraid-4x3840nvme-pcie-gen5-26scaleamd09-v3", "softraid-4x7680nvme-pcie-gen5-26scaleamd09-v3", "softraid-6x1920nvme-pcie-gen5-26scaleamd09-v3", "softraid-6x3840nvme-pcie-gen5-26scaleamd09-v3", "softraid-6x7680nvme-pcie-gen5-26scaleamd09-v3"], "default": "noraid-0-26scaleamd09-v3", "exclusive": true, "mandatory": true },
+    { "name": "system-storage", "addons": ["softraid-2x1920nvme-pcie-gen5-system-26scaleamd09-v3"], "default": "softraid-2x1920nvme-pcie-gen5-system-26scaleamd09-v3", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-50000-scale-gen3"], "default": "vrack-bandwidth-50000-scale-gen3", "exclusive": true, "mandatory": true }
    ],
    "blobs": {
@@ -16853,7 +16853,7 @@
    ]
   },
   {
-   "planCode": "noraid-0-26scaleamd09-v2",
+   "planCode": "noraid-0-26scaleamd09-v3",
    "product": "noraid-0",
    "invoiceName": "No storage drive",
    "addonFamilies": [],
@@ -17792,7 +17792,7 @@
    ]
   },
   {
-   "planCode": "ram-1024g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-1024g-ecc-5600-26scaleamd09-v3",
    "product": "ram-1024g-ecc-5600",
    "invoiceName": "1024GB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -17805,9 +17805,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 48174000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 481.74", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9634800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 549184000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 5491.84", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 109836800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1098367000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 10983.67", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 219673400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 266999000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 2669.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 53399800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 3203988000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 32039.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 640797600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 6407976000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 64079.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1281595200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -18684,7 +18684,7 @@
    ]
   },
   {
-   "planCode": "ram-128g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-128g-ecc-5600-26scaleamd09-v3",
    "product": "ram-128g-ecc-5600",
    "invoiceName": "128GB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -19404,7 +19404,7 @@
    ]
   },
   {
-   "planCode": "ram-1536g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-1536g-ecc-5600-26scaleamd09-v3",
    "product": "ram-1536g-ecc-5600",
    "invoiceName": "1.5TB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -19417,9 +19417,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 75699000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 756.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15139800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 862969000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 8629.69", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 172593800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1725937000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 17259.37", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 345187400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 420099000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 4200.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 84019800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 5041188000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 50411.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1008237600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 10082376000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 100823.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2016475200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -19988,7 +19988,7 @@
    ]
   },
   {
-   "planCode": "ram-192g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-192g-ecc-5600-26scaleamd09-v3",
    "product": "ram-192g-ecc-5600",
    "invoiceName": "192GB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -20001,9 +20001,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3439000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 34.39", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 687800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 39205000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 392.05", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7841000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 78409000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 784.09", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15681800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 19624000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 196.24", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3924800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 235488000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 2354.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 47097600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 470976000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 4709.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 94195200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -21126,7 +21126,7 @@
    ]
   },
   {
-   "planCode": "ram-256g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-256g-ecc-5600-26scaleamd09-v3",
    "product": "ram-256g-ecc-5600",
    "invoiceName": "256GB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -21139,9 +21139,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 6899000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 68.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1379800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 78649000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 786.49", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15729800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 157297000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 1572.97", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31459400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 24099000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 240.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4819800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 289188000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 2891.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 57837600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 578376000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 5783.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 115675200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -21604,7 +21604,7 @@
    ]
   },
   {
-   "planCode": "ram-3072g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-3072g-ecc-5600-26scaleamd09-v3",
    "product": "ram-3072g-ecc-5600",
    "invoiceName": "3TB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -21617,9 +21617,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 158299000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 1582.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31659800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 1804609000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 18046.09", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 360921800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 3609217000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 36092.17", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 721843400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 879299000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 8792.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 175859800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 10551588000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 105515.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2110317600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 21103176000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 211031.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4220635200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -22232,7 +22232,7 @@
    ]
   },
   {
-   "planCode": "ram-384g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-384g-ecc-5600-26scaleamd09-v3",
    "product": "ram-384g-ecc-5600",
    "invoiceName": "384GB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -22245,9 +22245,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 13774000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 137.74", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2754800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 157024000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 1570.24", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31404800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 314047000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 3140.47", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 62809400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 55749000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 557.49", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11149800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 668988000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 6689.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 133797600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 1337976000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 13379.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 267595200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -22958,7 +22958,7 @@
    ]
   },
   {
-   "planCode": "ram-512g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-512g-ecc-5600-26scaleamd09-v3",
    "product": "ram-512g-ecc-5600",
    "invoiceName": "512GB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -22971,9 +22971,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 20649000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 206.49", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4129800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 235399000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 2353.99", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 47079800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 470797000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 4707.97", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 94159400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 77749000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 777.49", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 15549800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 932988000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 9329.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 186597600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 1865976000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 18659.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 373195200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -23888,7 +23888,7 @@
    ]
   },
   {
-   "planCode": "ram-768g-ecc-5600-26scaleamd09-v2",
+   "planCode": "ram-768g-ecc-5600-26scaleamd09-v3",
    "product": "ram-768g-ecc-5600",
    "invoiceName": "768GB DDR5 ECC 5600MHz",
    "addonFamilies": [],
@@ -23901,9 +23901,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 34399000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 343.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6879800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 392149000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 3921.49", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 78429800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 784297000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 7842.97", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 156859400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 136299000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 1362.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 27259800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 1635588000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 16355.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 327117600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 3271176000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 32711.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 654235200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -26418,7 +26418,7 @@
    ]
   },
   {
-   "planCode": "softraid-2x1920nvme-pcie-gen5-26scaleamd09-v2",
+   "planCode": "softraid-2x1920nvme-pcie-gen5-26scaleamd09-v3",
    "product": "softraid-2x1920nvme-pcie-gen5",
    "invoiceName": "2x SSD NVMe 1.92TB Datacenter Class Soft RAID",
    "addonFamilies": [],
@@ -26431,9 +26431,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 3269000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 32.69", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 653800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 37267000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 372.67", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7453400000, "type": "rental" },
-    { "capacities": ["renew"], "price": 74533000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 745.33", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 14906600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 11374000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 113.74", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2274800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 136488000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 1364.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 27297600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 272976000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 2729.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 54595200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -26682,7 +26682,7 @@
    ]
   },
   {
-   "planCode": "softraid-2x1920nvme-pcie-gen5-system-26scaleamd09-v2",
+   "planCode": "softraid-2x1920nvme-pcie-gen5-system-26scaleamd09-v3",
    "product": "softraid-2x1920nvme-pcie-gen5-system",
    "invoiceName": "2x SSD NVMe 1.92TB Datacenter Class PCIe 5.0 Soft RAID",
    "addonFamilies": [],
@@ -27319,7 +27319,7 @@
    ]
   },
   {
-   "planCode": "softraid-2x3840nvme-pcie-gen5-26scaleamd09-v2",
+   "planCode": "softraid-2x3840nvme-pcie-gen5-26scaleamd09-v3",
    "product": "softraid-2x3840nvme-pcie-gen5",
    "invoiceName": "2x SSD NVMe 3.84TB Enterprise Class PCIe 5.0 Soft RAID",
    "addonFamilies": [],
@@ -27332,9 +27332,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 8599000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 85.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1719800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 98029000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 980.29", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 19605800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 196057000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 1960.57", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 39211400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 19099000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 190.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3819800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 229188000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 2291.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 45837600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 458376000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 4583.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 91675200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -27935,7 +27935,7 @@
    ]
   },
   {
-   "planCode": "softraid-2x7680nvme-pcie-gen5-26scaleamd09-v2",
+   "planCode": "softraid-2x7680nvme-pcie-gen5-26scaleamd09-v3",
    "product": "softraid-2x7680nvme-pcie-gen5",
    "invoiceName": "2x SSD NVMe 7.68TB Enterprise Class PCIe 5.0 Soft RAID",
    "addonFamilies": [],
@@ -27948,9 +27948,9 @@
     { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 13774000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 137.74", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2754800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 157024000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 1570.24", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31404800000, "type": "rental" },
-    { "capacities": ["renew"], "price": 314047000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 3140.47", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 62809400000, "type": "rental" },
+    { "capacities": ["renew"], "price": 34074000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 340.74", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6814800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 408888000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 4088.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 81777600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 817776000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 8177.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 163555200000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -30002,6 +30002,28 @@
    ]
   },
   {
+   "planCode": "softraid-4x1920nvme-pcie-gen5-26scaleamd09-v3",
+   "product": "softraid-4x1920nvme-pcie-gen5",
+   "invoiceName": "4x SSD NVMe 1.92TB Enterprise Class PCIe 5.0 Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 22724000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 227.24", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4544800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 272688000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 2726.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 54537600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 545376000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 5453.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 109075200000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "softraid-4x1920nvme-pcie-gen5-26scaleintel01-v2",
    "product": "softraid-4x1920nvme-pcie-gen5",
    "invoiceName": "4x SSD NVMe 1.92TB Enterprise Class PCIe 5.0 Soft RAID",
@@ -30859,6 +30881,28 @@
    ]
   },
   {
+   "planCode": "softraid-4x3840nvme-pcie-gen5-26scaleamd09-v3",
+   "product": "softraid-4x3840nvme-pcie-gen5",
+   "invoiceName": "4x SSD NVMe 3.84TB Enterprise Class PCIe 5.0 Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 38199000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 381.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7639800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 458388000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 4583.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 91677600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 916776000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 9167.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 183355200000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "softraid-4x3840nvme-pcie-gen5-26scaleintel01-v2",
    "product": "softraid-4x3840nvme-pcie-gen5",
    "invoiceName": "4x SSD NVMe 3.84TB Enterprise Class PCIe 5.0 Soft RAID",
@@ -31608,6 +31652,28 @@
   },
   {
    "planCode": "softraid-4x7680nvme-pcie-gen5-26scaleamd08-v4",
+   "product": "softraid-4x7680nvme-pcie-gen5",
+   "invoiceName": "4x SSD NVMe 7.68TB Enterprise Class PCIe 5.0 Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 68124000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 681.24", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 13624800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 817488000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 8174.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 163497600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 1634976000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 16349.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 326995200000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-4x7680nvme-pcie-gen5-26scaleamd09-v3",
    "product": "softraid-4x7680nvme-pcie-gen5",
    "invoiceName": "4x SSD NVMe 7.68TB Enterprise Class PCIe 5.0 Soft RAID",
    "addonFamilies": [],
@@ -32751,6 +32817,28 @@
    ]
   },
   {
+   "planCode": "softraid-6x1920nvme-pcie-gen5-26scaleamd09-v3",
+   "product": "softraid-6x1920nvme-pcie-gen5",
+   "invoiceName": "6x SSD NVMe 1.92TB Enterprise Class PCIe 5.0 Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 34074000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 340.74", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 6814800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 408888000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 4088.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 81777600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 817776000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 8177.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 163555200000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "softraid-6x1920nvme-pcie-gen5-26scaleintel01-v2",
    "product": "softraid-6x1920nvme-pcie-gen5",
    "invoiceName": "6x SSD NVMe 1.92TB Enterprise Class PCIe 5.0 Soft RAID",
@@ -33542,6 +33630,28 @@
    ]
   },
   {
+   "planCode": "softraid-6x3840nvme-pcie-gen5-26scaleamd09-v3",
+   "product": "softraid-6x3840nvme-pcie-gen5",
+   "invoiceName": "6x SSD NVMe 3.84TB Enterprise Class PCIe 5.0 Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 57299000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 572.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11459800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 687588000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 6875.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 137517600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 1375176000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 13751.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 275035200000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "softraid-6x3840nvme-pcie-gen5-26scaleintel01-v2",
    "product": "softraid-6x3840nvme-pcie-gen5",
    "invoiceName": "6x SSD NVMe 3.84TB Enterprise Class PCIe 5.0 Soft RAID",
@@ -34005,6 +34115,28 @@
   },
   {
    "planCode": "softraid-6x7680nvme-pcie-gen5-26scaleamd08-v4",
+   "product": "softraid-6x7680nvme-pcie-gen5",
+   "invoiceName": "6x SSD NVMe 7.68TB Enterprise Class PCIe 5.0 Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 102199000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 1021.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 20439800000, "type": "rental" },
+    { "capacities": ["renew"], "price": 1226388000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "£ 12263.88", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 245277600000, "type": "rental" },
+    { "capacities": ["renew"], "price": 2452776000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "£ 24527.76", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 490555200000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "£ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-6x7680nvme-pcie-gen5-26scaleamd09-v3",
    "product": "softraid-6x7680nvme-pcie-gen5",
    "invoiceName": "6x SSD NVMe 7.68TB Enterprise Class PCIe 5.0 Soft RAID",
    "addonFamilies": [],
