@@ -942,7 +942,27 @@
    "pricings": [
     { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 550000000000, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 5,500.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 99000000000, "type": "rental" },
+    {
+     "capacities": ["installation"],
+     "price": 550000000000,
+     "mode": "default",
+     "description": "rental (only applicable for 1 time)",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "₹ 5,500.00",
+     "interval": 0,
+     "intervalUnit": "none",
+     "mustBeCompleted": false,
+     "phase": 0,
+     "promotions": [
+      { "name": "SEPTFY27_APAC_RISE1MUM_FREESETUP", "description": "Special offer : Free setup fees on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-15T07:00:00+02:00", "endDate": "2026-09-29T14:00:00+02:00", "total": {"formattedValue": "₹ 0.00", "tax": 0, "value": 0}, "context": "standard", "discount": {"formattedValue": "₹ 5,500.00", "tax": 99000000000, "value": 550000000000}, "duration": null, "formattedValue": "", "globalQuantity": null, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": 1, "min": 1},
+     "strategy": "tiered",
+     "tax": 99000000000,
+     "type": "rental"
+    },
     { "capacities": ["renew"], "price": 550000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 5,500.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 99000000000, "type": "rental" },
     { "capacities": ["renew"], "price": 6270000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 62,700.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1128600000000, "type": "rental" },
     { "capacities": ["renew"], "price": 12540000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 1,25,400.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2257200000000, "type": "rental" }
