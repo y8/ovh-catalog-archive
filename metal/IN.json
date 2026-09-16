@@ -1,5 +1,5 @@
 {
- "catalogId"   : 9600,
+ "catalogId"   : 9613,
  "locale"      : {"currencyCode": "INR", "subsidiary": "IN", "taxRate": 18},
  "plans"       : [
   {
@@ -105,37 +105,6 @@
     { "capacities": ["renew"], "price": 15500000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,55,000.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2790000000000, "type": "rental" },
     { "capacities": ["renew"], "price": 176700000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 17,67,000.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 31806000000000, "type": "rental" },
     { "capacities": ["renew"], "price": 353400000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 35,34,000.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 63612000000000, "type": "rental" }
-   ]
-  },
-  {
-   "planCode": "22rise01-novrack-a6d97689d0d411ac0e3d8419ef337424",
-   "product": "22rise01",
-   "invoiceName": "RISE-1",
-   "addonFamilies": [
-    { "name": "bandwidth", "addons": ["bandwidth-500-included-rise-4565e35f93cf1cdb5f1e9459381f3c29"], "default": "bandwidth-500-included-rise-4565e35f93cf1cdb5f1e9459381f3c29", "exclusive": true, "mandatory": true },
-    { "name": "memory", "addons": ["ram-128g-rise13-9ee52dc3d817a2a581228cd9857c1eb5", "ram-32g-rise13-01894732424198f7a401e8a2c1b6dfe5", "ram-64g-rise13-8ac558d87df3f7ce13e3591c86d439f5"], "default": "ram-32g-rise13-01894732424198f7a401e8a2c1b6dfe5", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["hybridsoftraid-2x4000sa-2x512nvme-rise-f02792d5321ac5dc411cf9c921148ad3", "softraid-2x1920nvme-rise-6d1b49efe5b40d6e2d7b1bf9b0e1fbf2", "softraid-2x4000sa-rise-e5c24f3cd842a43ebd08807c01fb7937", "softraid-2x512nvme-rise-28f1e10df615d80a0130331ed84c16b2"], "default": "softraid-2x512nvme-rise-28f1e10df615d80a0130331ed84c16b2", "exclusive": true, "mandatory": true }
-   ],
-   "blobs": { "commercial": {"range": "rise"} },
-   "configurations": [
-    { "name": "dedicated_datacenter", "isCustom": false, "isMandatory": false, "values": ["bhs", "fra", "gra", "lon", "rbx", "sbg", "waw"] },
-    { "name": "dedicated_os", "isCustom": false, "isMandatory": true, "values": ["none_64.en"] },
-    { "name": "region", "isCustom": false, "isMandatory": true, "values": ["canada", "europe"] }
-   ],
-   "consumptionConfiguration": null,
-   "family": null,
-   "pricingType": "rental",
-   "pricings": [
-    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "degressivity12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "degressivity24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
-    { "capacities": ["renew"], "price": 495367000000, "mode": "degressivity24", "description": "rental for 1 month", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "periodic"}, "formattedPrice": "₹ 4,953.67", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 89166060000, "type": "rental" },
-    { "capacities": ["renew"], "price": 522888000000, "mode": "degressivity12", "description": "rental for 1 month", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "periodic"}, "formattedPrice": "₹ 5,228.88", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 94119840000, "type": "rental" },
-    { "capacities": ["renew"], "price": 550499000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 5,504.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 99089820000, "type": "rental" },
-    { "capacities": ["renew"], "price": 5944409000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 59,444.09", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1069993620000, "type": "rental" },
-    { "capacities": ["renew"], "price": 11228328000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 1,12,283.28", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2021099040000, "type": "rental" }
    ]
   },
   {
@@ -5639,7 +5608,16 @@
     { "name": "bandwidth", "addons": ["bandwidth-10000-hgr-gen3", "bandwidth-15000-hgr-gen3", "bandwidth-20000-hgr-gen3", "bandwidth-25000-hgr-gen3"], "default": "bandwidth-10000-hgr-gen3", "exclusive": true, "mandatory": true },
     { "name": "distribution-license", "addons": ["windows-server-2019-license-datacenter-edition-32-cores", "windows-server-2019-license-standard-edition-32-cores", "windows-server-2022-license-datacenter-edition-32-cores", "windows-server-2022-license-standard-edition-32-cores", "windows-server-2025-license-datacenter-edition-32-cores", "windows-server-2025-license-standard-edition-32-cores"], "default": null, "exclusive": false, "mandatory": false },
     { "name": "memory", "addons": ["ram-1024g-ecc-6400-26hgstor02-v2", "ram-256g-ecc-6400-26hgstor02-v2", "ram-512g-ecc-6400-26hgstor02-v2", "ram-768g-ecc-6400-26hgstor02-v2"], "default": "ram-256g-ecc-6400-26hgstor02-v2", "exclusive": true, "mandatory": true },
-    { "name": "storage", "addons": ["hardraid-24x24000-hdd-sas-26hgstor02-v2", "hardraid-36x24000-hdd-sas-26hgstor02-v2", "softraid-24x24000-hdd-sas-26hgstor02-v2", "softraid-36x24000-hdd-sas-26hgstor02-v2"], "default": "softraid-24x24000-hdd-sas-26hgstor02-v2", "exclusive": true, "mandatory": true },
+    {
+     "name"     : "storage",
+     "addons"   : [
+      "hardraid-24x24000-hdd-sas-26hgstor02-v2",                       "hardraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2", "hardraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",  "hardraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2",  "hardraid-36x24000-hdd-sas-26hgstor02-v2",                       "hardraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2", "hardraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",  "hardraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2",  "softraid-24x24000-hdd-sas-26hgstor02-v2",                       "softraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2", "softraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",
+      "softraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2",  "softraid-36x24000-hdd-sas-26hgstor02-v2",                       "softraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2", "softraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",  "softraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2"
+     ],
+     "default"  : "softraid-24x24000-hdd-sas-26hgstor02-v2",
+     "exclusive": true,
+     "mandatory": true
+    },
     { "name": "system-storage", "addons": ["softraid-2x1000nvme-pcie-gen5-system-26hgstor02-v2"], "default": "softraid-2x1000nvme-pcie-gen5-system-26hgstor02-v2", "exclusive": true, "mandatory": true },
     { "name": "vrack", "addons": ["vrack-bandwidth-50000-hgr-gen3"], "default": "vrack-bandwidth-50000-hgr-gen3", "exclusive": true, "mandatory": true }
    ],
@@ -7288,24 +7266,6 @@
    "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
   },
   {
-   "name"          : "22rise01",
-   "description"   : "Intel Xeon-E 2136",
-   "blobs"         : {
-    "technical": {
-     "os"    : {
-      "features": [
-       {"name": "alma10_64"                }, {"name": "alma8-cpanel-latest_64"   }, {"name": "alma8-plesk18_64"         }, {"name": "alma8_64"                 }, {"name": "alma9-cpanel-latest_64"   }, {"name": "alma9-plesk18_64"         }, {"name": "alma9_64"                 }, {"name": "byoi_64"                  }, {"name": "byolinux_64"              }, {"name": "debian12-plesk18_64"      }, {"name": "debian12_64"              }, {"name": "debian13-plesk18_64"      }, {"name": "debian13_64"              }, {"name": "esxi80-free_64"           }, {"name": "fedora43_64"              }, {"name": "fedora44_64"              }, {"name": "proxmox-bs4_64"           }, {"name": "proxmox9_64"              }, {"name": "rocky10_64"               },
-       {"name": "rocky8_64"                }, {"name": "rocky9_64"                }, {"name": "sles-sap15sp4_64"         }, {"name": "ubuntu2204-server_64"     }, {"name": "ubuntu2404-server_64"     }, {"name": "ubuntu2404-withapp_64"    }, {"name": "ubuntu2604-server_64"     }, {"name": "win2016-dc-new_64"        }, {"name": "win2016-hyperv_64"        }, {"name": "win2016-std-new_64"       }, {"name": "win2016-std-sql2017std_64"}, {"name": "win2016-std-sql2017web_64"}, {"name": "win2016-std-sql2019ent_64"}, {"name": "win2016-std-sql2019std_64"}, {"name": "win2016-std-sql2019web_64"}, {"name": "win2019-dc_64"            }, {"name": "win2019-hyperv_64"        }, {"name": "win2019-std-sql2017std_64"}, {"name": "win2019-std-sql2017web_64"},
-       {"name": "win2019-std-sql2019ent_64"}, {"name": "win2019-std-sql2019std_64"}, {"name": "win2019-std-sql2019web_64"}, {"name": "win2019-std-sql2022ent_64"}, {"name": "win2019-std-sql2022std_64"}, {"name": "win2019-std-sql2022web_64"}, {"name": "win2019-std_64"           }, {"name": "win2019core-dc_64"        }, {"name": "win2019core-std_64"       }, {"name": "win2022-dc_64"            }, {"name": "win2022-std-sql2019ent_64"}, {"name": "win2022-std-sql2019std_64"}, {"name": "win2022-std-sql2019web_64"}, {"name": "win2022-std-sql2022ent_64"}, {"name": "win2022-std-sql2022std_64"}, {"name": "win2022-std-sql2022web_64"}, {"name": "win2022-std-sql2025ent_64"}, {"name": "win2022-std-sql2025std_64"}, {"name": "win2022-std_64"           },
-       {"name": "win2022core-dc_64"        }, {"name": "win2022core-std_64"       }, {"name": "win2025-dc_64"            }, {"name": "win2025-std-sql2022ent_64"}, {"name": "win2025-std-sql2022std_64"}, {"name": "win2025-std-sql2022web_64"}, {"name": "win2025-std-sql2025ent_64"}, {"name": "win2025-std-sql2025std_64"}, {"name": "win2025-std_64"           }, {"name": "win2025core-dc_64"        }, {"name": "win2025core-std_64"       }
-      ]
-     },
-     "server": { "cpu": {"boost": 4.5, "brand": "Intel", "cores": 6, "frequency": 3.3, "model": "Xeon-E 2136", "number": 1, "score": 15338, "threads": 12}, "frame": {"dualPowerSupply": false, "model": "OVH", "size": "1U"}, "range": "rise", "services": {"antiddos": "standard", "includedBackup": 500, "sla": 99.9} }
-    }
-   },
-   "configurations": [ {"name": "extra_reservation", "isCustom": true, "isMandatory": false, "values": null} ]
-  },
-  {
    "name"          : "23scaleamd01",
    "description"   : "AMD EPYC GENOA 9124",
    "blobs"         : {
@@ -8658,6 +8618,21 @@
    "configurations": []
   },
   {
+   "name"          : "hardraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "description"   : "24x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Hard RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 24, "physicalInterface": "pcie-gen5", "specs": "3.5in", "technology": "HDD", "usage": "data"}, {"capacity": 15360, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
+      "hotSwap"    : true,
+      "raid"       : "Hard RAID",
+      "raidDetails": {"type": "Hard RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
    "name"          : "hardraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5",
    "description"   : "24xHDD SAS 24TB + 2x SSD NVMe 3.84TB High perf. cache Enterprise Class Hard RAID",
    "blobs"         : {
@@ -8829,6 +8804,51 @@
     "technical": {
      "storage": {
       "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
+      "hotSwap"    : true,
+      "raid"       : "Hard RAID",
+      "raidDetails": {"type": "Hard RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name"          : "hardraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "description"   : "36x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Hard RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "physicalInterface": "pcie-gen5", "specs": "3.5in", "technology": "HDD", "usage": "data"}, {"capacity": 15360, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
+      "hotSwap"    : true,
+      "raid"       : "Hard RAID",
+      "raidDetails": {"type": "Hard RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name"          : "hardraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5",
+   "description"   : "36x HDD SAS 24TB + 2x SSD NVMe 3.84TB High perf. cache Enterprise Class Hard RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "physicalInterface": "pcie-gen5", "specs": "3.5in", "technology": "HDD", "usage": "data"}, {"capacity": 3840, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
+      "hotSwap"    : true,
+      "raid"       : "Hard RAID",
+      "raidDetails": {"type": "Hard RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name"          : "hardraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5",
+   "description"   : "36x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Hard RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "physicalInterface": "pcie-gen5", "specs": "3.5in", "technology": "HDD", "usage": "data"}, {"capacity": 7680, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
       "hotSwap"    : true,
       "raid"       : "Hard RAID",
       "raidDetails": {"type": "Hard RAID"}
@@ -9980,12 +10000,27 @@
    "configurations": []
   },
   {
-   "name"          : "softraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5",
-   "description"   : "24x SSD SAS 24TB + 2x3.84TB NVMe PCIe 5.0 Soft RAID",
+   "name"          : "softraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "description"   : "24x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Soft RAID",
    "blobs"         : {
     "technical": {
      "storage": {
-      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 24, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "HDD", "usage": "data"}, {"capacity": 3840, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 24, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "HDD", "usage": "data"}, {"capacity": 15360, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
+      "hotSwap"    : false,
+      "raid"       : "Soft RAID",
+      "raidDetails": {"type": "Soft RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name"          : "softraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5",
+   "description"   : "24x HDD SAS 24TB + 2x3.84TB NVMe PCIe 5.0 Soft RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 24, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "HDD", "usage": "data"}, {"capacity": 3840, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "HDD", "usage": "cache"} ],
       "hotSwap"    : false,
       "raid"       : "Soft RAID",
       "raidDetails": {"type": "Soft RAID"}
@@ -10466,6 +10501,51 @@
     "technical": {
      "storage": {
       "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "specs": "3.5in", "technology": "HDD", "usage": "data"} ],
+      "hotSwap"    : true,
+      "raid"       : "Soft RAID",
+      "raidDetails": {"type": "Soft RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name"          : "softraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "description"   : "36x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Soft RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "physicalInterface": "pcie-gen5", "specs": "3.5in", "technology": "HDD", "usage": "data"}, {"capacity": 15360, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
+      "hotSwap"    : true,
+      "raid"       : "Soft RAID",
+      "raidDetails": {"type": "Soft RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name"          : "softraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5",
+   "description"   : "36x HDD SAS 24TB + 2x SSD NVMe 3.84TB High perf. cache Enterprise Class Soft RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "physicalInterface": "pcie-gen5", "specs": "3.5in", "technology": "HDD", "usage": "data"}, {"capacity": 3840, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
+      "hotSwap"    : true,
+      "raid"       : "Soft RAID",
+      "raidDetails": {"type": "Soft RAID"}
+     }
+    }
+   },
+   "configurations": []
+  },
+  {
+   "name"          : "softraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5",
+   "description"   : "36x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Soft RAID",
+   "blobs"         : {
+    "technical": {
+     "storage": {
+      "disks"      : [ {"capacity": 24000, "interface": "SAS", "number": 36, "physicalInterface": "pcie-gen5", "specs": "3.5in", "technology": "HDD", "usage": "data"}, {"capacity": 7680, "interface": "NVMe", "number": 2, "physicalInterface": "pcie-gen5", "specs": "M.2 80", "technology": "SSD", "usage": "cache"} ],
       "hotSwap"    : true,
       "raid"       : "Soft RAID",
       "raidDetails": {"type": "Soft RAID"}
@@ -15170,6 +15250,28 @@
    ]
   },
   {
+   "planCode": "hardraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2",
+   "product": "hardraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "invoiceName": "24x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Hard RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 8745000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 87,450.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1574100000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 104940000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 10,49,400.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 18889200000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 209880000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 20,98,800.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 37778400000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "hardraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor01-v2",
    "product": "hardraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5",
    "invoiceName": "24xHDD SAS 24TB + 2x SSD NVMe 3.84TB High perf. cache Enterprise Class Hard RAID",
@@ -15192,6 +15294,28 @@
    ]
   },
   {
+   "planCode": "hardraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",
+   "product": "hardraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5",
+   "invoiceName": "24xHDD SAS 24TB + 2x SSD NVMe 3.84TB High perf. cache Enterprise Class Hard RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 3470000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 34,700.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 624600000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 41640000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 4,16,400.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 7495200000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 83280000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 8,32,800.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 14990400000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "hardraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor01-v2",
    "product": "hardraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5",
    "invoiceName": "24x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Hard RAID",
@@ -15208,6 +15332,28 @@
     { "capacities": ["renew"], "price": 12640000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,26,400.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2275200000000, "type": "rental" },
     { "capacities": ["renew"], "price": 151680000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 15,16,800.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 27302400000000, "type": "rental" },
     { "capacities": ["renew"], "price": 303360000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 30,33,600.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 54604800000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "hardraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2",
+   "product": "hardraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5",
+   "invoiceName": "24x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Hard RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 5235000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 52,350.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 942300000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 62820000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 6,28,200.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11307600000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 125640000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 12,56,400.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 22615200000000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -15515,6 +15661,72 @@
     { "capacities": ["renew"], "price": 12230000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,22,300.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2201400000000, "type": "rental" },
     { "capacities": ["renew"], "price": 146760000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 14,67,600.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 26416800000000, "type": "rental" },
     { "capacities": ["renew"], "price": 293520000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 29,35,200.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 52833600000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "hardraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2",
+   "product": "hardraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "invoiceName": "36x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Hard RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 20180000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 2,01,800.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3632400000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 242160000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 24,21,600.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 43588800000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 484320000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 48,43,200.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 87177600000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "hardraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",
+   "product": "hardraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5",
+   "invoiceName": "36x HDD SAS 24TB + 2x SSD NVMe 3.84TB High perf. cache Enterprise Class Hard RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 14910000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,49,100.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2683800000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 178920000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 17,89,200.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 32205600000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 357840000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 35,78,400.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 64411200000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "hardraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2",
+   "product": "hardraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5",
+   "invoiceName": "36x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Hard RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 16680000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,66,800.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3002400000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 200160000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 20,01,600.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 36028800000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 400320000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 40,03,200.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 72057600000000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -26909,6 +27121,28 @@
    ]
   },
   {
+   "planCode": "softraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2",
+   "product": "softraid-24x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "invoiceName": "24x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 7525000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 75,250.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1354500000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 90300000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 9,03,000.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 16254000000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 180600000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 18,06,000.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 32508000000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "softraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor01-v2",
    "product": "softraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5",
    "invoiceName": "24x SSD SAS 24TB + 2x3.84TB NVMe PCIe 5.0 Soft RAID",
@@ -26931,6 +27165,28 @@
    ]
   },
   {
+   "planCode": "softraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",
+   "product": "softraid-24x24000-hdd-sas-2x3840nvme-pcie-gen5",
+   "invoiceName": "24x SSD SAS 24TB + 2x3.84TB NVMe PCIe 5.0 Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 2255000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 22,550.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 405900000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 27060000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 2,70,600.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 4870800000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 54120000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 5,41,200.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 9741600000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
    "planCode": "softraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor01-v2",
    "product": "softraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5",
    "invoiceName": "24x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Soft RAID",
@@ -26947,6 +27203,28 @@
     { "capacities": ["renew"], "price": 11240000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,12,400.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2023200000000, "type": "rental" },
     { "capacities": ["renew"], "price": 134880000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 13,48,800.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 24278400000000, "type": "rental" },
     { "capacities": ["renew"], "price": 269760000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 26,97,600.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 48556800000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2",
+   "product": "softraid-24x24000-hdd-sas-2x7680nvme-pcie-gen5",
+   "invoiceName": "24x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 4020000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 40,200.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 723600000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 48240000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 4,82,400.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 8683200000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 96480000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 9,64,800.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 17366400000000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
@@ -30850,6 +31128,72 @@
     { "capacities": ["renew"], "price": 10830000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,08,300.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1949400000000, "type": "rental" },
     { "capacities": ["renew"], "price": 129960000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 12,99,600.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 23392800000000, "type": "rental" },
     { "capacities": ["renew"], "price": 259920000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 25,99,200.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 46785600000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5-26hgstor02-v2",
+   "product": "softraid-36x24000-hdd-sas-2x15360nvme-pcie-gen5",
+   "invoiceName": "36x HDD SAS 24TB + 2x SSD NVMe 15.36TB High perf. cache Enterprise Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 18360000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,83,600.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 3304800000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 220320000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 22,03,200.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 39657600000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 440640000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 44,06,400.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 79315200000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5-26hgstor02-v2",
+   "product": "softraid-36x24000-hdd-sas-2x3840nvme-pcie-gen5",
+   "invoiceName": "36x HDD SAS 24TB + 2x SSD NVMe 3.84TB High perf. cache Enterprise Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 13090000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,30,900.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2356200000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 157080000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 15,70,800.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 28274400000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 314160000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 31,41,600.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 56548800000000, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
+   ]
+  },
+  {
+   "planCode": "softraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5-26hgstor02-v2",
+   "product": "softraid-36x24000-hdd-sas-2x7680nvme-pcie-gen5",
+   "invoiceName": "36x HDD SAS 24TB + 2x SSD NVMe 7.68TB High perf. cache Enterprise Class Soft RAID",
+   "addonFamilies": [],
+   "blobs": null,
+   "configurations": [],
+   "consumptionConfiguration": null,
+   "family": "storage",
+   "pricingType": "rental",
+   "pricings": [
+    { "capacities": ["installation"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["installation"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
+    { "capacities": ["renew"], "price": 14850000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 1,48,500.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2673000000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 178200000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 17,82,000.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 32076000000000, "type": "rental" },
+    { "capacities": ["renew"], "price": 356400000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 35,64,000.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 64152000000000, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "default", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront12", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" },
     { "capacities": ["upgrade"], "price": 0, "mode": "upfront24", "description": "rental (only applicable for 1 time)", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 0.00", "interval": 0, "intervalUnit": "none", "mustBeCompleted": false, "phase": 0, "promotions": [], "quantity": {"max": null, "min": 1}, "repeat": {"max": 1, "min": 1}, "strategy": "tiered", "tax": 0, "type": "rental" }
