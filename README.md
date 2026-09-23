@@ -10,13 +10,13 @@ every hour using [public OVH APIs](https://eu.api.ovh.com/console/?section=%2For
 <!-- Do not change part below, it will be automatically replaced by GHA -->
 
 <!-- Start status -->
-<!-- generated at Mon Sep 21 17:13:33 UTC 2026 -->
+<!-- generated at Wed Sep 23 17:29:49 UTC 2026 -->
 | Region | Subsidiary | Dedicated | Eco |
 |--------|------------ | --- | --- |
-| EUROPE | CZ | [`9713`](metal/CZ.json) (2026-09-17 17:17) | [`9713`](eco/CZ.json) (2026-09-21 17:13) |
+| EUROPE | CZ | [`9713`](metal/CZ.json) (2026-09-21 17:13) | [`9713`](eco/CZ.json) (2026-09-21 17:13) |
 | | DE | [`9713`](metal/DE.json) (2026-09-21 17:13) | [`9713`](eco/DE.json) (2026-09-21 17:13) |
 | | ES | [`9713`](metal/ES.json) (2026-09-21 17:13) | [`9713`](eco/ES.json) (2026-09-21 17:13) |
-| | FI | [`9713`](metal/FI.json) (2026-09-17 17:17) | [`9713`](eco/FI.json) (2026-09-21 17:13) |
+| | FI | [`9713`](metal/FI.json) (2026-09-21 17:13) | [`9713`](eco/FI.json) (2026-09-21 17:13) |
 | | FR | [`9713`](metal/FR.json) (2026-09-21 17:13) | [`9713`](eco/FR.json) (2026-09-21 17:13) |
 | | GB | [`9713`](metal/GB.json) (2026-09-21 17:13) | [`9713`](eco/GB.json) (2026-09-21 17:13) |
 | | IE | [`9713`](metal/IE.json) (2026-09-21 17:13) | [`9713`](eco/IE.json) (2026-09-21 17:13) |
@@ -28,15 +28,15 @@ every hour using [public OVH APIs](https://eu.api.ovh.com/console/?section=%2For
 | | PT | [`9713`](metal/PT.json) (2026-09-21 17:13) | [`9713`](eco/PT.json) (2026-09-21 17:13) |
 | | SN | [`9713`](metal/SN.json) (2026-09-21 17:13) | [`9713`](eco/SN.json) (2026-09-21 17:13) |
 | | TN | [`9713`](metal/TN.json) (2026-09-21 17:13) | [`9713`](eco/TN.json) (2026-09-21 17:13) |
-| NORTH AMERICA | ASIA | [`9713`](metal/ASIA.json) (2026-09-21 17:13) | [`9713`](eco/ASIA.json) (2026-09-21 17:13) |
-| | AU | [`9713`](metal/AU.json) (2026-09-21 17:13) | [`9713`](eco/AU.json) (2026-09-21 17:13) |
+| NORTH AMERICA | ASIA | [`9713`](metal/ASIA.json) (2026-09-21 17:13) | [`9713`](eco/ASIA.json) (2026-09-23 17:29) |
+| | AU | [`9713`](metal/AU.json) (2026-09-21 17:13) | [`9713`](eco/AU.json) (2026-09-23 17:29) |
 | | CA | [`9713`](metal/CA.json) (2026-09-21 17:13) | [`9713`](eco/CA.json) (2026-09-21 17:13) |
-| | IN | [`9713`](metal/IN.json) (2026-09-21 17:13) | [`9713`](eco/IN.json) (2026-09-21 17:13) |
+| | IN | [`9713`](metal/IN.json) (2026-09-21 17:13) | [`9713`](eco/IN.json) (2026-09-23 17:29) |
 | | QC | [`9713`](metal/QC.json) (2026-09-21 17:13) | [`9713`](eco/QC.json) (2026-09-21 17:13) |
-| | SG | [`9713`](metal/SG.json) (2026-09-21 17:13) | [`9713`](eco/SG.json) (2026-09-21 17:13) |
-| | WE | [`9713`](metal/WE.json) (2026-09-21 17:13) | [`9713`](eco/WE.json) (2026-09-21 17:13) |
+| | SG | [`9713`](metal/SG.json) (2026-09-21 17:13) | [`9713`](eco/SG.json) (2026-09-23 17:29) |
+| | WE | [`9713`](metal/WE.json) (2026-09-21 17:13) | [`9713`](eco/WE.json) (2026-09-23 17:29) |
 | | WS | [`9713`](metal/WS.json) (2026-09-21 17:13) | [`9713`](eco/WS.json) (2026-09-21 17:13) |
-| USA | US | [`9713`](metal/US.json) (2026-09-17 17:17) | [`9713`](eco/US.json) (2026-09-17 17:17) |
+| USA | US | [`9713`](metal/US.json) (2026-09-21 17:13) | [`9713`](eco/US.json) (2026-09-21 17:13) |
 <!-- End status -->
 
 ## Regions
