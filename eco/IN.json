@@ -955,7 +955,7 @@
      "mustBeCompleted": false,
      "phase": 0,
      "promotions": [
-      { "name": "SEPTFY27_APAC_RISE1MUM_FREESETUP", "description": "Special offer : Free setup fees on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-15T07:00:00+02:00", "endDate": "2026-09-29T14:00:00+02:00", "total": {"formattedValue": "₹ 0.00", "tax": 0, "value": 0}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "₹ 5,500.00", "tax": 99000000000, "value": 550000000000}, "duration": null, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+      { "name": "SEPTFY27_APAC_RISE1MUM_FREESETUP", "description": "Special offer : Free setup fees on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-15T07:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "₹ 0.00", "tax": 0, "value": 0}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "₹ 5,500.00", "tax": 99000000000, "value": 550000000000}, "duration": null, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": 10, "min": 1},
      "repeat": {"max": 1, "min": 1},
@@ -963,9 +963,69 @@
      "tax": 99000000000,
      "type": "rental"
     },
-    { "capacities": ["renew"], "price": 550000000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "₹ 5,500.00", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 99000000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 6270000000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "₹ 62,700.00", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1128600000000, "type": "rental" },
-    { "capacities": ["renew"], "price": 12540000000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "₹ 1,25,400.00", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 2257200000000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 550000000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "₹ 5,500.00",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SEPTFY27_APAC_RISE1MUM_10OFF", "description": "Special offer : 10% off (for 12 months maximum) on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-22T00:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "₹ 4,950.00", "tax": 89100000000, "value": 495000000000}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "₹ 550.00", "tax": 9900000000, "value": 55000000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 99000000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 6270000000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "₹ 62,700.00",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SEPTFY27_APAC_RISE1MUM_10OFF", "description": "Special offer : 10% off (for 12 months maximum) on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-22T00:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "₹ 56,430.00", "tax": 1015740000000, "value": 5643000000000}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "₹ 6,270.00", "tax": 112860000000, "value": 627000000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1128600000000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 12540000000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "formattedPrice": "₹ 1,25,400.00",
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SEPTFY27_APAC_RISE1MUM_10OFF", "description": "Special offer : 10% off (for 12 months maximum) on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-22T00:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "₹ 1,19,130.00", "tax": 2144340000000, "value": 11913000000000}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "₹ 6,270.00", "tax": 112860000000, "value": 627000000000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 2257200000000,
+     "type": "rental"
+    }
    ]
   },
   {
