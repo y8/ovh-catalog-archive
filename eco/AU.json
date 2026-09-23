@@ -955,7 +955,7 @@
      "mustBeCompleted": false,
      "phase": 0,
      "promotions": [
-      { "name": "SEPTFY27_APAC_RISE1MUM_FREESETUP", "description": "Special offer : Free setup fees on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-15T07:00:00+02:00", "endDate": "2026-09-29T14:00:00+02:00", "total": {"formattedValue": "A$ 0", "tax": 0, "value": 0}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "A$ 100.99", "tax": 1009900000, "value": 10099000000}, "duration": null, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
+      { "name": "SEPTFY27_APAC_RISE1MUM_FREESETUP", "description": "Special offer : Free setup fees on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-15T07:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "A$ 0", "tax": 0, "value": 0}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "A$ 100.99", "tax": 1009900000, "value": 10099000000}, "duration": null, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 1, "quantity": null, "tags": null, "type": "percentage", "value": 100 }
      ],
      "quantity": {"max": 10, "min": 1},
      "repeat": {"max": 1, "min": 1},
@@ -963,9 +963,69 @@
      "tax": 1009900000,
      "type": "rental"
     },
-    { "capacities": ["renew"], "price": 10099000000, "mode": "default", "description": "rental for 1 month", "commitment": 0, "engagementConfiguration": null, "formattedPrice": "A$ 100.99", "interval": 1, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 1009900000, "type": "rental" },
-    { "capacities": ["renew"], "price": 115129000000, "mode": "upfront12", "description": "rental for 12 months", "commitment": 12, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"}, "formattedPrice": "A$ 1151.29", "interval": 12, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 11512900000, "type": "rental" },
-    { "capacities": ["renew"], "price": 230257000000, "mode": "upfront24", "description": "rental for 24 months", "commitment": 24, "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"}, "formattedPrice": "A$ 2302.57", "interval": 24, "intervalUnit": "month", "mustBeCompleted": false, "phase": 1, "promotions": [], "quantity": {"max": 10, "min": 1}, "repeat": {"max": null, "min": 1}, "strategy": "tiered", "tax": 23025700000, "type": "rental" }
+    {
+     "capacities": ["renew"],
+     "price": 10099000000,
+     "mode": "default",
+     "description": "rental for 1 month",
+     "commitment": 0,
+     "engagementConfiguration": null,
+     "formattedPrice": "A$ 100.99",
+     "interval": 1,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SEPTFY27_APAC_RISE1MUM_10OFF", "description": "Special offer : 10% off (for 12 months maximum) on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-22T00:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "A$ 90.89", "tax": 908910000, "value": 9089100000}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "A$ 10.10", "tax": 100990000, "value": 1009900000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 1009900000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 115129000000,
+     "mode": "upfront12",
+     "description": "rental for 12 months",
+     "commitment": 12,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P12M", "type": "upfront"},
+     "formattedPrice": "A$ 1151.29",
+     "interval": 12,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SEPTFY27_APAC_RISE1MUM_10OFF", "description": "Special offer : 10% off (for 12 months maximum) on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-22T00:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "A$ 1036.16", "tax": 10361610000, "value": 103616100000}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "A$ 115.13", "tax": 1151290000, "value": 11512900000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 11512900000,
+     "type": "rental"
+    },
+    {
+     "capacities": ["renew"],
+     "price": 230257000000,
+     "mode": "upfront24",
+     "description": "rental for 24 months",
+     "commitment": 24,
+     "engagementConfiguration": {"defaultEndAction": "REACTIVATE_ENGAGEMENT", "duration": "P24M", "type": "upfront"},
+     "formattedPrice": "A$ 2302.57",
+     "interval": 24,
+     "intervalUnit": "month",
+     "mustBeCompleted": false,
+     "phase": 1,
+     "promotions": [
+      { "name": "SEPTFY27_APAC_RISE1MUM_10OFF", "description": "Special offer : 10% off (for 12 months maximum) on Rise-1 server (hosted in Mumbai datacenter).", "startDate": "2026-09-22T00:00:00+02:00", "endDate": "2026-10-06T14:00:00+02:00", "total": {"formattedValue": "A$ 2187.44", "tax": 21874415000, "value": 218744150000}, "context": "standard", "customFieldValues": [], "discount": {"formattedValue": "A$ 115.13", "tax": 1151285000, "value": 11512850000}, "duration": 12, "formattedValue": "", "globalQuantity": null, "isForTestingPurpose": false, "isGlobalQuantityLimited": false, "minimumDuration": 2, "quantity": null, "tags": null, "type": "percentage", "value": 10 }
+     ],
+     "quantity": {"max": 10, "min": 1},
+     "repeat": {"max": null, "min": 1},
+     "strategy": "tiered",
+     "tax": 23025700000,
+     "type": "rental"
+    }
    ]
   },
   {
